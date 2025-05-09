@@ -1,0 +1,512 @@
+[
+  {
+    "cameraId": 3,
+    "location": "TOWER 1",
+    "floor": "G/F",
+    "cameraName": "Lift 4",
+    "ip": "172.16.11.13",
+    "login": "",
+    "password": "",
+    "rtspPort": "",
+    "monitor": [
+      "T1",
+      "EMO"
+    ],
+    "mapid": "t1-gf",
+    "x": 622,
+    "y": 917
+  },
+  {
+    "cameraId": 4,
+    "location": "TOWER 1",
+    "floor": "G/F",
+    "cameraName": "Lift 1",
+    "ip": "172.16.11.14",
+    "login": "",
+    "password": "",
+    "rtspPort": "",
+    "monitor": [
+      "T1",
+      "EMO"
+    ],
+    "mapid": "t1-gf",
+    "x": 845,
+    "y": 614
+  },
+  {
+    "cameraId": 5,
+    "location": "TOWER 1",
+    "floor": "G/F",
+    "cameraName": "Lift 2",
+    "ip": "172.16.11.15",
+    "login": "",
+    "password": "",
+    "rtspPort": "",
+    "monitor": [
+      "T1",
+      "EMO"
+    ],
+    "mapid": "t1-gf",
+    "x": 614,
+    "y": 618
+  },
+  {
+    "cameraId": 6,
+    "location": "TOWER 1",
+    "floor": "G/F",
+    "cameraName": "Lift 3",
+    "ip": "172.16.11.16",
+    "login": "",
+    "password": "",
+    "rtspPort": "",
+    "monitor": [
+      "T1",
+      "EMO"
+    ],
+    "mapid": "t1-gf",
+    "x": 845,
+    "y": 922
+  },
+  {
+    "cameraId": 41,
+    "location": "TOWER 1",
+    "floor": "G/F",
+    "cameraName": "Entrance Lobby-1",
+    "ip": "172.16.11.51",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "T1",
+      "EMO"
+    ],
+    "mapid": "t1-gf",
+    "x": 1407,
+    "y": 1281
+  },
+  {
+    "cameraId": 42,
+    "location": "TOWER 1",
+    "floor": "G/F",
+    "cameraName": "Entrance Lobby-2",
+    "ip": "172.16.11.52",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "T1",
+      "EMO"
+    ],
+    "mapid": "t1-gf",
+    "x": 1607,
+    "y": 264
+  },
+  {
+    "cameraId": 43,
+    "location": "TOWER 1",
+    "floor": "G/F",
+    "cameraName": "Lift 1, 2 Lobby",
+    "ip": "172.16.11.53",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "T1",
+      "EMO"
+    ],
+    "mapid": "t1-gf",
+    "x": 1030,
+    "y": 480
+  },
+  {
+    "cameraId": 44,
+    "location": "TOWER 1",
+    "floor": "G/F",
+    "cameraName": " Lift 3, 4 Lobby",
+    "ip": "172.16.11.54",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "T1",
+      "EMO"
+    ],
+    "mapid": "t1-gf",
+    "x": 1030,
+    "y": 1053
+  },
+  {
+    "cameraId": 54,
+    "location": "TOWER 2",
+    "floor": "G/F",
+    "cameraName": "Lift 8",
+    "ip": "172.16.12.13",
+    "login": "",
+    "password": "",
+    "rtspPort": "",
+    "monitor": [
+      "T2",
+      "EMO"
+    ],
+    "mapid": "t2-gf",
+    "x": 446,
+    "y": 885
+  },
+  {
+    "cameraId": 55,
+    "location": "TOWER 2",
+    "floor": "G/F",
+    "cameraName": "Lift 5",
+    "ip": "172.16.12.14",
+    "login": "",
+    "password": "",
+    "rtspPort": "",
+    "monitor": [
+      "T2",
+      "EMO"
+    ],
+    "mapid": "t2-gf",
+    "x": 684,
+    "y": 578
+  },
+  {
+    "cameraId": 56,
+    "location": "TOWER 2",
+    "floor": "G/F",
+    "cameraName": "Lift 6",
+    "ip": "172.16.12.15",
+    "login": "",
+    "password": "",
+    "rtspPort": "",
+    "monitor": [
+      "T2",
+      "EMO"
+    ],
+    "mapid": "t2-gf",
+    "x": 437,
+    "y": 578
+  },
+  {
+    "cameraId": 57,
+    "location": "TOWER 2",
+    "floor": "G/F",
+    "cameraName": "Lift 7",
+    "ip": "172.16.12.16",
+    "login": "",
+    "password": "",
+    "rtspPort": "",
+    "monitor": [
+      "T2",
+      "EMO"
+    ],
+    "mapid": "t2-gf",
+    "x": 687,
+    "y": 882
+  },
+  {
+    "cameraId": 125,
+    "location": "TOWER 2",
+    "floor": "G/F",
+    "cameraName": "Entrance Lobby-1",
+    "ip": "172.16.12.84",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "T2",
+      "EMO"
+    ],
+    "mapid": "t2-gf",
+    "x": 1284,
+    "y": 977
+  },
+  {
+    "cameraId": 126,
+    "location": "TOWER 2",
+    "floor": "G/F",
+    "cameraName": "Entrance Lobby-2",
+    "ip": "172.16.12.85",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "T2",
+      "EMO"
+    ],
+    "mapid": "t2-gf",
+    "x": 1284,
+    "y": 210
+  },
+  {
+    "cameraId": 127,
+    "location": "TOWER 2",
+    "floor": "G/F",
+    "cameraName": "Lift 5, 6 Lobby",
+    "ip": "172.16.12.86",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "T2",
+      "EMO"
+    ],
+    "mapid": "t2-gf",
+    "x": 875,
+    "y": 445
+  },
+  {
+    "cameraId": 128,
+    "location": "TOWER 2",
+    "floor": "G/F",
+    "cameraName": "Lift 7, 8 Lobby",
+    "ip": "172.16.12.87",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "T2",
+      "EMO"
+    ],
+    "mapid": "t2-gf",
+    "x": 875,
+    "y": 1005
+  },
+  {
+    "cameraId": 137,
+    "location": "TOWER 3",
+    "floor": "G/F",
+    "cameraName": "Lift 9",
+    "ip": "172.16.13.14",
+    "login": "",
+    "password": "",
+    "rtspPort": "",
+    "monitor": [
+      "T3",
+      "EMO"
+    ],
+    "mapid": "t3-gf",
+    "x": 5240,
+    "y": 1198
+  },
+  {
+    "cameraId": 138,
+    "location": "TOWER 3",
+    "floor": "G/F",
+    "cameraName": "Lift 10",
+    "ip": "172.16.13.15",
+    "login": "",
+    "password": "",
+    "rtspPort": "",
+    "monitor": [
+      "T3",
+      "EMO"
+    ],
+    "mapid": "t3-gf",
+    "x": 5221,
+    "y": 1891
+  },
+  {
+    "cameraId": 139,
+    "location": "TOWER 3",
+    "floor": "G/F",
+    "cameraName": "Lift 11",
+    "ip": "172.16.13.16",
+    "login": "",
+    "password": "",
+    "rtspPort": "",
+    "monitor": [
+      "T3",
+      "EMO"
+    ],
+    "mapid": "t3-gf",
+    "x": 2085,
+    "y": 1180
+  },
+  {
+    "cameraId": 140,
+    "location": "TOWER 3",
+    "floor": "G/F",
+    "cameraName": "Lift 12",
+    "ip": "172.16.13.17",
+    "login": "",
+    "password": "",
+    "rtspPort": "",
+    "monitor": [
+      "T3",
+      "EMO"
+    ],
+    "mapid": "t3-gf",
+    "x": 2104,
+    "y": 1885
+  },
+  {
+    "cameraId": 175,
+    "location": "TOWER 3",
+    "floor": "G/F",
+    "cameraName": "Residential Lobby-1",
+    "ip": "172.16.13.52",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "T3",
+      "EMO"
+    ],
+    "mapid": "t3-gf",
+    "x": 5667,
+    "y": 2171
+  },
+  {
+    "cameraId": 176,
+    "location": "TOWER 3",
+    "floor": "G/F",
+    "cameraName": "Residential Lobby-2",
+    "ip": "172.16.13.53",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "T3",
+      "EMO"
+    ],
+    "mapid": "t3-gf",
+    "x": 4807,
+    "y": 2689
+  },
+  {
+    "cameraId": 177,
+    "location": "TOWER 3",
+    "floor": "G/F",
+    "cameraName": "Residential Lobby-3",
+    "ip": "172.16.13.54",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "T3",
+      "EMO"
+    ],
+    "mapid": "t3-gf",
+    "x": 4807,
+    "y": 1762
+  },
+  {
+    "cameraId": 178,
+    "location": "TOWER 3",
+    "floor": "G/F",
+    "cameraName": "Residential Lobby-4",
+    "ip": "172.16.13.55",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "T3",
+      "EMO"
+    ],
+    "mapid": "t3-gf",
+    "x": 3279,
+    "y": 2678
+  },
+  {
+    "cameraId": 180,
+    "location": "TOWER 3",
+    "floor": "G/F",
+    "cameraName": "Lift 9, 10 Lobby",
+    "ip": "172.16.13.57",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "T3",
+      "EMO"
+    ],
+    "mapid": "t3-gf",
+    "x": 4247,
+    "y": 1662
+  },
+  {
+    "cameraId": 181,
+    "location": "TOWER 3",
+    "floor": "G/F",
+    "cameraName": "Lift 11, 12 Lobby",
+    "ip": "172.16.13.58",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "T3",
+      "EMO"
+    ],
+    "mapid": "t3-gf",
+    "x": 3060,
+    "y": 1662
+  },
+  {
+    "cameraId": 182,
+    "location": "TOWER 3",
+    "floor": "G/F",
+    "cameraName": "T3A Mail Box",
+    "ip": "172.16.13.59",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "T3",
+      "EMO"
+    ],
+    "mapid": "t3-gf",
+    "x": 4802,
+    "y": 926
+  },
+  {
+    "cameraId": 183,
+    "location": "TOWER 3",
+    "floor": "G/F",
+    "cameraName": "T3B Mail Box",
+    "ip": "172.16.13.60",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "T3",
+      "EMO"
+    ],
+    "mapid": "t3-gf",
+    "x": 2537,
+    "y": 924
+  },
+  {
+    "cameraId": 184,
+    "location": "TOWER 3",
+    "floor": "G/F",
+    "cameraName": "Caretaker Counter 1",
+    "ip": "172.16.13.61",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "T3",
+      "EMO"
+    ],
+    "mapid": "t3-gf",
+    "x": 4179,
+    "y": 930
+  },
+  {
+    "cameraId": 185,
+    "location": "TOWER 3",
+    "floor": "G/F",
+    "cameraName": "Caretaker Counter 2",
+    "ip": "172.16.13.62",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "T3",
+      "EMO"
+    ],
+    "mapid": "t3-gf",
+    "x": 3156,
+    "y": 927
+  }
+]

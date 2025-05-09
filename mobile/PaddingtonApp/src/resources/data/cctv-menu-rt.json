@@ -1,0 +1,54 @@
+[
+  {
+    "id": "rt1",
+    "label": "RETAIL BLOCK 1",
+    "floors": [
+      {
+        "id": "retail_block1-fb1",
+        "label": "B1/F",
+        "mapid": "rt1-b1f"
+      },
+      {
+        "id": "retail_block1-fg",
+        "label": "G/F",
+        "mapid": "gf"
+      },
+      {
+        "id": "retail_block1-f1",
+        "label": "1/F",
+        "mapid": "rt1-1f"
+      },
+      {
+        "id": "retail_block1-fr",
+        "label": "R/F",
+        "mapid": "rt1-rf"
+      }
+    ]
+  },
+  {
+    "id": "rt2",
+    "label": "RETAIL BLOCK 2",
+    "floors": [
+      {
+        "id": "retail_block2-fb1",
+        "label": "B1/F",
+        "mapid": "rt2-b1f"
+      },
+      {
+        "id": "retail_block2-fg",
+        "label": "G/F",
+        "mapid": "gf"
+      },
+      {
+        "id": "retail_block2-f1",
+        "label": "1/F",
+        "mapid": "rt2-1f"
+      },
+      {
+        "id": "retail_block2-fr",
+        "label": "R/F",
+        "mapid": "rt2-rf"
+      }
+    ]
+  },
+]

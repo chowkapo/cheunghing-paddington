@@ -1,0 +1,1031 @@
+[
+    {
+      "deviceId": 27,
+      "channelId": 313,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 27,
+      "channelId": 314,
+      "label": "Trend Log of Energy Consumption",
+      "key": "trendLogOfEnergyConsumption",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 27,
+      "channelId": 315,
+      "label": "Maximum Demand",
+      "key": "maximumDemand",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 27,
+      "channelId": 316,
+      "label": "Total Harmonic Distortion",
+      "key": "totalHarmonicDistortion",
+      "unit": "%"
+    },
+    {
+      "deviceId": 27,
+      "channelId": 317,
+      "label": "Power Output",
+      "key": "powerOutput",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 28,
+      "channelId": 318,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 28,
+      "channelId": 319,
+      "label": "Trend Log of Energy Consumption",
+      "key": "trendLogOfEnergyConsumption",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 28,
+      "channelId": 320,
+      "label": "Maximum Demand",
+      "key": "maximumDemand",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 28,
+      "channelId": 321,
+      "label": "Total Harmonic Distortion",
+      "key": "totalHarmonicDistortion",
+      "unit": "%"
+    },
+    {
+      "deviceId": 28,
+      "channelId": 322,
+      "label": "Power Output",
+      "key": "powerOutput",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 29,
+      "channelId": 323,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 29,
+      "channelId": 324,
+      "label": "Trend Log of Energy Consumption",
+      "key": "trendLogOfEnergyConsumption",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 29,
+      "channelId": 325,
+      "label": "Maximum Demand",
+      "key": "maximumDemand",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 29,
+      "channelId": 326,
+      "label": "Total Harmonic Distortion",
+      "key": "totalHarmonicDistortion",
+      "unit": "%"
+    },
+    {
+      "deviceId": 29,
+      "channelId": 327,
+      "label": "Power Output",
+      "key": "powerOutput",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 30,
+      "channelId": 328,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 30,
+      "channelId": 329,
+      "label": "Trend Log of Energy Consumption",
+      "key": "trendLogOfEnergyConsumption",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 30,
+      "channelId": 330,
+      "label": "Maximum Demand",
+      "key": "maximumDemand",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 30,
+      "channelId": 331,
+      "label": "Total Harmonic Distortion",
+      "key": "totalHarmonicDistortion",
+      "unit": "%"
+    },
+    {
+      "deviceId": 30,
+      "channelId": 332,
+      "label": "Power Output",
+      "key": "powerOutput",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 31,
+      "channelId": 333,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 31,
+      "channelId": 334,
+      "label": "Trend Log of Energy Consumption",
+      "key": "trendLogOfEnergyConsumption",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 31,
+      "channelId": 335,
+      "label": "Maximum Demand",
+      "key": "maximumDemand",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 31,
+      "channelId": 336,
+      "label": "Total Harmonic Distortion",
+      "key": "totalHarmonicDistortion",
+      "unit": "%"
+    },
+    {
+      "deviceId": 31,
+      "channelId": 337,
+      "label": "Power Output",
+      "key": "powerOutput",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 32,
+      "channelId": 338,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 32,
+      "channelId": 339,
+      "label": "Trend Log of Energy Consumption",
+      "key": "trendLogOfEnergyConsumption",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 32,
+      "channelId": 340,
+      "label": "Maximum Demand",
+      "key": "maximumDemand",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 32,
+      "channelId": 341,
+      "label": "Total Harmonic Distortion",
+      "key": "totalHarmonicDistortion",
+      "unit": "%"
+    },
+    {
+      "deviceId": 32,
+      "channelId": 342,
+      "label": "Power Output",
+      "key": "powerOutput",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 33,
+      "channelId": 343,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 33,
+      "channelId": 344,
+      "label": "Trend Log of Energy Consumption",
+      "key": "trendLogOfEnergyConsumption",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 33,
+      "channelId": 345,
+      "label": "Maximum Demand",
+      "key": "maximumDemand",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 33,
+      "channelId": 346,
+      "label": "Total Harmonic Distortion",
+      "key": "totalHarmonicDistortion",
+      "unit": "%"
+    },
+    {
+      "deviceId": 33,
+      "channelId": 347,
+      "label": "Power Output",
+      "key": "powerOutput",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 34,
+      "channelId": 348,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 34,
+      "channelId": 349,
+      "label": "Trend Log of Energy Consumption",
+      "key": "trendLogOfEnergyConsumption",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 34,
+      "channelId": 350,
+      "label": "Maximum Demand",
+      "key": "maximumDemand",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 34,
+      "channelId": 351,
+      "label": "Total Harmonic Distortion",
+      "key": "totalHarmonicDistortion",
+      "unit": "%"
+    },
+    {
+      "deviceId": 34,
+      "channelId": 352,
+      "label": "Power Output",
+      "key": "powerOutput",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 35,
+      "channelId": 353,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 35,
+      "channelId": 354,
+      "label": "Trend Log of Energy Consumption",
+      "key": "trendLogOfEnergyConsumption",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 35,
+      "channelId": 355,
+      "label": "Maximum Demand",
+      "key": "maximumDemand",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 35,
+      "channelId": 356,
+      "label": "Total Harmonic Distortion",
+      "key": "totalHarmonicDistortion",
+      "unit": "%"
+    },
+    {
+      "deviceId": 35,
+      "channelId": 357,
+      "label": "Power Output",
+      "key": "powerOutput",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 36,
+      "channelId": 358,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 36,
+      "channelId": 359,
+      "label": "Trend Log of Energy Consumption",
+      "key": "trendLogOfEnergyConsumption",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 36,
+      "channelId": 360,
+      "label": "Maximum Demand",
+      "key": "maximumDemand",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 36,
+      "channelId": 361,
+      "label": "Total Harmonic Distortion",
+      "key": "totalHarmonicDistortion",
+      "unit": "%"
+    },
+    {
+      "deviceId": 36,
+      "channelId": 362,
+      "label": "Power Output",
+      "key": "powerOutput",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 37,
+      "channelId": 363,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 37,
+      "channelId": 364,
+      "label": "Trend Log of Energy Consumption",
+      "key": "trendLogOfEnergyConsumption",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 37,
+      "channelId": 365,
+      "label": "Maximum Demand",
+      "key": "maximumDemand",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 37,
+      "channelId": 366,
+      "label": "Total Harmonic Distortion",
+      "key": "totalHarmonicDistortion",
+      "unit": "%"
+    },
+    {
+      "deviceId": 37,
+      "channelId": 367,
+      "label": "Power Output",
+      "key": "powerOutput",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 38,
+      "channelId": 368,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 38,
+      "channelId": 369,
+      "label": "Trend Log of Energy Consumption",
+      "key": "trendLogOfEnergyConsumption",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 38,
+      "channelId": 370,
+      "label": "Maximum Demand",
+      "key": "maximumDemand",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 38,
+      "channelId": 371,
+      "label": "Total Harmonic Distortion",
+      "key": "totalHarmonicDistortion",
+      "unit": "%"
+    },
+    {
+      "deviceId": 38,
+      "channelId": 372,
+      "label": "Power Output",
+      "key": "powerOutput",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 39,
+      "channelId": 373,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 39,
+      "channelId": 374,
+      "label": "Trend Log of Energy Consumption",
+      "key": "trendLogOfEnergyConsumption",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 39,
+      "channelId": 375,
+      "label": "Maximum Demand",
+      "key": "maximumDemand",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 39,
+      "channelId": 376,
+      "label": "Total Harmonic Distortion",
+      "key": "totalHarmonicDistortion",
+      "unit": "%"
+    },
+    {
+      "deviceId": 39,
+      "channelId": 377,
+      "label": "Power Output",
+      "key": "powerOutput",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 40,
+      "channelId": 378,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 40,
+      "channelId": 379,
+      "label": "Trend Log of Energy Consumption",
+      "key": "trendLogOfEnergyConsumption",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 40,
+      "channelId": 380,
+      "label": "Maximum Demand",
+      "key": "maximumDemand",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 40,
+      "channelId": 381,
+      "label": "Total Harmonic Distortion",
+      "key": "totalHarmonicDistortion",
+      "unit": "%"
+    },
+    {
+      "deviceId": 40,
+      "channelId": 382,
+      "label": "Power Output",
+      "key": "powerOutput",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 41,
+      "channelId": 383,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 41,
+      "channelId": 384,
+      "label": "Trend Log of Energy Consumption",
+      "key": "trendLogOfEnergyConsumption",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 41,
+      "channelId": 385,
+      "label": "Maximum Demand",
+      "key": "maximumDemand",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 41,
+      "channelId": 386,
+      "label": "Total Harmonic Distortion",
+      "key": "totalHarmonicDistortion",
+      "unit": "%"
+    },
+    {
+      "deviceId": 41,
+      "channelId": 387,
+      "label": "Power Output",
+      "key": "powerOutput",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 42,
+      "channelId": 389,
+      "label": "Maximum Demand",
+      "key": "maximumDemand",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 48,
+      "channelId": 406,
+      "label": "Total Harmonic Distortion",
+      "key": "totalHarmonicDistortion",
+      "unit": "%"
+    },
+    {
+      "deviceId": 48,
+      "channelId": 409,
+      "label": "Power Output",
+      "key": "powerOutput",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 48,
+      "channelId": 410,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 48,
+      "channelId": 411,
+      "label": "Trend Log of Energy Consumption",
+      "key": "trendLogOfEnergyConsumption",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 48,
+      "channelId": 412,
+      "label": "Maximum Demand",
+      "key": "maximumDemand",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 49,
+      "channelId": 429,
+      "label": "Total Harmonic Distortion",
+      "key": "totalHarmonicDistortion",
+      "unit": "%"
+    },
+    {
+      "deviceId": 49,
+      "channelId": 432,
+      "label": "Power Output",
+      "key": "powerOutput",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 49,
+      "channelId": 433,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 49,
+      "channelId": 434,
+      "label": "Trend Log of Energy Consumption",
+      "key": "trendLogOfEnergyConsumption",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 49,
+      "channelId": 435,
+      "label": "Maximum Demand",
+      "key": "maximumDemand",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 58,
+      "channelId": 452,
+      "label": "Total Harmonic Distortion",
+      "key": "totalHarmonicDistortion",
+      "unit": "%"
+    },
+    {
+      "deviceId": 58,
+      "channelId": 455,
+      "label": "Power Output",
+      "key": "powerOutput",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 58,
+      "channelId": 456,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 58,
+      "channelId": 457,
+      "label": "Trend Log of Energy Consumption",
+      "key": "trendLogOfEnergyConsumption",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 58,
+      "channelId": 458,
+      "label": "Maximum Demand",
+      "key": "maximumDemand",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 59,
+      "channelId": 475,
+      "label": "Total Harmonic Distortion",
+      "key": "totalHarmonicDistortion",
+      "unit": "%"
+    },
+    {
+      "deviceId": 59,
+      "channelId": 478,
+      "label": "Power Output",
+      "key": "powerOutput",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 59,
+      "channelId": 479,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 59,
+      "channelId": 480,
+      "label": "Trend Log of Energy Consumption",
+      "key": "trendLogOfEnergyConsumption",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 59,
+      "channelId": 481,
+      "label": "Maximum Demand",
+      "key": "maximumDemand",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 67,
+      "channelId": 498,
+      "label": "Total Harmonic Distortion",
+      "key": "totalHarmonicDistortion",
+      "unit": "%"
+    },
+    {
+      "deviceId": 67,
+      "channelId": 501,
+      "label": "Power Output",
+      "key": "powerOutput",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 67,
+      "channelId": 502,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 67,
+      "channelId": 503,
+      "label": "Trend Log of Energy Consumption",
+      "key": "trendLogOfEnergyConsumption",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 67,
+      "channelId": 504,
+      "label": "Maximum Demand",
+      "key": "maximumDemand",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 68,
+      "channelId": 521,
+      "label": "Total Harmonic Distortion",
+      "key": "totalHarmonicDistortion",
+      "unit": "%"
+    },
+    {
+      "deviceId": 68,
+      "channelId": 524,
+      "label": "Power Output",
+      "key": "powerOutput",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 68,
+      "channelId": 525,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 68,
+      "channelId": 526,
+      "label": "Trend Log of Energy Consumption",
+      "key": "trendLogOfEnergyConsumption",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 68,
+      "channelId": 527,
+      "label": "Maximum Demand",
+      "key": "maximumDemand",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 84,
+      "channelId": 544,
+      "label": "Total Harmonic Distortion",
+      "key": "totalHarmonicDistortion",
+      "unit": "%"
+    },
+    {
+      "deviceId": 84,
+      "channelId": 547,
+      "label": "Power Output",
+      "key": "powerOutput",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 84,
+      "channelId": 548,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 84,
+      "channelId": 549,
+      "label": "Trend Log of Energy Consumption",
+      "key": "trendLogOfEnergyConsumption",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 84,
+      "channelId": 550,
+      "label": "Maximum Demand",
+      "key": "maximumDemand",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 85,
+      "channelId": 567,
+      "label": "Total Harmonic Distortion",
+      "key": "totalHarmonicDistortion",
+      "unit": "%"
+    },
+    {
+      "deviceId": 85,
+      "channelId": 570,
+      "label": "Power Output",
+      "key": "powerOutput",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 85,
+      "channelId": 571,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 85,
+      "channelId": 572,
+      "label": "Trend Log of Energy Consumption",
+      "key": "trendLogOfEnergyConsumption",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 85,
+      "channelId": 573,
+      "label": "Maximum Demand",
+      "key": "maximumDemand",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 47,
+      "channelId": 590,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 50,
+      "channelId": 607,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 51,
+      "channelId": 624,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 52,
+      "channelId": 641,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 53,
+      "channelId": 658,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 54,
+      "channelId": 675,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 55,
+      "channelId": 692,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 56,
+      "channelId": 709,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 57,
+      "channelId": 726,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 60,
+      "channelId": 743,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 61,
+      "channelId": 760,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 62,
+      "channelId": 777,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 63,
+      "channelId": 794,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 64,
+      "channelId": 811,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 65,
+      "channelId": 828,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 66,
+      "channelId": 845,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 69,
+      "channelId": 862,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 70,
+      "channelId": 879,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 71,
+      "channelId": 896,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 72,
+      "channelId": 913,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 73,
+      "channelId": 930,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 74,
+      "channelId": 947,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 75,
+      "channelId": 964,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 76,
+      "channelId": 981,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 77,
+      "channelId": 998,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 78,
+      "channelId": 1015,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 79,
+      "channelId": 1032,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 80,
+      "channelId": 1049,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 81,
+      "channelId": 1066,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 82,
+      "channelId": 1083,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    },
+    {
+      "deviceId": 83,
+      "channelId": 1100,
+      "label": "Power Consumption",
+      "key": "powerConsumption",
+      "unit": "kW"
+    }
+  ]

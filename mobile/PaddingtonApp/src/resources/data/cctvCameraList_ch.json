@@ -1,0 +1,452 @@
+[
+  {
+    "cameraId": 383,
+    "floor": "G/F T1",
+    "location": "G/F Club House Lobby 2",
+    "ip": "172.16.16.11",
+    "mapid": "gf",
+    "x": 3195,
+    "y": 805
+  },
+  {
+    "cameraId": 384,
+    "floor": "G/F T1",
+    "location": "G/F Club House Lobby 2",
+    "ip": "172.16.16.12",
+    "mapid": "gf",
+    "x": 3106,
+    "y": 770
+  },
+  {
+    "cameraId": 385,
+    "floor": "G/F T1",
+    "location": "G/F Club House Lobby 2",
+    "ip": "172.16.16.13",
+    "mapid": "gf",
+    "x": 2880,
+    "y": 904
+  },
+  {
+    "cameraId": 386,
+    "floor": "G/F T1",
+    "location": "G/F Club House Lobby 2",
+    "ip": "172.16.16.14",
+    "mapid": "gf",
+    "x": 2844,
+    "y": 817
+  },
+  {
+    "cameraId": 387,
+    "floor": "G/F T1",
+    "location": "G/F Club House Lobby 2",
+    "ip": "172.16.16.15",
+    "mapid": "gf",
+    "x": 2632,
+    "y": 965
+  },
+  {
+    "cameraId": 388,
+    "floor": "G/F T1",
+    "location": "G/F Club House Lobby 2",
+    "ip": "172.16.16.16",
+    "mapid": "gf",
+    "x": 2621,
+    "y": 965
+  },
+  {
+    "cameraId": 389,
+    "floor": "G/F T1",
+    "location": "G/F Club House L21 LCC",
+    "ip": "172.16.16.17",
+    "mapid": "gf",
+    "x": 2999,
+    "y": 916
+  },
+  {
+    "cameraId": 390,
+    "floor": "G/F T2",
+    "location": "G/F Club House Lobby 1",
+    "ip": "172.16.16.21",
+    "mapid": "gf",
+    "x": 2403,
+    "y": 998
+  },
+  {
+    "cameraId": 391,
+    "floor": "G/F T2",
+    "location": "G/F Club House Lobby 1",
+    "ip": "172.16.16.22",
+    "mapid": "gf",
+    "x": 2353,
+    "y": 924
+  },
+  {
+    "cameraId": 392,
+    "floor": "G/F T2",
+    "location": "G/F Club House Lobby 1",
+    "ip": "172.16.16.23",
+    "mapid": "gf",
+    "x": 2195,
+    "y": 1046
+  },
+  {
+    "cameraId": 393,
+    "floor": "G/F T2",
+    "location": "G/F Club House Lobby 1",
+    "ip": "172.16.16.24",
+    "mapid": "gf",
+    "x": 2101,
+    "y": 992
+  },
+  {
+    "cameraId": 394,
+    "floor": "G/F T2",
+    "location": "G/F Club House Lobby 1",
+    "ip": "172.16.16.25",
+    "mapid": "gf",
+    "x": 2220,
+    "y": 1233
+  },
+  {
+    "cameraId": 395,
+    "floor": "G/F T3",
+    "location": "G/F Children Play Room",
+    "ip": "172.16.16.31",
+    "mapid": "gf",
+    "x": 974,
+    "y": 956
+  },
+  {
+    "cameraId": 396,
+    "floor": "G/F T3",
+    "location": "G/F Children Play Room",
+    "ip": "172.16.16.32",
+    "mapid": "gf",
+    "x": 833,
+    "y": 864
+  },
+  {
+    "cameraId": 397,
+    "floor": "B1/F",
+    "location": "B1/F Children Play Room",
+    "ip": "172.16.16.41",
+    "mapid": "ch-b1f",
+    "x": 6344,
+    "y": 500
+  },
+  {
+    "cameraId": 398,
+    "floor": "B1/F",
+    "location": "B1/F Children Play Room",
+    "ip": "172.16.16.42",
+    "mapid": "ch-b1f",
+    "x": 6344,
+    "y": 1584
+  },
+  {
+    "cameraId": 399,
+    "floor": "B1/F",
+    "location": "B1/F Children Play Room",
+    "ip": "172.16.16.43",
+    "mapid": "ch-b1f",
+    "x": 5052,
+    "y": 1090
+  },
+  {
+    "cameraId": 400,
+    "floor": "B1/F",
+    "location": "B1/F Gymnasium (near CA)",
+    "ip": "172.16.16.44",
+    "mapid": "ch-b1f",
+    "x": 5398,
+    "y": 984
+  },
+  {
+    "cameraId": 401,
+    "floor": "B1/F",
+    "location": "B1/F Gymnasium (near CA)",
+    "ip": "172.16.16.45",
+    "mapid": "ch-b1f",
+    "x": 4906,
+    "y": 989
+  },
+  {
+    "cameraId": 402,
+    "floor": "B1/F",
+    "location": "B1/F Gymnasium (near CA)",
+    "ip": "172.16.16.46",
+    "mapid": "ch-b1f",
+    "x": 4259,
+    "y": 489
+  },
+  {
+    "cameraId": 403,
+    "floor": "B1/F",
+    "location": "B1/F Gymnasium (near CA)",
+    "ip": "172.16.16.47",
+    "mapid": "ch-b1f",
+    "x": 3480,
+    "y": 489
+  },
+  {
+    "cameraId": 404,
+    "floor": "B1/F",
+    "location": "B1/F Gymnasium (near CB)",
+    "ip": "172.16.16.51",
+    "mapid": "ch-b1f",
+    "x": 2930,
+    "y": 866
+  },
+  {
+    "cameraId": 405,
+    "floor": "B1/F",
+    "location": "B1/F Gymnasium (near CB)",
+    "ip": "172.16.16.52",
+    "mapid": "ch-b1f",
+    "x": 2877,
+    "y": 890
+  },
+  {
+    "cameraId": 406,
+    "floor": "B1/F",
+    "location": "B1/F Gymnasium (near CB)",
+    "ip": "172.16.16.53",
+    "mapid": "ch-b1f",
+    "x": 1673,
+    "y": 765
+  },
+  {
+    "cameraId": 407,
+    "floor": "B1/F",
+    "location": "B1/F Gymnasium (near CB)",
+    "ip": "172.16.16.54",
+    "mapid": "ch-b1f",
+    "x": 1550,
+    "y": 761
+  },
+  {
+    "cameraId": 408,
+    "floor": "B1/F",
+    "location": "B1/F Gymnasium (near CB)",
+    "ip": "172.16.16.55",
+    "mapid": "ch-b1f",
+    "x": 1153,
+    "y": 735
+  },
+  {
+    "cameraId": 409,
+    "floor": "B1/F",
+    "location": "B1/F Club House Lobby 1",
+    "ip": "172.16.16.61",
+    "mapid": "ch-b1f",
+    "x": 5284,
+    "y": 1531
+  },
+  {
+    "cameraId": 410,
+    "floor": "B1/F",
+    "location": "B1/F Club House Lobby 2",
+    "ip": "172.16.16.62",
+    "mapid": "ch-b1f",
+    "x": 5335,
+    "y": 1573
+  },
+  {
+    "cameraId": 411,
+    "floor": "B1/F",
+    "location": "B1/F Club House Lobby 3",
+    "ip": "172.16.16.63",
+    "mapid": "ch-b1f",
+    "x": 5389,
+    "y": 1587
+  },
+  {
+    "cameraId": 412,
+    "floor": "B1/F",
+    "location": "B1/F Toilet",
+    "ip": "172.16.16.64",
+    "mapid": "ch-b1f",
+    "x": 5158,
+    "y": 2391
+  },
+  {
+    "cameraId": 413,
+    "floor": "B1/F",
+    "location": "B1/F Pre-Function Lounge",
+    "ip": "172.16.16.65",
+    "mapid": "ch-b1f",
+    "x": 4849,
+    "y": 1695
+  },
+  {
+    "cameraId": 414,
+    "floor": "B1/F",
+    "location": "B1/F Pool House 1",
+    "ip": "172.16.16.66",
+    "mapid": "ch-b1f",
+    "x": 3108,
+    "y": 2084
+  },
+  {
+    "cameraId": 415,
+    "floor": "B1/F",
+    "location": "B1/F Pool House 2",
+    "ip": "172.16.16.67",
+    "mapid": "ch-b1f",
+    "x": 3134,
+    "y": 2629
+  },
+  {
+    "cameraId": 416,
+    "floor": "B1/F",
+    "location": "B1/F Game Zone",
+    "ip": "172.16.16.71",
+    "mapid": "ch-b1f",
+    "x": 2200,
+    "y": 2243
+  },
+  {
+    "cameraId": 417,
+    "floor": "B1/F",
+    "location": "B1/F Corridor (Near Game Zone)",
+    "ip": "172.16.16.72",
+    "mapid": "ch-b1f",
+    "x": 2021,
+    "y": 2321
+  },
+  {
+    "cameraId": 418,
+    "floor": "B1/F",
+    "location": "B1/F Cooridor (Near F. Changing Room)",
+    "ip": "172.16.16.73",
+    "mapid": "ch-b1f",
+    "x": 1720,
+    "y": 2832
+  },
+  {
+    "cameraId": 419,
+    "floor": "B1/F",
+    "location": "B1/F Corridor (Near M. Changing Room)",
+    "ip": "172.16.16.74",
+    "mapid": "ch-b1f",
+    "x": 1613,
+    "y": 2500
+  },
+  {
+    "cameraId": 420,
+    "floor": "B1/F",
+    "location": "B1/F Corridor (Near Disable Lav.)",
+    "ip": "172.16.16.75",
+    "mapid": "ch-b1f",
+    "x": 753,
+    "y": 2085
+  },
+  {
+    "cameraId": 421,
+    "floor": "B1/F",
+    "location": "B1/F Corridor (Near Sauna Room)",
+    "ip": "172.16.16.76",
+    "mapid": "ch-b1f",
+    "x": 688,
+    "y": 1014
+  },
+  {
+    "cameraId": 422,
+    "floor": "G/F CA",
+    "location": "Function Room A1",
+    "ip": "172.16.16.81",
+    "mapid": "gf",
+    "x": 3172,
+    "y": 348
+  },
+  {
+    "cameraId": 423,
+    "floor": "G/F CA",
+    "location": "Function Room A2",
+    "ip": "172.16.16.82",
+    "mapid": "gf",
+    "x": 3075,
+    "y": 348
+  },
+  {
+    "cameraId": 424,
+    "floor": "G/F CB",
+    "location": "Function Room B1",
+    "ip": "172.16.16.91",
+    "mapid": "gf",
+    "x": 2174,
+    "y": 348
+  },
+  {
+    "cameraId": 425,
+    "floor": "G/F CB",
+    "location": "Function Room B2",
+    "ip": "172.16.16.92",
+    "mapid": "gf",
+    "x": 2082,
+    "y": 348
+  },
+  {
+    "cameraId": 426,
+    "floor": "G/F CC",
+    "location": "Function Room C1",
+    "ip": "172.16.16.101",
+    "mapid": "gf",
+    "x": 1552,
+    "y": 348
+  },
+  {
+    "cameraId": 427,
+    "floor": "G/F CC",
+    "location": "Function Room C2",
+    "ip": "172.16.16.102",
+    "mapid": "gf",
+    "x": 1359,
+    "y": 354
+  },
+  {
+    "cameraId": 428,
+    "floor": "G/F CD",
+    "location": "Function Room D1",
+    "ip": "172.16.16.111",
+    "mapid": "gf",
+    "x": 585,
+    "y": 348
+  },
+  {
+    "cameraId": 429,
+    "floor": "G/F CD",
+    "location": "Function Room D2",
+    "ip": "172.16.16.112",
+    "mapid": "gf",
+    "x": 492,
+    "y": 334
+  },
+  {
+    "cameraId": 432,
+    "floor": "B1/F",
+    "location": "B1/F Swimming Pool (1)",
+    "ip": "172.16.16.113",
+    "mapid": "ch-b1f",
+    "x": 1391,
+    "y": 2157
+  },
+  {
+    "cameraId": 433,
+    "floor": "B1/F",
+    "location": "B1/F Swimming Pool (2)",
+    "ip": "172.16.16.114",
+    "mapid": "ch-b1f",
+    "x": 1461,
+    "y": 2205
+  },
+  {
+    "cameraId": "",
+    "floor": "",
+    "location": "",
+    "ip": "",
+    "mapid": "",
+    "x": "",
+    "y": ""
+  }
+]

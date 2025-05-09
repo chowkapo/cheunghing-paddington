@@ -1,0 +1,42 @@
+[
+  {
+    "id": "fb1",
+    "label": "B1/F",
+    "mapid":"ca-b1f"
+  },
+  {
+    "id": "fg",
+    "label": "G/F",
+    "mapid":"gf"
+  },
+  {
+    "id": "f1",
+    "label": "1/F",
+    "mapid":"condo-ac-typ"
+  },
+  {
+    "id": "f2",
+    "label": "2/F",
+    "mapid":"condo-ac-typ"
+  },
+  {
+    "id": "f3",
+    "label": "3/F",
+    "mapid":"condo-ac-typ"
+  },
+  {
+    "id": "f5",
+    "label": "5/F",
+    "mapid":"condo-ac-typ"
+  },
+  {
+    "id": "f6",
+    "label": "6/F",
+    "mapid":"condo-ac-typ"
+  },
+  {
+    "id": "fr",
+    "label": "R/F",
+    "mapid":"condo-ac-rf"
+  }
+]

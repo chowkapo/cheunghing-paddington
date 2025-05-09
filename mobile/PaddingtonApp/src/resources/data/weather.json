@@ -1,0 +1,68 @@
+[
+    {
+      "label": "風速",
+      "key": "windSpeed",
+      "unit": "kph",
+      "channelId": 305
+    },
+    {
+      "label": "風向",
+      "key": "windDirection",
+      "unit": "",
+      "channelId": 306
+    },
+    {
+      "label": "降雨速率",
+      "key": "rainRate",
+      "unit": "mm/Hour",
+      "channelId": 308
+    },
+    {
+      "label": "日累積降雨",
+      "key": "dayRain",
+      "unit": "mm",
+      "channelId": 311
+    },
+    {
+      "label": "日蒸發量",
+      "key": "dayET",
+      "unit": "mm",
+      "channelId": 312
+    },
+    {
+      "label": "室內溫度",
+      "key": "indoorTemp",
+      "unit": "℃",
+      "channelId": 302
+    },
+    {
+      "label": "戶外溫度",
+      "key": "outdoorTemp",
+      "unit": "℃",
+      "channelId": 304
+    },
+    {
+      "label": "室內濕度",
+      "key": "indoorHumid",
+      "unit": "%",
+      "channelId": 303
+    },
+    {
+      "label": "戶外濕度",
+      "key": "outdoorHumid",
+      "unit": "%",
+      "channelId": 307
+    },
+    {
+      "label": "紫外輻射指數",
+      "key": "uvIndex",
+      "unit": "",
+      "channelId": 309
+    },
+    {
+      "label": "太陽輻射",
+      "key": "solarRadiation",
+      "unit": "W/m²",
+      "channelId": 310
+    }
+  ]

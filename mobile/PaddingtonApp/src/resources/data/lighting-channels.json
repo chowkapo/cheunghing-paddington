@@ -1,0 +1,16 @@
+[
+    {
+      "deviceId": 42,
+      "channelId": 388,
+      "label": "Power Consumption Lighting",
+      "key": "powerConsumption",
+      "unit": "kWh"
+    },
+    {
+      "deviceId": 42,
+      "channelId": 389,
+      "label": "Maximum Demand",
+      "key": "maximumDemand",
+      "unit": "kW"
+    }
+  ]

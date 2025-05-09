@@ -1,0 +1,589 @@
+[
+  {
+    "cameraId": 48,
+    "location": "TOWER 1",
+    "floor": "B2/F",
+    "cameraName": "Entrance Lobby",
+    "ip": "172.16.11.58",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "T1",
+      "EMO"
+    ],
+    "mapid": "t1-b2f",
+    "x": 5249,
+    "y": 2680
+  },
+  {
+    "cameraId": 49,
+    "location": "TOWER 1",
+    "floor": "B2/F",
+    "cameraName": "Lift 1, 2 Lobby",
+    "ip": "172.16.11.59",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "T1",
+      "EMO"
+    ],
+    "mapid": "t1-b2f",
+    "x": 258,
+    "y": 235
+  },
+  {
+    "cameraId": 50,
+    "location": "TOWER 1",
+    "floor": "B2/F",
+    "cameraName": "Lift 3, 4 Lobby",
+    "ip": "172.16.11.60",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "T1",
+      "EMO"
+    ],
+    "mapid": "t1-b2f",
+    "x": 3714,
+    "y": 4006
+  },
+  {
+    "cameraId": 51,
+    "location": "TOWER 1",
+    "floor": "B2/F",
+    "cameraName": "TRS BS-01",
+    "ip": "172.16.11.61",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "T1",
+      "EMO"
+    ],
+    "mapid": "t1-b2f",
+    "x": 3903,
+    "y": 1644
+  },
+  {
+    "cameraId": 131,
+    "location": "TOWER 2",
+    "floor": "B2/F",
+    "cameraName": " Lift 5, 6 Lobby",
+    "ip": "172.16.12.90",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "T2",
+      "EMO"
+    ],
+    "mapid": "t2-b2f",
+    "x": 207,
+    "y": 215
+  },
+  {
+    "cameraId": 132,
+    "location": "TOWER 2",
+    "floor": "B2/F",
+    "cameraName": " Lift 7, 8 Lobby",
+    "ip": "172.16.12.91",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "T2",
+      "EMO"
+    ],
+    "mapid": "t2-b2f",
+    "x": 3865,
+    "y": 4231
+  },
+  {
+    "cameraId": 133,
+    "location": "TOWER 2",
+    "floor": "B2/F",
+    "cameraName": "TRS BS-02",
+    "ip": "172.16.12.92",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "T2",
+      "EMO"
+    ],
+    "mapid": "t2-b2f",
+    "x": 4051,
+    "y": 2963
+  },
+  {
+    "cameraId": 189,
+    "location": "TOWER 3",
+    "floor": "B2/F",
+    "cameraName": "Lift 9, 10 Lobby",
+    "ip": "172.16.13.66",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "T3",
+      "EMO"
+    ],
+    "mapid": "t3-b2f",
+    "x": 5501,
+    "y": 1877
+  },
+  {
+    "cameraId": 190,
+    "location": "TOWER 3",
+    "floor": "B2/F",
+    "cameraName": "Lift 11, 12 Lobby",
+    "ip": "172.16.13.67",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "T3",
+      "EMO"
+    ],
+    "mapid": "t3-b2f",
+    "x": 435,
+    "y": 1979
+  },
+  {
+    "cameraId": 191,
+    "location": "TOWER 3",
+    "floor": "B2/F",
+    "cameraName": "TRS BS-03",
+    "ip": "172.16.13.68",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "T3",
+      "EMO"
+    ],
+    "mapid": "t3-b2f",
+    "x": 4941,
+    "y": 3078
+  },
+  {
+    "cameraId": 192,
+    "location": "TOWER 3",
+    "floor": "B2/F",
+    "cameraName": "TRS BS-04",
+    "ip": "172.16.13.69",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "T3",
+      "EMO"
+    ],
+    "mapid": "t3-b2f",
+    "x": 239,
+    "y": 2137
+  },
+  {
+    "cameraId": 322,
+    "location": "Carpark",
+    "floor": "B2/F",
+    "cameraName": "Carpark (R064)",
+    "ip": "172.16.15.121",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "emo-b2f",
+    "x": 861,
+    "y": 1235
+  },
+  {
+    "cameraId": 323,
+    "location": "Carpark",
+    "floor": "B2/F",
+    "cameraName": "Carpark (R070)",
+    "ip": "172.16.15.122",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "emo-b2f",
+    "x": 818,
+    "y": 1800
+  },
+  {
+    "cameraId": 324,
+    "location": "Carpark",
+    "floor": "B2/F",
+    "cameraName": "Carpark (Near R73)",
+    "ip": "172.16.15.123",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "emo-b2f",
+    "x": 2110,
+    "y": 1423
+  },
+  {
+    "cameraId": 325,
+    "location": "Carpark",
+    "floor": "B2/F",
+    "cameraName": "Carpark (Near R74)",
+    "ip": "172.16.15.124",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "emo-b2f",
+    "x": 2152,
+    "y": 1423
+  },
+  {
+    "cameraId": 326,
+    "location": "Carpark",
+    "floor": "B2/F",
+    "cameraName": "Carpark (Near R78)",
+    "ip": "172.16.15.125",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "emo-b2f",
+    "x": 2846,
+    "y": 1426
+  },
+  {
+    "cameraId": 327,
+    "location": "Carpark",
+    "floor": "B2/F",
+    "cameraName": "Carpark (Near R82)",
+    "ip": "172.16.15.126",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "emo-b2f",
+    "x": 3450,
+    "y": 1495
+  },
+  {
+    "cameraId": 328,
+    "location": "Carpark",
+    "floor": "B2/F",
+    "cameraName": "Driveway 1 (T3)",
+    "ip": "172.16.15.127",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "emo-b2f",
+    "x": 1586,
+    "y": 2594
+  },
+  {
+    "cameraId": 329,
+    "location": "Carpark",
+    "floor": "B2/F",
+    "cameraName": "Driveway 2 (T3)",
+    "ip": "172.16.15.128",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "emo-b2f",
+    "x": 1976,
+    "y": 2428
+  },
+  {
+    "cameraId": 330,
+    "location": "Carpark",
+    "floor": "B2/F",
+    "cameraName": "Carpark (R91)",
+    "ip": "172.16.15.129",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "emo-b2f",
+    "x": 2555,
+    "y": 2784
+  },
+  {
+    "cameraId": 331,
+    "location": "Carpark",
+    "floor": "B2/F",
+    "cameraName": "Carpark (R93)",
+    "ip": "172.16.15.130",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "emo-b2f",
+    "x": 2985,
+    "y": 2759
+  },
+  {
+    "cameraId": 332,
+    "location": "Carpark",
+    "floor": "B2/F",
+    "cameraName": "Carpark (R100)",
+    "ip": "172.16.15.131",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "emo-b2f",
+    "x": 3958,
+    "y": 3151
+  },
+  {
+    "cameraId": 333,
+    "location": "Carpark",
+    "floor": "B2/F",
+    "cameraName": "Carpark (RM12)",
+    "ip": "172.16.15.132",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "emo-b2f",
+    "x": 3545,
+    "y": 2658
+  },
+  {
+    "cameraId": 334,
+    "location": "Carpark",
+    "floor": "B2/F",
+    "cameraName": "Driveway (T2)",
+    "ip": "172.16.15.133",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "emo-b2f",
+    "x": 4465,
+    "y": 2970
+  },
+  {
+    "cameraId": 335,
+    "location": "Carpark",
+    "floor": "B2/F",
+    "cameraName": "Carpark (Near R106)",
+    "ip": "172.16.15.134",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "emo-b2f",
+    "x": 4695,
+    "y": 3326
+  },
+  {
+    "cameraId": 336,
+    "location": "Carpark",
+    "floor": "B2/F",
+    "cameraName": "Carpark (Near R107)",
+    "ip": "172.16.15.135",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "emo-b2f",
+    "x": 5296,
+    "y": 3225
+  },
+  {
+    "cameraId": 337,
+    "location": "Carpark",
+    "floor": "B2/F",
+    "cameraName": "Carpark (Near R108)",
+    "ip": "172.16.15.136",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "emo-b2f",
+    "x": 5937,
+    "y": 3111
+  },
+  {
+    "cameraId": 338,
+    "location": "Carpark",
+    "floor": "B2/F",
+    "cameraName": "Carpark (R101)",
+    "ip": "172.16.15.137",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "emo-b2f",
+    "x": 4785,
+    "y": 2837
+  },
+  {
+    "cameraId": 339,
+    "location": "Carpark",
+    "floor": "B2/F",
+    "cameraName": "Carpark (Near R102)",
+    "ip": "172.16.15.138",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "emo-b2f",
+    "x": 5046,
+    "y": 2923
+  },
+  {
+    "cameraId": 340,
+    "location": "Carpark",
+    "floor": "B2/F",
+    "cameraName": "Carpark (R114)",
+    "ip": "172.16.15.139",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "emo-b2f",
+    "x": 6523,
+    "y": 1870
+  },
+  {
+    "cameraId": 341,
+    "location": "Carpark",
+    "floor": "B2/F",
+    "cameraName": "Carpark (Near V002)",
+    "ip": "172.16.15.140",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "emo-b2f",
+    "x": 6453,
+    "y": 1815
+  },
+  {
+    "cameraId": 342,
+    "location": "Carpark",
+    "floor": "B2/F",
+    "cameraName": "Carpark (R118)",
+    "ip": "172.16.15.141",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "emo-b2f",
+    "x": 6729,
+    "y": 1320
+  },
+  {
+    "cameraId": 343,
+    "location": "Carpark",
+    "floor": "B2/F",
+    "cameraName": "Carpark (V004)",
+    "ip": "172.16.15.142",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "emo-b2f",
+    "x": 6056,
+    "y": 1319
+  },
+  {
+    "cameraId": 344,
+    "location": "Carpark",
+    "floor": "B2/F",
+    "cameraName": "Carpark (R121)",
+    "ip": "172.16.15.143",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "emo-b2f",
+    "x": 6660,
+    "y": 751
+  },
+  {
+    "cameraId": 345,
+    "location": "Carpark",
+    "floor": "B2/F",
+    "cameraName": "Elect. Room (Near CA)",
+    "ip": "172.16.15.144",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "emo-b2f",
+    "x": 6847,
+    "y": 161
+  },
+  {
+    "cameraId": 346,
+    "location": "Carpark",
+    "floor": "B2/F",
+    "cameraName": "Plant Room Corridor (Near CA)",
+    "ip": "172.16.15.145",
+    "login": "user",
+    "password": "a12345678",
+    "rtspPort": 554,
+    "monitor": [
+      "EMO"
+    ],
+    "mapid": "emo-b2f",
+    "x": 5325,
+    "y": 146
+  }
+]

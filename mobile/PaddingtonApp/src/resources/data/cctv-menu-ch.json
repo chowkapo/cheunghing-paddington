@@ -1,0 +1,43 @@
+[
+  {
+    "id": "ch-fb1",
+    "label": "B1/F",
+    "mapid": "ch-b1f"
+  },
+  {
+    "id": "ch-fg",
+    "label": "G/F",
+    "floors": [
+      {
+        "id": "ch-fg-lobby",
+        "label": "CLUB HOUSE LOBBY",
+        "mapid": "gf"
+      },
+      {
+        "id": "ch-fg-playroom",
+        "label": "CHILDREN PLAY ROOM",
+        "mapid": "gf"
+      },
+      {
+        "id": "ch-fg-fr-a",
+        "label": "FUNCTION ROOM A",
+        "mapid": "gf"
+      },
+      {
+        "id": "ch-fg-fr-b",
+        "label": "FUNCTION ROOM B",
+        "mapid": "gf"
+      },
+      {
+        "id": "ch-fg-fr-c",
+        "label": "FUNCTION ROOM C",
+        "mapid": "gf"
+      },
+      {
+        "id": "ch-fg-fr-d",
+        "label": "FUNCTION ROOM D",
+        "mapid": "gf"
+      },
+    ]
+  },
+]
