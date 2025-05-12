@@ -16,7 +16,7 @@ import type {NavigationProp} from '@react-navigation/native';
 import InputPointInspectionWithMap from '../components/InputPointInspectionWithMap';
 import {makeHierarchicalMenu, maskToLocations} from '../utils/helper';
 
-const targetType = '水浸警報';
+const targetType = '水滲漏監察系統';
 const alertType = 'leakage';
 // type TNavigationProp = NavigationProp<TRootStackParamList, 'Leakage'>;
 

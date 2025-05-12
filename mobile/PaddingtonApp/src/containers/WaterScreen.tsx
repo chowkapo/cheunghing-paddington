@@ -29,6 +29,7 @@ const signalTypes: TSignalTypeSuffix[] = [
   {suffix: '過壓', signalType: 'overPressure', level: 1},
   {suffix: '低水位', signalType: 'lowWaterLevel', level: 2},
   {suffix: '高水位', signalType: 'highWaterLevel', level: 2},
+  {suffix: '過壓警報', signalType: 'overPressure', level: 1},
   {suffix: '', signalType: 'default'},
 ];
 

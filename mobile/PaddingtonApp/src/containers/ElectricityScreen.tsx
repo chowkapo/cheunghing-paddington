@@ -25,6 +25,8 @@ const signalTypes: TSignalTypeSuffix[] = [
   { suffix: '開啟/關閉', signalType: 'openOrClose' },
   { suffix: '故障', signalType: 'malFunction' },
   { suffix: '', signalType: 'default' },
+  { suffix: '運行', signalType: 'inOperationOrStop' },
+  { suffix: '正常', signalType: 'normal' },
 ];
 
 const customSignalPresentation = {

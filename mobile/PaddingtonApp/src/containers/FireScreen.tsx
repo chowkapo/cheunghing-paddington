@@ -24,6 +24,7 @@ const signalTypes: TSignalTypeSuffix[] = [
   { suffix: '自動/手動', signalType: 'autoOrManual' },
   { suffix: '開啟/關閉', signalType: 'openOrClose' },
   { suffix: '故障', signalType: 'malFunction' },
+  { suffix: '警報', signalType: 'alarm' },
   { suffix: '', signalType: 'default' },
 ];
 

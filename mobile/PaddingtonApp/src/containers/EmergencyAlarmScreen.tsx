@@ -16,7 +16,7 @@ import type { NavigationProp } from '@react-navigation/native';
 import { makeHierarchicalMenu, maskToLocations } from '../utils/helper';
 import InputPointInspectionWithMap from '../components/InputPointInspectionWithMap';
 
-const targetType = '緊急監察系統';
+const targetType = '緊急召喚監察系統';
 const alertType = 'emergency';
 // type TNavigationProp = NavigationProp<TRootStackParamList, 'EmergencyAlarm'>;
 
@@ -92,7 +92,7 @@ const EmergencyAlarmScreen = ({ navigation }: { navigation: TNavigationProp }) =
   return (
     <View style={styles.sectionContainer}>
       <ScreenTitle
-        title={"緊急監察系統"}
+        title={"緊急召喚監察系統"}
         showAlertToggle={true}
         enabled={!!alertEnabled?.[alertType]}
         onValueChange={handleAlertToggle}
