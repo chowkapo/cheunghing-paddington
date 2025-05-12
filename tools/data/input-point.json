@@ -1,0 +1,1602 @@
+[
+  {
+    "id": 1,
+    "ioModuleId": 1,
+    "controllerId": 1,
+    "type": "門磁感應監察系統",
+    "sub_type": "R/F",
+    "name": "A座 R/F ST-1梯 門磁感應 警報",
+    "location": "A座R/F ST-1梯",
+    "mapId": "RF",
+    "x": 800,
+    "y": 403,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 2,
+    "ioModuleId": 1,
+    "controllerId": 1,
+    "type": "門磁感應監察系統",
+    "sub_type": "R/F",
+    "name": "A座 R/F ST-2梯 門磁感應 警報",
+    "location": "A座R/F ST-2梯",
+    "mapId": "RF",
+    "x": 800,
+    "y": 529,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 3,
+    "ioModuleId": 1,
+    "controllerId": 1,
+    "type": "水滲漏監察系統",
+    "sub_type": "UR2/F",
+    "name": "A座 UR2/F 食水及咸水水泵房 水滲漏 警報",
+    "location": "A座UR2/F 食水及咸水水泵房",
+    "mapId": "UR2F",
+    "x": 978,
+    "y": 394,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 4,
+    "ioModuleId": 1,
+    "controllerId": 1,
+    "type": "水滲漏監察系統",
+    "sub_type": "R/F",
+    "name": "A座 R/F 咸水水泵房 水滲漏 警報",
+    "location": "A座R/F 咸水水泵房",
+    "mapId": "RF",
+    "x": 808,
+    "y": 493,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 5,
+    "ioModuleId": 1,
+    "controllerId": 1,
+    "type": "電氣監察系統",
+    "sub_type": "",
+    "name": "A座 天台發電機 正常",
+    "location": "A座天台發電機房",
+    "mapId": "RF",
+    "x": 652,
+    "y": 545,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 6,
+    "ioModuleId": 1,
+    "controllerId": 1,
+    "type": "電氣監察系統",
+    "sub_type": "",
+    "name": "A座 天台發電機 運行",
+    "location": "A座天台發電機房",
+    "mapId": "RF",
+    "x": 652,
+    "y": 545,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 7,
+    "ioModuleId": 1,
+    "controllerId": 1,
+    "type": "電氣監察系統",
+    "sub_type": "",
+    "name": "A座 天台發電機 故障",
+    "location": "A座天台發電機房",
+    "mapId": "RF",
+    "x": 652,
+    "y": 545,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 8,
+    "ioModuleId": 1,
+    "controllerId": 1,
+    "type": "供水監察系統",
+    "sub_type": "水泵",
+    "name": "A座 天台 食水水泵 運行",
+    "location": "A座天台沖廁水泵房",
+    "mapId": "RF",
+    "x": 801,
+    "y": 470,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 9,
+    "ioModuleId": 1,
+    "controllerId": 1,
+    "type": "供水監察系統",
+    "sub_type": "水泵",
+    "name": "A座 天台 食水水泵 故障",
+    "location": "A座天台沖廁水泵房",
+    "mapId": "RF",
+    "x": 801,
+    "y": 470,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 12,
+    "ioModuleId": 1,
+    "controllerId": 1,
+    "type": "供水監察系統",
+    "sub_type": "水缸",
+    "name": "A座 天台 食水水缸 高水位",
+    "location": "A座天台沖廁水泵房",
+    "mapId": "RF",
+    "x": 801,
+    "y": 470,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 13,
+    "ioModuleId": 1,
+    "controllerId": 1,
+    "type": "供水監察系統",
+    "sub_type": "水缸",
+    "name": "A座 天台 食水水缸 低水位",
+    "location": "A座天台沖廁水泵房",
+    "mapId": "RF",
+    "x": 801,
+    "y": 470,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 16,
+    "ioModuleId": 1,
+    "controllerId": 1,
+    "type": "供水監察系統",
+    "sub_type": "水缸",
+    "name": "A座 天台 咸水水缸 高水位",
+    "location": "A座UR2/F 食水及咸水水泵房",
+    "mapId": "UR2F",
+    "x": 949,
+    "y": 394,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 17,
+    "ioModuleId": 1,
+    "controllerId": 1,
+    "type": "供水監察系統",
+    "sub_type": "水缸",
+    "name": "A座 天台 咸水水缸 低水位",
+    "location": "A座UR2/F 食水及咸水水泵房",
+    "mapId": "UR2F",
+    "x": 949,
+    "y": 394,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 20,
+    "ioModuleId": 1,
+    "controllerId": 1,
+    "type": "供水監察系統",
+    "sub_type": "水缸",
+    "name": "A座 天台清潔用水水缸 高水位",
+    "location": "A座UR2/F 食水及咸水水泵房",
+    "mapId": "UR2F",
+    "x": 949,
+    "y": 394,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 21,
+    "ioModuleId": 1,
+    "controllerId": 1,
+    "type": "供水監察系統",
+    "sub_type": "水缸",
+    "name": "A座 天台清潔用水水缸 低水位",
+    "location": "A座UR2/F 食水及咸水水泵房",
+    "mapId": "UR2F",
+    "x": 949,
+    "y": 394,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 22,
+    "ioModuleId": 1,
+    "controllerId": 1,
+    "type": "供水監察系統",
+    "sub_type": "水缸",
+    "name": "A座 天台淋花水水缸 高水位",
+    "location": "A座UR2/F 食水及咸水水泵房",
+    "mapId": "UR2F",
+    "x": 949,
+    "y": 394,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 23,
+    "ioModuleId": 1,
+    "controllerId": 1,
+    "type": "供水監察系統",
+    "sub_type": "水缸",
+    "name": "A座 天台淋花水水缸 低水位",
+    "location": "A座UR2/F 食水及咸水水泵房",
+    "mapId": "UR2F",
+    "x": 949,
+    "y": 394,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 24,
+    "ioModuleId": 1,
+    "controllerId": 1,
+    "type": "供水監察系統",
+    "sub_type": "減壓閥",
+    "name": "A座 淋花水減壓閥 過壓警報",
+    "location": "A座 15/F 垃圾房",
+    "mapId": "Typical",
+    "x": 851,
+    "y": 434,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 25,
+    "ioModuleId": 1,
+    "controllerId": 1,
+    "type": "供水監察系統",
+    "sub_type": "減壓閥",
+    "name": "A座 沖廁水減壓閥 過壓警報",
+    "location": "A座 12/F 垃圾房",
+    "mapId": "Typical",
+    "x": 851,
+    "y": 434,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 26,
+    "ioModuleId": 1,
+    "controllerId": 1,
+    "type": "供水監察系統",
+    "sub_type": "減壓閥",
+    "name": "A座 食水減壓閥 過壓警報",
+    "location": "A座 11/F 垃圾房",
+    "mapId": "Typical",
+    "x": 851,
+    "y": 434,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 27,
+    "ioModuleId": 1,
+    "controllerId": 1,
+    "type": "供水監察系統",
+    "sub_type": "減壓閥",
+    "name": "A座 清潔用水減壓閥 過壓警報",
+    "location": "A座 10/F 垃圾房",
+    "mapId": "Typical",
+    "x": 851,
+    "y": 434,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 65,
+    "ioModuleId": 1,
+    "controllerId": 2,
+    "type": "門磁感應監察系統",
+    "sub_type": "1/F",
+    "name": "A座 1/F 多功能室 門磁感應 警報",
+    "location": "A座 1/F 多功能室",
+    "mapId": "1F",
+    "x": 798,
+    "y": 635,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 66,
+    "ioModuleId": 1,
+    "controllerId": 2,
+    "type": "門磁感應監察系統",
+    "sub_type": "1/F",
+    "name": "A座 1/F 多功能室側門 門磁感應 警報",
+    "location": "A座 1/F 多功能室",
+    "mapId": "1F",
+    "x": 833,
+    "y": 682,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 67,
+    "ioModuleId": 1,
+    "controllerId": 2,
+    "type": "門磁感應監察系統",
+    "sub_type": "1/F",
+    "name": "A座 1/F 健身室 門磁感應 警報",
+    "location": "A座 1/F 健身室",
+    "mapId": "1F",
+    "x": 732,
+    "y": 449,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 69,
+    "ioModuleId": 1,
+    "controllerId": 2,
+    "type": "門磁感應監察系統",
+    "sub_type": "G/F",
+    "name": "A座 G/F 人閘 (近A座) 門磁感應 警報",
+    "location": "A座 G/F 人閘 (近A座)",
+    "mapId": "GF",
+    "x": 549,
+    "y": 742,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 70,
+    "ioModuleId": 1,
+    "controllerId": 2,
+    "type": "門磁感應監察系統",
+    "sub_type": "G/F",
+    "name": "A座 G/F 升降機大堂 門磁感應 警報",
+    "location": "A座 G/F 升降機大堂",
+    "mapId": "GF",
+    "x": 641,
+    "y": 528,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 71,
+    "ioModuleId": 1,
+    "controllerId": 2,
+    "type": "門磁感應監察系統",
+    "sub_type": "",
+    "name": "A座 G/F ST-2 出路門 門磁感應 警報",
+    "location": "A座 G/F ST-2 出路門",
+    "mapId": "",
+    "x": 0,
+    "y": 0,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 72,
+    "ioModuleId": 1,
+    "controllerId": 2,
+    "type": "緊急召喚監察系統",
+    "sub_type": "",
+    "name": "A座 1/F 會所 暢通易達洗手間 緊急召喚 警報",
+    "location": "A座 1/F 會所 暢通易達洗手間",
+    "mapId": "1F",
+    "x": 815,
+    "y": 747,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 73,
+    "ioModuleId": 1,
+    "controllerId": 2,
+    "type": "水滲漏監察系統",
+    "sub_type": "G/F",
+    "name": "A座G/F 食水及咸水上水水泵房 水滲漏 警報",
+    "location": "A座G/F 食水及咸水上水水泵房",
+    "mapId": "GF",
+    "x": 1008,
+    "y": 301,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 74,
+    "ioModuleId": 1,
+    "controllerId": 2,
+    "type": "水滲漏監察系統",
+    "sub_type": "G/F",
+    "name": "A座 消防及花灑泵房 水滲漏 警報",
+    "location": "A座 G/F 消防及花灑泵房",
+    "mapId": "GF",
+    "x": 897,
+    "y": 590,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 75,
+    "ioModuleId": 1,
+    "controllerId": 2,
+    "type": "電氣監察系統",
+    "sub_type": "",
+    "name": "A座 1號 ACB 輸入電源供電 故障",
+    "location": "A座 G/F 低壓總電制房",
+    "mapId": "GF",
+    "x": 663,
+    "y": 196,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 76,
+    "ioModuleId": 1,
+    "controllerId": 2,
+    "type": "電氣監察系統",
+    "sub_type": "",
+    "name": "A座 2號 ACB 輸入電源供電 故障",
+    "location": "A座 G/F 低壓總電制房",
+    "mapId": "GF",
+    "x": 663,
+    "y": 196,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 77,
+    "ioModuleId": 1,
+    "controllerId": 2,
+    "type": "供水監察系統",
+    "sub_type": "水泵",
+    "name": "A座 食水上水水泵 運行",
+    "location": "A座G/F 食水及咸水上水水泵房",
+    "mapId": "GF",
+    "x": 907,
+    "y": 359,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 78,
+    "ioModuleId": 1,
+    "controllerId": 2,
+    "type": "供水監察系統",
+    "sub_type": "水泵",
+    "name": "A座 食水上水水泵 故障",
+    "location": "A座G/F 食水及咸水上水水泵房",
+    "mapId": "GF",
+    "x": 907,
+    "y": 359,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 81,
+    "ioModuleId": 1,
+    "controllerId": 2,
+    "type": "供水監察系統",
+    "sub_type": "水缸",
+    "name": "A座 食水上水水缸 高水位",
+    "location": "A座G/F 食水及咸水上水水泵房",
+    "mapId": "GF",
+    "x": 907,
+    "y": 359,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 82,
+    "ioModuleId": 1,
+    "controllerId": 2,
+    "type": "供水監察系統",
+    "sub_type": "水缸",
+    "name": "A座 食水上水水缸 低水位",
+    "location": "A座G/F 食水及咸水上水水泵房",
+    "mapId": "GF",
+    "x": 907,
+    "y": 359,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 85,
+    "ioModuleId": 1,
+    "controllerId": 2,
+    "type": "供水監察系統",
+    "sub_type": "水泵",
+    "name": "A座 咸水上水水泵 運行",
+    "location": "A座G/F 食水及咸水上水水泵房",
+    "mapId": "GF",
+    "x": 907,
+    "y": 359,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 86,
+    "ioModuleId": 1,
+    "controllerId": 2,
+    "type": "供水監察系統",
+    "sub_type": "水泵",
+    "name": "A座 咸水上水水泵 故障",
+    "location": "A座G/F 食水及咸水上水水泵房",
+    "mapId": "GF",
+    "x": 907,
+    "y": 359,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 89,
+    "ioModuleId": 1,
+    "controllerId": 2,
+    "type": "供水監察系統",
+    "sub_type": "水缸",
+    "name": "A座 咸水上水水缸 高水位",
+    "location": "A座G/F 食水及咸水上水水泵房",
+    "mapId": "GF",
+    "x": 907,
+    "y": 359,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 90,
+    "ioModuleId": 1,
+    "controllerId": 2,
+    "type": "供水監察系統",
+    "sub_type": "水缸",
+    "name": "A座 咸水上水水缸 低水位",
+    "location": "A座G/F 食水及咸水上水水泵房",
+    "mapId": "GF",
+    "x": 907,
+    "y": 359,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 93,
+    "ioModuleId": 1,
+    "controllerId": 2,
+    "type": "供水監察系統",
+    "sub_type": "潛水泵",
+    "name": "污水潛水泵 (GC-01) 運行",
+    "location": "A座G/F 食水及咸水上水水泵房",
+    "mapId": "GF",
+    "x": 907,
+    "y": 359,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 94,
+    "ioModuleId": 1,
+    "controllerId": 2,
+    "type": "供水監察系統",
+    "sub_type": "潛水泵",
+    "name": "污水潛水泵 (GC-01) 故障",
+    "location": "A座G/F 食水及咸水上水水泵房",
+    "mapId": "GF",
+    "x": 907,
+    "y": 359,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 95,
+    "ioModuleId": 1,
+    "controllerId": 2,
+    "type": "供水監察系統",
+    "sub_type": "潛水泵",
+    "name": "污水潛水泵井 (GC-01) 高水位",
+    "location": "A座G/F 食水及咸水上水水泵房",
+    "mapId": "GF",
+    "x": 907,
+    "y": 359,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 96,
+    "ioModuleId": 1,
+    "controllerId": 2,
+    "type": "供水監察系統",
+    "sub_type": "潛水泵",
+    "name": "污水潛水泵井 (GC-01) 低水位",
+    "location": "A座G/F 食水及咸水上水水泵房",
+    "mapId": "GF",
+    "x": 907,
+    "y": 359,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 97,
+    "ioModuleId": 1,
+    "controllerId": 2,
+    "type": "供水監察系統",
+    "sub_type": "潛水泵",
+    "name": "污水潛水泵 (GA-01) 運行",
+    "location": "A座 G/F 垃圾房",
+    "mapId": "GF",
+    "x": 681,
+    "y": 262,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 98,
+    "ioModuleId": 1,
+    "controllerId": 2,
+    "type": "供水監察系統",
+    "sub_type": "潛水泵",
+    "name": "污水潛水泵 (GA-01) 故障",
+    "location": "A座 G/F 垃圾房",
+    "mapId": "GF",
+    "x": 681,
+    "y": 262,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 99,
+    "ioModuleId": 1,
+    "controllerId": 2,
+    "type": "供水監察系統",
+    "sub_type": "潛水泵",
+    "name": "污水潛水泵井 (GA-01) 高水位",
+    "location": "A座 G/F 垃圾房",
+    "mapId": "GF",
+    "x": 681,
+    "y": 262,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 100,
+    "ioModuleId": 1,
+    "controllerId": 2,
+    "type": "供水監察系統",
+    "sub_type": "潛水泵",
+    "name": "污水潛水泵井 (GA-01) 低水位",
+    "location": "A座 G/F 垃圾房",
+    "mapId": "GF",
+    "x": 681,
+    "y": 262,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 101,
+    "ioModuleId": 1,
+    "controllerId": 2,
+    "type": "供水監察系統",
+    "sub_type": "潛水泵",
+    "name": "污水潛水泵 (GC-02) 運行",
+    "location": "A座 G/F 消防及花灑泵房",
+    "mapId": "GF",
+    "x": 1018,
+    "y": 613,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 102,
+    "ioModuleId": 1,
+    "controllerId": 2,
+    "type": "供水監察系統",
+    "sub_type": "潛水泵",
+    "name": "污水潛水泵 (GC-02) 故障",
+    "location": "A座 G/F 消防及花灑泵房",
+    "mapId": "GF",
+    "x": 1018,
+    "y": 613,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 103,
+    "ioModuleId": 1,
+    "controllerId": 2,
+    "type": "供水監察系統",
+    "sub_type": "潛水泵",
+    "name": "污水潛水泵井 (GC-02) 高水位",
+    "location": "A座 G/F 消防及花灑泵房",
+    "mapId": "GF",
+    "x": 1018,
+    "y": 613,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 104,
+    "ioModuleId": 1,
+    "controllerId": 2,
+    "type": "供水監察系統",
+    "sub_type": "潛水泵",
+    "name": "污水潛水泵井 (GC-02) 低水位",
+    "location": "A座 G/F 消防及花灑泵房",
+    "mapId": "GF",
+    "x": 1018,
+    "y": 613,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 105,
+    "ioModuleId": 1,
+    "controllerId": 2,
+    "type": "消防監察系統",
+    "sub_type": "",
+    "name": "A座 消防系統 警報",
+    "location": "A座 G/F 消防控制室",
+    "mapId": "GF",
+    "x": 708,
+    "y": 441,
+    "allowedLocations": [
+      "TA",
+      "EMO"
+    ]
+  },
+  {
+    "id": 129,
+    "ioModuleId": 2,
+    "controllerId": 1,
+    "type": "門磁感應監察系統",
+    "sub_type": "UR1/F",
+    "name": "B座 UR1/F ST-3梯 門磁感應 警報",
+    "location": "B座UR1/F ST-3梯",
+    "mapId": "UR1F",
+    "x": 307,
+    "y": 297,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 130,
+    "ioModuleId": 2,
+    "controllerId": 1,
+    "type": "門磁感應監察系統",
+    "sub_type": "R/F",
+    "name": "B座 R/F ST-3梯 門磁感應 警報",
+    "location": "B座R/F ST-3梯",
+    "mapId": "RF",
+    "x": 362,
+    "y": 373,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 131,
+    "ioModuleId": 2,
+    "controllerId": 1,
+    "type": "門磁感應監察系統",
+    "sub_type": "R/F",
+    "name": "B座 R/F ST-4梯 門磁感應 警報",
+    "location": "B座R/F ST-4梯",
+    "mapId": "RF",
+    "x": 334,
+    "y": 529,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 132,
+    "ioModuleId": 2,
+    "controllerId": 1,
+    "type": "水滲漏監察系統",
+    "sub_type": "UR2/F",
+    "name": "B座 UR2/F 食水及咸水水泵房 水滲漏 警報",
+    "location": "B座UR2/F 食水及咸水水泵房",
+    "mapId": "UR2F",
+    "x": 289,
+    "y": 87,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 133,
+    "ioModuleId": 2,
+    "controllerId": 1,
+    "type": "水滲漏監察系統",
+    "sub_type": "R/F",
+    "name": "B座 R/F 咸水水泵房 水滲漏 警報",
+    "location": "B座R/F 咸水水泵房",
+    "mapId": "RF",
+    "x": 297,
+    "y": 474,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 134,
+    "ioModuleId": 2,
+    "controllerId": 1,
+    "type": "電氣監察系統",
+    "sub_type": "",
+    "name": "B座 天台發電機 正常",
+    "location": "B座天台發電機房",
+    "mapId": "RF",
+    "x": 458,
+    "y": 557,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 135,
+    "ioModuleId": 2,
+    "controllerId": 1,
+    "type": "電氣監察系統",
+    "sub_type": "",
+    "name": "B座 天台發電機 運行",
+    "location": "B座天台發電機房",
+    "mapId": "RF",
+    "x": 458,
+    "y": 557,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 136,
+    "ioModuleId": 2,
+    "controllerId": 1,
+    "type": "電氣監察系統",
+    "sub_type": "",
+    "name": "B座 天台發電機 故障",
+    "location": "B座天台發電機房",
+    "mapId": "RF",
+    "x": 458,
+    "y": 557,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 137,
+    "ioModuleId": 2,
+    "controllerId": 1,
+    "type": "供水監察系統",
+    "sub_type": "水泵",
+    "name": "B座 天台 食水水泵 運行",
+    "location": "B座天台沖廁水泵房",
+    "mapId": "RF",
+    "x": 291,
+    "y": 526,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 138,
+    "ioModuleId": 2,
+    "controllerId": 1,
+    "type": "供水監察系統",
+    "sub_type": "水泵",
+    "name": "B座 天台 食水水泵 故障",
+    "location": "B座天台沖廁水泵房",
+    "mapId": "RF",
+    "x": 291,
+    "y": 526,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 141,
+    "ioModuleId": 2,
+    "controllerId": 1,
+    "type": "供水監察系統",
+    "sub_type": "水缸",
+    "name": "B座 天台 食水水缸 高水位",
+    "location": "B座天台沖廁水泵房",
+    "mapId": "RF",
+    "x": 291,
+    "y": 526,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 142,
+    "ioModuleId": 2,
+    "controllerId": 1,
+    "type": "供水監察系統",
+    "sub_type": "水缸",
+    "name": "B座 天台 食水水缸 低水位",
+    "location": "B座天台沖廁水泵房",
+    "mapId": "RF",
+    "x": 291,
+    "y": 526,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 145,
+    "ioModuleId": 2,
+    "controllerId": 1,
+    "type": "供水監察系統",
+    "sub_type": "水缸",
+    "name": "B座 天台 咸水水缸 高水位",
+    "location": "B座UR2/F 食水及咸水水泵房",
+    "mapId": "UR2F",
+    "x": 248,
+    "y": 122,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 146,
+    "ioModuleId": 2,
+    "controllerId": 1,
+    "type": "供水監察系統",
+    "sub_type": "水缸",
+    "name": "B座 天台 咸水水缸 低水位",
+    "location": "B座UR2/F 食水及咸水水泵房",
+    "mapId": "UR2F",
+    "x": 248,
+    "y": 122,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 149,
+    "ioModuleId": 2,
+    "controllerId": 1,
+    "type": "供水監察系統",
+    "sub_type": "水缸",
+    "name": "B座 天台清潔用水水缸 高水位",
+    "location": "B座UR2/F 食水及咸水水泵房",
+    "mapId": "UR2F",
+    "x": 248,
+    "y": 122,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 150,
+    "ioModuleId": 2,
+    "controllerId": 1,
+    "type": "供水監察系統",
+    "sub_type": "水缸",
+    "name": "B座 天台清潔用水水缸 低水位",
+    "location": "B座UR2/F 食水及咸水水泵房",
+    "mapId": "UR2F",
+    "x": 248,
+    "y": 122,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 151,
+    "ioModuleId": 2,
+    "controllerId": 1,
+    "type": "供水監察系統",
+    "sub_type": "水缸",
+    "name": "B座 天台淋花水水缸 高水位",
+    "location": "B座UR2/F 食水及咸水水泵房",
+    "mapId": "UR2F",
+    "x": 248,
+    "y": 122,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 152,
+    "ioModuleId": 2,
+    "controllerId": 1,
+    "type": "供水監察系統",
+    "sub_type": "水缸",
+    "name": "B座 天台淋花水水缸 低水位",
+    "location": "B座UR2/F 食水及咸水水泵房",
+    "mapId": "UR2F",
+    "x": 248,
+    "y": 122,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 153,
+    "ioModuleId": 2,
+    "controllerId": 1,
+    "type": "供水監察系統",
+    "sub_type": "減壓閥",
+    "name": "B座 沖廁水減壓閥 過壓警報",
+    "location": "B座 12/F 垃圾房",
+    "mapId": "Typical",
+    "x": 277,
+    "y": 548,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 154,
+    "ioModuleId": 2,
+    "controllerId": 1,
+    "type": "供水監察系統",
+    "sub_type": "減壓閥",
+    "name": "B座 淋花水減壓閥 過壓警報",
+    "location": "B座 11/F 垃圾房",
+    "mapId": "Typical",
+    "x": 277,
+    "y": 548,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 155,
+    "ioModuleId": 2,
+    "controllerId": 1,
+    "type": "供水監察系統",
+    "sub_type": "減壓閥",
+    "name": "B座 食水減壓閥 過壓警報",
+    "location": "B座 10/F 垃圾房",
+    "mapId": "Typical",
+    "x": 277,
+    "y": 548,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 156,
+    "ioModuleId": 2,
+    "controllerId": 1,
+    "type": "供水監察系統",
+    "sub_type": "減壓閥",
+    "name": "B座 清潔用水減壓閥 過壓警報",
+    "location": "B座 9F 垃圾房",
+    "mapId": "9F",
+    "x": 280,
+    "y": 539,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 193,
+    "ioModuleId": 2,
+    "controllerId": 2,
+    "type": "門磁感應監察系統",
+    "sub_type": "1/F",
+    "name": "B座 1/F 烹飪室 門磁感應 警報",
+    "location": "B座 1/F 烹飪室",
+    "mapId": "1F",
+    "x": 288,
+    "y": 600,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 194,
+    "ioModuleId": 2,
+    "controllerId": 2,
+    "type": "門磁感應監察系統",
+    "sub_type": "1/F",
+    "name": "B座 1/F 烹飪室出路門 門磁感應 警報",
+    "location": "B座 1/F 烹飪室",
+    "mapId": "1F",
+    "x": 124,
+    "y": 509,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 195,
+    "ioModuleId": 2,
+    "controllerId": 2,
+    "type": "門磁感應監察系統",
+    "sub_type": "1/F",
+    "name": "B座 1/F 會客室 門磁感應 警報",
+    "location": "B座 1/F 會客室",
+    "mapId": "1F",
+    "x": 318,
+    "y": 618,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 197,
+    "ioModuleId": 2,
+    "controllerId": 2,
+    "type": "門磁感應監察系統",
+    "sub_type": "G/F",
+    "name": "B座 G/F 人閘 (近B座) 門磁感應 警報",
+    "location": "B座 G/F 人閘 (近B座)",
+    "mapId": "GF",
+    "x": 72,
+    "y": 723,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 198,
+    "ioModuleId": 2,
+    "controllerId": 2,
+    "type": "門磁感應監察系統",
+    "sub_type": "G/F",
+    "name": "B座 G/F 升降機大堂 門磁感應 警報",
+    "location": "B座 G/F 升降機大堂",
+    "mapId": "GF",
+    "x": 445,
+    "y": 527,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 199,
+    "ioModuleId": 2,
+    "controllerId": 2,
+    "type": "門磁感應監察系統",
+    "sub_type": "G/F",
+    "name": "B座 G/F ST-3 出路門 門磁感應 警報",
+    "location": "B座 G/F ST-3 出路門",
+    "mapId": "GF",
+    "x": 51,
+    "y": 483,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 200,
+    "ioModuleId": 2,
+    "controllerId": 2,
+    "type": "緊急召喚監察系統",
+    "sub_type": "",
+    "name": "B座 1/F 會所 暢通易達洗手間 緊急召喚 警報",
+    "location": "B座 1/F 會所 暢通易達洗手間",
+    "mapId": "1F",
+    "x": 428,
+    "y": 595,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 201,
+    "ioModuleId": 2,
+    "controllerId": 2,
+    "type": "水滲漏監察系統",
+    "sub_type": "1/F",
+    "name": "B座 1/F 咸水上水水泵房 水滲漏 警報",
+    "location": "B座 1/F 咸水上水水泵房",
+    "mapId": "1F",
+    "x": 266,
+    "y": 186,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 202,
+    "ioModuleId": 2,
+    "controllerId": 2,
+    "type": "水滲漏監察系統",
+    "sub_type": "G/F",
+    "name": "B座 G/F 食水上水水泵房 水滲漏 警報",
+    "location": "B座 G/F 食水上水水泵房",
+    "mapId": "GF",
+    "x": 454,
+    "y": 173,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 203,
+    "ioModuleId": 2,
+    "controllerId": 2,
+    "type": "水滲漏監察系統",
+    "sub_type": "G/F",
+    "name": "B座 消防及花灑泵房 水滲漏 警報",
+    "location": "B座 G/F 消防及花灑泵房",
+    "mapId": "GF",
+    "x": 426,
+    "y": 240,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 204,
+    "ioModuleId": 2,
+    "controllerId": 2,
+    "type": "電氣監察系統",
+    "sub_type": "",
+    "name": "B座 1號 ACB 輸入電源供電 故障",
+    "location": "B座 G/F 低壓總電制房",
+    "mapId": "GF",
+    "x": 201,
+    "y": 153,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 205,
+    "ioModuleId": 2,
+    "controllerId": 2,
+    "type": "電氣監察系統",
+    "sub_type": "",
+    "name": "B座 2號 ACB 輸入電源供電 故障",
+    "location": "B座 G/F 低壓總電制房",
+    "mapId": "GF",
+    "x": 201,
+    "y": 153,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 206,
+    "ioModuleId": 2,
+    "controllerId": 2,
+    "type": "供水監察系統",
+    "sub_type": "水泵",
+    "name": "B座 咸水上水水泵 運行",
+    "location": "B座 1/F 咸水上水水泵房",
+    "mapId": "1F",
+    "x": 164,
+    "y": 173,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 207,
+    "ioModuleId": 2,
+    "controllerId": 2,
+    "type": "供水監察系統",
+    "sub_type": "水泵",
+    "name": "B座 咸水上水水泵 故障",
+    "location": "B座 1/F 咸水上水水泵房",
+    "mapId": "1F",
+    "x": 164,
+    "y": 173,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 210,
+    "ioModuleId": 2,
+    "controllerId": 2,
+    "type": "供水監察系統",
+    "sub_type": "水缸",
+    "name": "B座 咸水上水水缸 高水位",
+    "location": "B座 1/F 咸水上水水泵房",
+    "mapId": "1F",
+    "x": 164,
+    "y": 173,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 211,
+    "ioModuleId": 2,
+    "controllerId": 2,
+    "type": "供水監察系統",
+    "sub_type": "水缸",
+    "name": "B座 咸水上水水缸 低水位",
+    "location": "B座 1/F 咸水上水水泵房",
+    "mapId": "1F",
+    "x": 164,
+    "y": 173,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 214,
+    "ioModuleId": 2,
+    "controllerId": 2,
+    "type": "供水監察系統",
+    "sub_type": "水泵",
+    "name": "B座 食水上水水泵 運行",
+    "location": "B座 G/F 食水上水水泵房",
+    "mapId": "GF",
+    "x": 386,
+    "y": 187,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 215,
+    "ioModuleId": 2,
+    "controllerId": 2,
+    "type": "供水監察系統",
+    "sub_type": "水泵",
+    "name": "B座 食水上水水泵 故障",
+    "location": "B座 G/F 食水上水水泵房",
+    "mapId": "GF",
+    "x": 386,
+    "y": 187,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 218,
+    "ioModuleId": 2,
+    "controllerId": 2,
+    "type": "供水監察系統",
+    "sub_type": "水缸",
+    "name": "B座 食水上水水缸 高水位",
+    "location": "B座 G/F 食水上水水泵房",
+    "mapId": "GF",
+    "x": 386,
+    "y": 187,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 219,
+    "ioModuleId": 2,
+    "controllerId": 2,
+    "type": "供水監察系統",
+    "sub_type": "水缸",
+    "name": "B座 食水上水水缸 低水位",
+    "location": "B座 G/F 食水上水水泵房",
+    "mapId": "GF",
+    "x": 386,
+    "y": 187,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 222,
+    "ioModuleId": 2,
+    "controllerId": 2,
+    "type": "供水監察系統",
+    "sub_type": "潛水泵",
+    "name": "污水潛水泵 (GB-01) 運行",
+    "location": "B座 G/F 消防及花灑泵房",
+    "mapId": "GF",
+    "x": 418,
+    "y": 390,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 223,
+    "ioModuleId": 2,
+    "controllerId": 2,
+    "type": "供水監察系統",
+    "sub_type": "潛水泵",
+    "name": "污水潛水泵 (GB-01) 故障",
+    "location": "B座 G/F 消防及花灑泵房",
+    "mapId": "GF",
+    "x": 418,
+    "y": 390,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 224,
+    "ioModuleId": 2,
+    "controllerId": 2,
+    "type": "供水監察系統",
+    "sub_type": "潛水泵",
+    "name": "污水潛水泵井 (GB-01) 高水位",
+    "location": "B座 G/F 消防及花灑泵房",
+    "mapId": "GF",
+    "x": 418,
+    "y": 390,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 225,
+    "ioModuleId": 2,
+    "controllerId": 2,
+    "type": "供水監察系統",
+    "sub_type": "潛水泵",
+    "name": "污水潛水泵井 (GB-01) 低水位",
+    "location": "B座 G/F 消防及花灑泵房",
+    "mapId": "GF",
+    "x": 418,
+    "y": 390,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  },
+  {
+    "id": 226,
+    "ioModuleId": 2,
+    "controllerId": 2,
+    "type": "消防監察系統",
+    "sub_type": "",
+    "name": "B座 消防系統 警報",
+    "location": "B座 G/F 消防控制室",
+    "mapId": "GF",
+    "x": 406,
+    "y": 438,
+    "allowedLocations": [
+      "TB",
+      "EMO"
+    ]
+  }
+]
