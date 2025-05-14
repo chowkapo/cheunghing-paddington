@@ -23,10 +23,11 @@ const alertType = 'electric';
 const signalTypes: TSignalTypeSuffix[] = [
   { suffix: '自動/手動', signalType: 'autoOrManual' },
   { suffix: '開啟/關閉', signalType: 'openOrClose' },
-  { suffix: '故障', signalType: 'malFunction' },
+  { suffix: '故障', signalType: 'malFunction', level: 1 },
   { suffix: '', signalType: 'default' },
-  { suffix: '運行', signalType: 'inOperationOrStop' },
-  { suffix: '正常', signalType: 'normal' },
+  { suffix: '運行', signalType: 'inOperationOrStop', level: 1 },
+  { suffix: '正常', signalType: 'normal', level: 1 },
+  { suffix: '輸入電源供電故障', signalType: 'inputPowerMalfunction', level: 2 },
 ];
 
 const customSignalPresentation = {
