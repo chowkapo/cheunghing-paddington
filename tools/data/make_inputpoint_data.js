@@ -4,7 +4,8 @@ const path = require("path");
 const fix = (text) => {
   text = text.replace(/"/g, "").replace(/ {2,}/g, " ").trim();
   // text = text.replace(/高水位 *警報/, "高水位");
-  // text = text.replace(/低水位 *警報/, "低水位");
+  text = text.replace(/過壓 *警報/, "過壓警報");
+  text = text.replace(/輸入電源供電 *故障/, "輸入電源供電故障");
   // text = text.replace(/過壓 *警報/, "過壓");
   // text = text.replace(/運行$/, "運行/停止");
   // text = text.replace(/電源供應 故障$/, "電源故障");
