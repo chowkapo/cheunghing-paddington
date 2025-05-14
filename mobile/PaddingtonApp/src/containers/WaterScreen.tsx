@@ -26,7 +26,6 @@ const signalTypes: TSignalTypeSuffix[] = [
   {suffix: '運行/停止', signalType: 'runOrStop', level: 1},
   {suffix: '故障', signalType: 'malFunction', level: 1},
   {suffix: '電源故障', signalType: 'powerFailure', level: 1},
-  {suffix: '過壓', signalType: 'overPressure', level: 1},
   {suffix: '低水位', signalType: 'lowWaterLevel', level: 2},
   {suffix: '高水位', signalType: 'highWaterLevel', level: 2},
   {suffix: '過壓警報', signalType: 'overPressure', level: 1},
