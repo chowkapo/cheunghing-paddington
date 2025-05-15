@@ -21,11 +21,11 @@ const alertType = 'electric';
 // type TNavigationProp = NavigationProp<TRootStackParamList, 'Electricity'>;
 
 const signalTypes: TSignalTypeSuffix[] = [
-  { suffix: '自動/手動', signalType: 'autoOrManual' },
-  { suffix: '開啟/關閉', signalType: 'openOrClose' },
+  // { suffix: '自動/手動', signalType: 'autoOrManual' },
+  // { suffix: '開啟/關閉', signalType: 'openOrClose' },
   { suffix: '故障', signalType: 'malFunction', level: 1 },
-  { suffix: '', signalType: 'default' },
-  { suffix: '運行', signalType: 'inOperationOrStop', level: 1 },
+  // { suffix: '', signalType: 'default' },
+  { suffix: '運行/停止', signalType: 'runOrStop', level: 1 },
   { suffix: '正常', signalType: 'normal', level: 1 },
   { suffix: '輸入電源供電故障', signalType: 'inputPowerMalfunction', level: 2 },
 ];

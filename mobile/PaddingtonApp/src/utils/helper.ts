@@ -219,6 +219,7 @@ export const makeHierarchicalMenu = ({
         signalType: signalType?.replace
           ? signalType?.replace?.signalType
           : signalType?.signalType,
+        level: signalType?.level,
       };
       if (v.sub_type2) {
         hierarchicalMenu[v.sub_type][v.sub_type2 ?? ''].push(newInputPoint);
