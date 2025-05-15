@@ -6,155 +6,77 @@ const cctvMapData: {
       height: number;
     }
   } = {
-  "1F": {
-    "id": "1F",
-    "src": require('../cctv_map_images/1F.png'),
-    "width": 1200,
-    "height": 472
-  },
-  "2F": {
-    "id": "2F",
-    "src": require('../cctv_map_images/2F.png'),
-    "width": 1200,
-    "height": 472
-  },
-  "3F": {
-    "id": "3F",
-    "src": require('../cctv_map_images/3F.png'),
-    "width": 1200,
-    "height": 472
-  },
   "RF": {
     "id": "RF",
-    "src": require('../cctv_map_images/RF.png'),
+    "src": require('../map_images/RF.png'),
     "width": 1200,
-    "height": 485
+    "height": 760
   },
-  "26F": {
-    "id": "26F",
-    "src": require('../cctv_map_images/6-26F.png'),
+  "Typical": {
+    "id": "Typical",
+    "src": require('../map_images/Typical.png'),
     "width": 1200,
-    "height": 485
+    "height": 786
   },
-  "25F": {
-    "id": "25F",
-    "src": require('../cctv_map_images/6-26F.png'),
+  "UR1F": {
+    "id": "UR1F",
+    "src": require('../map_images/UR1F.png'),
     "width": 1200,
-    "height": 485
+    "height": 670
   },
-  "23F": {
-    "id": "23F",
-    "src": require('../cctv_map_images/6-26F.png'),
+  "UR2F": {
+    "id": "UR2F",
+    "src": require('../map_images/UR2F.png'),
     "width": 1200,
-    "height": 485
-  },
-  "22F": {
-    "id": "22F",
-    "src": require('../cctv_map_images/6-26F.png'),
-    "width": 1200,
-    "height": 485
-  },
-  "21F": {
-    "id": "21F",
-    "src": require('../cctv_map_images/6-26F.png'),
-    "width": 1200,
-    "height": 485
-  },
-  "20F": {
-    "id": "20F",
-    "src": require('../cctv_map_images/6-26F.png'),
-    "width": 1200,
-    "height": 485
-  },
-  "19F": {
-    "id": "19F",
-    "src": require('../cctv_map_images/6-26F.png'),
-    "width": 1200,
-    "height": 485
-  },
-  "18F": {
-    "id": "18F",
-    "src": require('../cctv_map_images/6-26F.png'),
-    "width": 1200,
-    "height": 485
-  },
-  "17F": {
-    "id": "17F",
-    "src": require('../cctv_map_images/6-26F.png'),
-    "width": 1200,
-    "height": 485
-  },
-  "16F": {
-    "id": "16F",
-    "src": require('../cctv_map_images/6-26F.png'),
-    "width": 1200,
-    "height": 485
-  },
-  "15F": {
-    "id": "15F",
-    "src": require('../cctv_map_images/6-26F.png'),
-    "width": 1200,
-    "height": 485
-  },
-  "12F": {
-    "id": "12F",
-    "src": require('../cctv_map_images/6-26F.png'),
-    "width": 1200,
-    "height": 485
-  },
-  "11F": {
-    "id": "11F",
-    "src": require('../cctv_map_images/6-26F.png'),
-    "width": 1200,
-    "height": 485
-  },
-  "10F": {
-    "id": "10F",
-    "src": require('../cctv_map_images/6-26F.png'),
-    "width": 1200,
-    "height": 485
-  },
-  "9F": {
-    "id": "9F",
-    "src": require('../cctv_map_images/6-26F.png'),
-    "width": 1200,
-    "height": 485
-  },
-  "8F": {
-    "id": "8F",
-    "src": require('../cctv_map_images/6-26F.png'),
-    "width": 1200,
-    "height": 485
-  },
-  "7F": {
-    "id": "7F",
-    "src": require('../cctv_map_images/6-26F.png'),
-    "width": 1200,
-    "height": 485
-  },
-  "6F": {
-    "id": "6F",
-    "src": require('../cctv_map_images/6-26F.png'),
-    "width": 1200,
-    "height": 485
+    "height": 547
   },
   "GF": {
     "id": "GF",
-    "src": require('../cctv_map_images/GF.png'),
+    "src": require('../map_images/GF.png'),
     "width": 1200,
-    "height": 544
+    "height": 814
   },
-  "URF1": {
-    "id": "URF1",
-    "src": require('../cctv_map_images/URF1.png'),
+  "9F": {
+    "id": "9F",
+    "src": require('../map_images/9F.png'),
     "width": 1200,
-    "height": 1219
+    "height": 784
   },
-  "URF2": {
-    "id": "URF2",
-    "src": require('../cctv_map_images/URF1.png'),
+  "1F": {
+    "id": "1F",
+    "src": require('../map_images/1F.png'),
     "width": 1200,
-    "height": 1219
+    "height": 816
+  },
+  "2F": {
+    "id": "2F",
+    "src": require('../map_images/2F.png'),
+    "width": 1200,
+    "height": 872
+  },
+  "3F": {
+    "id": "3F",
+    "src": require('../map_images/3F.png'),
+    "width": 1200,
+    "height": 786
+  },
+  "8F": {
+    "id": "8F",
+    "src": require('../map_images/8F.png'),
+    "width": 1200,
+    "height": 786
+  },
+  "25F": {
+    "id": "25F",
+    "src": require('../map_images/25F.png'),
+    "width": 1200,
+    "height": 786
+  },
+  "26F": {
+    "id": "26F",
+    "src": require('../map_images/26F.png'),
+    "width": 1200,
+    "height": 1017
   }
 }
 export default cctvMapData
