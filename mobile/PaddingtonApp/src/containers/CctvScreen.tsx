@@ -5,8 +5,9 @@ import cctvImage from '../resources/images/cctv.png';
 import cctvDisabledImage from '../resources/images/cctv_disabled.png';
 import CctvModal from '../components/CctvModal';
 import cctvMapData from '../resources/data/cctv-map-data';
+import cctvData from '../resources/data/cctv-data.json';
+import cctvMenu from '../resources/data/cctv-menu.json';
 import {
-  THenleyCameraLocation,
   TCctvCameraLocation,
   TCctvFloor,
   TCctvFloorGroup,
@@ -17,13 +18,11 @@ import { useAppSelector } from '../store';
 import CctvMenu from '../components/CctvMenu';
 import {
   getCctvCameraList,
-  getCctvMenuHierarchy,
-  getCombinedCctvCameraList,
   getTargetMap,
   maskToLocations,
 } from '../utils/helper';
 
-// const cctvMultiLevelMenus: TCctvFloorGroup[] = cctvMenu;
+const cctvMultiLevelMenus: TCctvFloorGroup[] = cctvMenu;
 
 const defaultImageScale = 1;
 
@@ -40,12 +39,10 @@ interface IOnMove {
 
 const CctvScreen = ({ navigation }: { navigation: TNavigationProp }) => {
   const [cctvCameraLocationList, setCctvCameraLocationList] = React.useState<
-    THenleyCameraLocation[]
+    TCctvCameraLocation[]
   >([]);
   const useMainStream = useAppSelector(state => state.user?.useMainStream);
-  const locationMask = useAppSelector(state => state.user?.locationMask) ?? 0;
-  // const [cctvCameraList, setCctvCameraList] = useState([])
-  const serverCameraList = useAppSelector(state => state.user?.cameraList);
+  const locationMask = useAppSelector(state => state.user?.locationMask);
   const [imageUrl, setImageUrl] = React.useState(null);
   const [selectedChain, setSelectedChain] = React.useState<number[]>([]);
   const [selectedChainLabels, setSelectedChainLabels] = React.useState<
@@ -81,7 +78,7 @@ const CctvScreen = ({ navigation }: { navigation: TNavigationProp }) => {
   const [selectedMapId, setSelectedMapId] = React.useState<string | null>(null);
 
   React.useEffect(() => {
-    setCctvCameraLocationList(getCombinedCctvCameraList());
+    setCctvCameraLocationList(cctvData as TCctvCameraLocation[]);
   }, []);
 
   React.useEffect(() => {
@@ -109,26 +106,12 @@ const CctvScreen = ({ navigation }: { navigation: TNavigationProp }) => {
     }
   }, [focused]);
 
-  const cctvMultiLevelMenus = React.useMemo(() => {
-    if (!locationMask) {
-      return [];
-    }
-    console.log(`locationMask: ${locationMask}`);
-    console.log(`maskToLocations(locationMask): %o`, maskToLocations(locationMask));
-    const menus = getCctvMenuHierarchy(maskToLocations(locationMask));
-    console.log(`cctvMultiLevelMenus: %o`, menus);
-    return menus;
-  }, [locationMask]);
-
   const updateSelectedChain = (selected: number[]) => {
     setSelectedChain(selected);
     const newSelectedChainLabels: string[] = [];
     let currentLevel = cctvMultiLevelMenus;
     selected.forEach(selectedItem => {
       newSelectedChainLabels.push(currentLevel[selectedItem].label);
-      if ((currentLevel[selectedItem] as TCctvFloor).mapid) {
-        console.log(`selected map ID: %o`, (currentLevel[selectedItem] as TCctvFloor).mapid);
-      }
       setSelectedMapId(
         (currentLevel[selectedItem] as TCctvFloor).mapid ?? null,
       );
@@ -147,7 +130,6 @@ const CctvScreen = ({ navigation }: { navigation: TNavigationProp }) => {
       cctvMultiLevelMenus,
       selected: selectedChain,
     });
-    console.log(`selectedMap: %o`, newSelectedMap);
     return newSelectedMap;
   }, [selectedChain]);
 
@@ -175,19 +157,21 @@ const CctvScreen = ({ navigation }: { navigation: TNavigationProp }) => {
   }, [cctvMapImageData]);
 
   const cameraUrl = React.useMemo(() => {
-    if (!serverCameraList || !selectedCctv || !selectedCctv.cameraId) {
+    if (!selectedCctv || !selectedCctv.cameraId) {
       return null;
     }
-    const cameraData = serverCameraList?.[selectedCctv.cameraId] ?? {};
-    if (!cameraData) {
-      return '';
+    const cameraData = cctvData?.find(
+      v => v.cameraId === selectedCctv?.cameraId,
+    );
+    const { mainStream, subStream } = cameraData ?? {};
+    console.debug(`mainStream=${mainStream}, subStream=${subStream}`);
+    if (mainStream || subStream) {
+      console.debug(`cameraUrl=${useMainStream ? mainStream : subStream}`);
+      return useMainStream ? mainStream : subStream;
+    } else {
+      return null;
     }
-    console.debug(`cameraData=${JSON.stringify(cameraData)}`);
-    const { username, password, ipaddress } = cameraData;
-    const url = `rtsp://${username}:${password}@${ipaddress}`
-    console.log(`cameraUrl: %o`, url);
-    return url
-  }, [selectedCctv]);
+  }, [selectedCctv, useMainStream]);
 
   const filteredList = React.useMemo(() => {
     console.debug(`selectedChainLabels=${JSON.stringify(selectedChainLabels)}`);
@@ -195,9 +179,9 @@ const CctvScreen = ({ navigation }: { navigation: TNavigationProp }) => {
       cctvCameraLocationList,
       mapId: selectedMap?.mapid ?? '',
       chainLabels: selectedChainLabels,
-      locations: maskToLocations(locationMask),
+      // locations: maskToLocations(locationMask),
     });
-    console.log(`filteredList: %o`, list);
+    console.debug(`filteredList: ${JSON.stringify(list)}`);
     return list;
   }, [cctvCameraLocationList, locationMask, selectedChainLabels, selectedMap]);
 

@@ -21,17 +21,22 @@
   },
   {
     "id": "fg1",
-    "label": "6/F - 11/F",
+    "label": "5/F - 11/F",
     "floors": [
+      {
+        "id": "fg1-f5",
+        "label": "5/F",
+        "mapid": "Typical"
+      },
       {
         "id": "fg1-f6",
         "label": "6/F",
-        "mapid": "6F"
+        "mapid": "Typical"
       },
       {
         "id": "fg1-f7",
         "label": "7/F",
-        "mapid": "7F"
+        "mapid": "Typical"
       },
       {
         "id": "fg1-f8",
@@ -46,12 +51,12 @@
       {
         "id": "fg1-f10",
         "label": "10/F",
-        "mapid": "10F"
+        "mapid": "Typical"
       },
       {
         "id": "fg1-f11",
         "label": "11/F",
-        "mapid": "11F"
+        "mapid": "Typical"
       }
     ]
   },
@@ -62,32 +67,32 @@
       {
         "id": "fg2-f12",
         "label": "12/F",
-        "mapid": "12F"
+        "mapid": "Typical"
       },
       {
         "id": "fg2-f15",
         "label": "15/F",
-        "mapid": "15F"
+        "mapid": "Typical"
       },
       {
         "id": "fg2-f16",
         "label": "16/F",
-        "mapid": "16F"
+        "mapid": "Typical"
       },
       {
         "id": "fg2-f17",
         "label": "17/F",
-        "mapid": "17F"
+        "mapid": "Typical"
       },
       {
         "id": "fg2-f18",
         "label": "18/F",
-        "mapid": "18F"
+        "mapid": "Typical"
       },
       {
         "id": "fg2-f19",
         "label": "19/F",
-        "mapid": "19F"
+        "mapid": "Typical"
       },
     ]
   },
@@ -98,22 +103,22 @@
       {
         "id": "fg2-f20",
         "label": "20/F",
-        "mapid": "20F"
+        "mapid": "Typical"
       },
       {
         "id": "fg2-f21",
         "label": "21/F",
-        "mapid": "21F"
+        "mapid": "Typical"
       },
       {
         "id": "fg3-f22",
         "label": "22/F",
-        "mapid": "22F"
+        "mapid": "Typical"
       },
       {
         "id": "fg3-f23",
         "label": "23/F",
-        "mapid": "23F"
+        "mapid": "Typical"
       },
       {
         "id": "fg3-f25",
@@ -131,10 +136,5 @@
     "id": "rf",
     "label": "R/F",
     "mapid": "RF"
-  },
-  {
-    "id": "urf1",
-    "label": "UR1/F",
-    "mapid": "URF1"
   }
 ]
