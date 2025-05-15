@@ -1,7 +1,5 @@
-// export const acsBaseUrl = 'http://localhost:8080/CHECOLACS/';
-// export const imsBaseUrl = 'http://localhost:8081/CHECOLIMS/';
-export const acsBaseUrl = 'http://113.212.236.185:8081/CHECOLACS/rest/';
-export const imsBaseUrl = 'http://113.212.236.185:8080/CHECOLIMS/rest/';
+export const acsBaseUrl = 'http://localhost:8080/CHECOLACS/';
+export const imsBaseUrl = 'http://localhost:8081/CHECOLIMS/';
 
 export const screensPerRow = 4;
 export const doorAccessQueryCount = 10;

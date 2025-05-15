@@ -12,7 +12,7 @@ import {
   Dimensions,
   Alert,
 } from 'react-native';
-import type { NavigationProp } from '@react-navigation/native';
+import type {NavigationProp} from '@react-navigation/native';
 import ScreenTitle from '../components/ScreenTitle';
 import SensorAlertList from '../components/SensorAlertList';
 import DashboardAccessRecord from '../components/DashboardAccessRecord';
@@ -26,26 +26,23 @@ import type {
   TNavigationProp,
 } from '../resources/types';
 import CctvGrid from '../components/CctvGrid';
-import { useAppSelector } from '../store';
+import {useAppSelector} from '../store';
 import cctvData from '../resources/data/cctv-data.json';
-import { screensPerRow } from '../resources/config';
+import {screensPerRow} from '../resources/config';
 import inputPoints from '../resources/data/input-point.json';
 import mapData from '../resources/data/map';
 import locator from '../resources/images/locator.png';
-import ImageMarker, { ImageFormat } from 'react-native-image-marker';
-import { locatorAdjustment } from '../resources/config';
+import ImageMarker, {ImageFormat} from 'react-native-image-marker';
+import {locatorAdjustment} from '../resources/config';
 import ImageModal from '../components/ImageModal';
-import { getCombinedCctvCameraList } from '../utils/helper';
 
 const windowHeight = Dimensions.get('window').height;
 const reSuffix = new RegExp(/^\s*(.*?)\s*(\S+)\s*$/);
 
 // type TNavigationProp = NavigationProp<TRootStackParamList, 'Home'>;
 
-const HomeScreen = ({ navigation }: { navigation: TNavigationProp }) => {
+const HomeScreen = ({navigation}: {navigation: TNavigationProp}) => {
   const [loading, setLoading] = React.useState(false);
-  const serverCameraList = useAppSelector(state => state.user?.cameraList);
-
   const [imageUrl, setImageUrl] = React.useState<string | null>(null);
   const [map, setMap] = React.useState<{
     name: string;
@@ -70,20 +67,7 @@ const HomeScreen = ({ navigation }: { navigation: TNavigationProp }) => {
   const [focused, setFocused] = React.useState(false);
 
   React.useEffect(() => {
-    const augmentedCameraList = (getCombinedCctvCameraList() as TCctvCameraLocation[]).map(v => {
-      const cameraData = serverCameraList?.[v.cameraId] ?? {};
-      if (!cameraData) {
-        return v;
-      }
-      const { username = '', password = '', ipaddress = '' } = cameraData;
-      const url = `rtsp://${username}:${password}@${ipaddress}`
-      return {
-        ...v,
-        mainStream: url,
-        subStream: url,
-      }
-    })
-    setCctvCameraLocationList(augmentedCameraList);
+    setCctvCameraLocationList(cctvData as TCctvCameraLocation[]);
   }, []);
 
   React.useEffect(() => {

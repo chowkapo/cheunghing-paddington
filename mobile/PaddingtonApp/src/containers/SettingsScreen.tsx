@@ -157,19 +157,6 @@ const SettingsScreen = ({ navigation }: { navigation: TNavigationProp }) => {
             </View>
           </View>
 
-          <View style={styles.itemContainer}>
-            <View style={styles.heading}>
-              <Text style={styles.headingText}>區域權限</Text>
-            </View>
-            <View style={styles.content}>
-              <Text style={styles.contentText}>
-                {user.locationMask
-                  ? maskToLocations(user.locationMask).join(', ')
-                  : '-'}
-              </Text>
-            </View>
-          </View>
-
           {/*user.adminMode && (
             <View style={styles.itemContainer}>
               <View style={styles.heading}>
@@ -239,7 +226,7 @@ const SettingsScreen = ({ navigation }: { navigation: TNavigationProp }) => {
             </View>
           )}
 
-          {/*<View style={styles.itemContainer}>
+          <View style={styles.itemContainer}>
             <View style={styles.heading}>
               <Text style={styles.headingText}>啟動 CCTV 高清影像</Text>
             </View>
@@ -255,7 +242,7 @@ const SettingsScreen = ({ navigation }: { navigation: TNavigationProp }) => {
                 value={user.useMainStream}
               />
             </View>
-          </View>*/}
+          </View>
           <View style={styles.itemContainer}>
             <View style={styles.heading}>
               <Text style={styles.headingText}>主畫面監控鏡頭</Text>
