@@ -1,10 +1,11 @@
 [
   {
     "cameraId": 1,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_100",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_400",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "RF",
     "x": 770,
@@ -14,10 +15,11 @@
   },
   {
     "cameraId": 2,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_101",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_401",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "RF",
     "x": 777,
@@ -27,10 +29,11 @@
   },
   {
     "cameraId": 3,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_102",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_402",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "GF",
     "x": 751,
@@ -40,10 +43,11 @@
   },
   {
     "cameraId": 4,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_103",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_403",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "GF",
     "x": 751,
@@ -53,10 +57,11 @@
   },
   {
     "cameraId": 5,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_100",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_400",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "26F",
     "x": 449,
@@ -66,10 +71,11 @@
   },
   {
     "cameraId": 6,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_101",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_401",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "25F",
     "x": 825,
@@ -79,10 +85,11 @@
   },
   {
     "cameraId": 7,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_102",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_402",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "Typical",
     "x": 825,
@@ -92,10 +99,11 @@
   },
   {
     "cameraId": 8,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_103",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_403",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "Typical",
     "x": 825,
@@ -105,10 +113,11 @@
   },
   {
     "cameraId": 9,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_104",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_404",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "Typical",
     "x": 825,
@@ -118,10 +127,11 @@
   },
   {
     "cameraId": 10,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_105",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_405",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "Typical",
     "x": 825,
@@ -131,10 +141,11 @@
   },
   {
     "cameraId": 11,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_106",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_406",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "Typical",
     "x": 825,
@@ -144,10 +155,11 @@
   },
   {
     "cameraId": 12,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_107",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_407",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "Typical",
     "x": 825,
@@ -157,10 +169,11 @@
   },
   {
     "cameraId": 13,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_108",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_408",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "Typical",
     "x": 825,
@@ -170,10 +183,11 @@
   },
   {
     "cameraId": 14,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_109",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_409",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "Typical",
     "x": 825,
@@ -183,10 +197,11 @@
   },
   {
     "cameraId": 15,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_110",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_410",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "Typical",
     "x": 825,
@@ -196,10 +211,11 @@
   },
   {
     "cameraId": 16,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_111",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_411",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "Typical",
     "x": 825,
@@ -209,10 +225,11 @@
   },
   {
     "cameraId": 17,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_112",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_412",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "Typical",
     "x": 825,
@@ -222,10 +239,11 @@
   },
   {
     "cameraId": 18,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_113",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_413",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "Typical",
     "x": 825,
@@ -235,10 +253,11 @@
   },
   {
     "cameraId": 19,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_114",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_414",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "9F",
     "x": 826,
@@ -248,10 +267,11 @@
   },
   {
     "cameraId": 20,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_115",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_415",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "8F",
     "x": 825,
@@ -261,10 +281,11 @@
   },
   {
     "cameraId": 21,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_116",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_416",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "Typical",
     "x": 825,
@@ -274,10 +295,11 @@
   },
   {
     "cameraId": 22,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_117",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_417",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "Typical",
     "x": 825,
@@ -287,10 +309,11 @@
   },
   {
     "cameraId": 23,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_118",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_418",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "Typical",
     "x": 825,
@@ -300,10 +323,11 @@
   },
   {
     "cameraId": 24,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_119",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_419",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "3F",
     "x": 825,
@@ -313,10 +337,11 @@
   },
   {
     "cameraId": 25,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_120",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_420",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "2F",
     "x": 814,
@@ -326,10 +351,11 @@
   },
   {
     "cameraId": 26,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_104",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_404",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "2F",
     "x": 1174,
@@ -339,10 +365,11 @@
   },
   {
     "cameraId": 27,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_100",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_400",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "1F",
     "x": 780,
@@ -352,10 +379,11 @@
   },
   {
     "cameraId": 28,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_101",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_401",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "1F",
     "x": 643,
@@ -365,10 +393,11 @@
   },
   {
     "cameraId": 29,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_102",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_402",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "1F",
     "x": 779,
@@ -378,10 +407,11 @@
   },
   {
     "cameraId": 30,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_103",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_403",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "1F",
     "x": 833,
@@ -391,10 +421,11 @@
   },
   {
     "cameraId": 31,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_104",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_404",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "1F",
     "x": 807,
@@ -404,10 +435,11 @@
   },
   {
     "cameraId": 32,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_105",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_405",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "1F",
     "x": 596,
@@ -417,10 +449,11 @@
   },
   {
     "cameraId": 33,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_106",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_406",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "1F",
     "x": 598,
@@ -430,10 +463,11 @@
   },
   {
     "cameraId": 34,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_107",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_407",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "1F",
     "x": 1048,
@@ -443,10 +477,11 @@
   },
   {
     "cameraId": 35,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_108",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_408",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "1F",
     "x": 998,
@@ -456,10 +491,11 @@
   },
   {
     "cameraId": 36,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_109",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_409",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "1F",
     "x": 861,
@@ -469,10 +505,11 @@
   },
   {
     "cameraId": 37,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_110",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_410",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "1F",
     "x": 842,
@@ -482,10 +519,11 @@
   },
   {
     "cameraId": 38,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_111",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_411",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "1F",
     "x": 1034,
@@ -495,10 +533,11 @@
   },
   {
     "cameraId": 39,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_105",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_405",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "GF",
     "x": 676,
@@ -508,10 +547,11 @@
   },
   {
     "cameraId": 40,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_112",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_412",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "GF",
     "x": 646,
@@ -521,10 +561,11 @@
   },
   {
     "cameraId": 41,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_113",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_413",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "GF",
     "x": 789,
@@ -534,10 +575,11 @@
   },
   {
     "cameraId": 42,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_106",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_406",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "GF",
     "x": 1110,
@@ -547,10 +589,11 @@
   },
   {
     "cameraId": 43,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_107",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_407",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "GF",
     "x": 583,
@@ -560,10 +603,11 @@
   },
   {
     "cameraId": 44,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_108",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_408",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "GF",
     "x": 874,
@@ -573,10 +617,11 @@
   },
   {
     "cameraId": 45,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_109",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_409",
     "monitor": [
-      ""
+      "EMO",
+      "A"
     ],
     "mapid": "GF",
     "x": 885,
@@ -586,10 +631,11 @@
   },
   {
     "cameraId": 46,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_100",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_400",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "RF",
     "x": 312,
@@ -599,10 +645,11 @@
   },
   {
     "cameraId": 47,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_101",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_401",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "GF",
     "x": 338,
@@ -612,10 +659,11 @@
   },
   {
     "cameraId": 48,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_102",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_402",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "GF",
     "x": 338,
@@ -625,10 +673,11 @@
   },
   {
     "cameraId": 49,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_100",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_400",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "25F",
     "x": 308,
@@ -638,10 +687,11 @@
   },
   {
     "cameraId": 50,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_101",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_401",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "Typical",
     "x": 308,
@@ -651,10 +701,11 @@
   },
   {
     "cameraId": 51,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_102",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_402",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "Typical",
     "x": 308,
@@ -664,10 +715,11 @@
   },
   {
     "cameraId": 52,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_103",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_403",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "Typical",
     "x": 308,
@@ -677,10 +729,11 @@
   },
   {
     "cameraId": 53,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_104",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_404",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "Typical",
     "x": 308,
@@ -690,10 +743,11 @@
   },
   {
     "cameraId": 54,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_105",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_405",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "Typical",
     "x": 308,
@@ -703,10 +757,11 @@
   },
   {
     "cameraId": 55,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_106",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_406",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "Typical",
     "x": 308,
@@ -716,10 +771,11 @@
   },
   {
     "cameraId": 56,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_107",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_407",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "Typical",
     "x": 308,
@@ -729,10 +785,11 @@
   },
   {
     "cameraId": 57,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_108",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_408",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "Typical",
     "x": 308,
@@ -742,10 +799,11 @@
   },
   {
     "cameraId": 58,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_109",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_409",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "Typical",
     "x": 308,
@@ -755,10 +813,11 @@
   },
   {
     "cameraId": 59,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_110",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_410",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "Typical",
     "x": 308,
@@ -768,10 +827,11 @@
   },
   {
     "cameraId": 60,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_111",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_411",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "Typical",
     "x": 308,
@@ -781,10 +841,11 @@
   },
   {
     "cameraId": 61,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_112",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_412",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "Typical",
     "x": 308,
@@ -794,10 +855,11 @@
   },
   {
     "cameraId": 62,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_113",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_413",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "9F",
     "x": 312,
@@ -807,10 +869,11 @@
   },
   {
     "cameraId": 63,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_114",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_414",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "8F",
     "x": 308,
@@ -820,10 +883,11 @@
   },
   {
     "cameraId": 64,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_115",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_415",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "Typical",
     "x": 308,
@@ -833,10 +897,11 @@
   },
   {
     "cameraId": 65,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_116",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_416",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "Typical",
     "x": 308,
@@ -846,10 +911,11 @@
   },
   {
     "cameraId": 66,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_117",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_417",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "Typical",
     "x": 308,
@@ -859,10 +925,11 @@
   },
   {
     "cameraId": 67,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_118",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_418",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "3F",
     "x": 308,
@@ -872,10 +939,11 @@
   },
   {
     "cameraId": 68,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_119",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_419",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "2F",
     "x": 307,
@@ -885,10 +953,11 @@
   },
   {
     "cameraId": 69,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_103",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_403",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "2F",
     "x": 489,
@@ -898,10 +967,11 @@
   },
   {
     "cameraId": 70,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_100",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_400",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "1F",
     "x": 435,
@@ -911,10 +981,11 @@
   },
   {
     "cameraId": 71,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_101",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_401",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "1F",
     "x": 302,
@@ -924,10 +995,11 @@
   },
   {
     "cameraId": 72,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_102",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_402",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "1F",
     "x": 403,
@@ -937,10 +1009,11 @@
   },
   {
     "cameraId": 73,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_103",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_403",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "1F",
     "x": 289,
@@ -950,10 +1023,11 @@
   },
   {
     "cameraId": 74,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_104",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_404",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "1F",
     "x": 261,
@@ -963,10 +1037,11 @@
   },
   {
     "cameraId": 75,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_105",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_405",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "1F",
     "x": 94,
@@ -976,10 +1051,11 @@
   },
   {
     "cameraId": 76,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_106",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_406",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "1F",
     "x": 457,
@@ -989,10 +1065,11 @@
   },
   {
     "cameraId": 77,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_107",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_407",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "1F",
     "x": 227,
@@ -1002,10 +1079,11 @@
   },
   {
     "cameraId": 78,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_104",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_404",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "GF",
     "x": 408,
@@ -1015,10 +1093,11 @@
   },
   {
     "cameraId": 79,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_108",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_408",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "GF",
     "x": 404,
@@ -1028,10 +1107,11 @@
   },
   {
     "cameraId": 80,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_109",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_409",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "GF",
     "x": 274,
@@ -1041,10 +1121,11 @@
   },
   {
     "cameraId": 81,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_110",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_410",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "GF",
     "x": 128,
@@ -1054,10 +1135,11 @@
   },
   {
     "cameraId": 82,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_105",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_405",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "GF",
     "x": 499,
@@ -1067,10 +1149,11 @@
   },
   {
     "cameraId": 83,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_106",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_406",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "GF",
     "x": 499,
@@ -1080,10 +1163,11 @@
   },
   {
     "cameraId": 84,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_107",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_407",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "GF",
     "x": 312,
@@ -1093,10 +1177,11 @@
   },
   {
     "cameraId": 85,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_108",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_408",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "GF",
     "x": 301,
@@ -1106,10 +1191,11 @@
   },
   {
     "cameraId": 86,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_109",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_409",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "GF",
     "x": 17,
@@ -1119,10 +1205,11 @@
   },
   {
     "cameraId": 87,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_110",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_410",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "GF",
     "x": 48,
@@ -1132,15 +1219,128 @@
   },
   {
     "cameraId": 88,
-    "mainStream": "",
-    "subStream": "",
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_111",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_411",
     "monitor": [
-      ""
+      "EMO",
+      "B"
     ],
     "mapid": "GF",
     "x": 48,
     "y": 109,
     "location": "Block B G/F External Area 7",
     "floor": "G/F"
+  },
+  {
+    "cameraId": 89,
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_110",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_410",
+    "monitor": [
+      "EMO",
+      "A"
+    ],
+    "mapid": "9F",
+    "x": 822,
+    "y": 604,
+    "location": "Block A 9/F Yoga Area",
+    "floor": "9/F"
+  },
+  {
+    "cameraId": 90,
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_111",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_411",
+    "monitor": [
+      "EMO",
+      "A"
+    ],
+    "mapid": "8F",
+    "x": 822,
+    "y": 604,
+    "location": "Block A 8/F Yoga Area",
+    "floor": "8/F"
+  },
+  {
+    "cameraId": 91,
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_112",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_412",
+    "monitor": [
+      "EMO",
+      "A"
+    ],
+    "mapid": "3F",
+    "x": 822,
+    "y": 604,
+    "location": "Block A 3/F Yoga Area",
+    "floor": "3/F"
+  },
+  {
+    "cameraId": 92,
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_113",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_413",
+    "monitor": [
+      "EMO",
+      "A"
+    ],
+    "mapid": "2F",
+    "x": 825,
+    "y": 692,
+    "location": "Block A 2/F Yoga Area",
+    "floor": "2/F"
+  },
+  {
+    "cameraId": 93,
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_112",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_412",
+    "monitor": [
+      "EMO",
+      "B"
+    ],
+    "mapid": "9F",
+    "x": 126,
+    "y": 607,
+    "location": "Block B 9/F Yoga Area",
+    "floor": "9/F"
+  },
+  {
+    "cameraId": 94,
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_113",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_413",
+    "monitor": [
+      "EMO",
+      "B"
+    ],
+    "mapid": "8F",
+    "x": 126,
+    "y": 607,
+    "location": "Block B 8/F Yoga Area",
+    "floor": "8/F"
+  },
+  {
+    "cameraId": 95,
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_114",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_414",
+    "monitor": [
+      "EMO",
+      "B"
+    ],
+    "mapid": "3F",
+    "x": 126,
+    "y": 607,
+    "location": "Block B 3/F Yoga Area",
+    "floor": "3/F"
+  },
+  {
+    "cameraId": 96,
+    "mainStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_115",
+    "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_415",
+    "monitor": [
+      "EMO",
+      "B"
+    ],
+    "mapid": "2F",
+    "x": 124,
+    "y": 694,
+    "location": "Block B 2/F Yoga Area",
+    "floor": "2/F"
   }
 ]
