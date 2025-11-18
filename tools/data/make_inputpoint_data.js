@@ -41,6 +41,7 @@ const run = async (file) => {
         parseInt(inputPointId) &&
         type &&
         !fixedName.match(/deleted/i)
+        && !fixedName.match(/^Z-\d*$/i)
       ) {
         const allowedLocations = LocationMask.replace(/\s+/g, "").split("+");
         json.push({
