@@ -1,5 +1,5 @@
 {
-  "name": "HenleyApp",
+  "name": "paddington-app",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -25,7 +25,7 @@
     "react-native-image-pan-zoom-fix": "^2.1.14",
     "react-native-logs": "^5.5.0",
     "react-native-pager-view": "^6.9.1",
-    "react-native-safe-area-context": "^5.6.2",
+    "react-native-safe-area-context": "^5.5.2",
     "react-native-screens": "^4.18.0",
     "react-native-tab-view": "^4.2.0",
     "react-native-vector-icons": "^10.3.0",
@@ -36,28 +36,28 @@
     "redux-persist": "^6.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.28.5",
-    "@babel/preset-env": "^7.28.5",
-    "@babel/runtime": "^7.28.4",
-    "@react-native-community/cli": "20.0.2",
-    "@react-native-community/cli-platform-android": "20.0.2",
-    "@react-native-community/cli-platform-ios": "20.0.2",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3",
+    "@babel/runtime": "^7.25.0",
+    "@react-native-community/cli": "20.0.0",
+    "@react-native-community/cli-platform-android": "20.0.0",
+    "@react-native-community/cli-platform-ios": "20.0.0",
     "@react-native/babel-preset": "0.82.1",
     "@react-native/eslint-config": "0.82.1",
     "@react-native/metro-config": "0.82.1",
     "@react-native/typescript-config": "0.82.1",
     "@types/base-64": "^1.0.2",
     "@types/jest": "^30.0.0",
-    "@types/react": "^19.2.6",
+    "@types/react": "^19.1.1",
     "@types/react-native-vector-icons": "^6.4.18",
     "@types/react-test-renderer": "^19.1.0",
-    "eslint": "^9.39.1",
+    "eslint": "^8.19.0",
     "jest": "^30.2.0",
     "prettier": "3.6.2",
-    "react-test-renderer": "19.2.0",
+    "react-test-renderer": "19.1.1",
     "typescript": "5.9.3"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   }
 }
