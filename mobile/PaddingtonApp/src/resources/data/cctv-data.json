@@ -1,6 +1,7 @@
 [
   {
     "cameraId": 1,
+    "cameraName": "Block A R/F ST-1",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_100",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_400",
     "monitor": [
@@ -15,6 +16,7 @@
   },
   {
     "cameraId": 2,
+    "cameraName": "Block A R/F ST-2",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_101",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_401",
     "monitor": [
@@ -29,6 +31,7 @@
   },
   {
     "cameraId": 3,
+    "cameraName": "Lift 1",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_102",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_402",
     "monitor": [
@@ -43,6 +46,7 @@
   },
   {
     "cameraId": 4,
+    "cameraName": "Lift 2",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_103",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_403",
     "monitor": [
@@ -57,6 +61,7 @@
   },
   {
     "cameraId": 5,
+    "cameraName": "Block A 26/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_100",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_400",
     "monitor": [
@@ -71,6 +76,7 @@
   },
   {
     "cameraId": 6,
+    "cameraName": "Block A 25/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_101",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_401",
     "monitor": [
@@ -85,6 +91,7 @@
   },
   {
     "cameraId": 7,
+    "cameraName": "Block A 23/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_102",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_402",
     "monitor": [
@@ -99,6 +106,7 @@
   },
   {
     "cameraId": 8,
+    "cameraName": "Block A 22/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_103",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_403",
     "monitor": [
@@ -113,6 +121,7 @@
   },
   {
     "cameraId": 9,
+    "cameraName": "Block A 21/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_104",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_404",
     "monitor": [
@@ -127,6 +136,7 @@
   },
   {
     "cameraId": 10,
+    "cameraName": "Block A 20/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_105",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_405",
     "monitor": [
@@ -141,6 +151,7 @@
   },
   {
     "cameraId": 11,
+    "cameraName": "Block A 19/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_106",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_406",
     "monitor": [
@@ -155,6 +166,7 @@
   },
   {
     "cameraId": 12,
+    "cameraName": "Block A 18/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_107",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_407",
     "monitor": [
@@ -169,6 +181,7 @@
   },
   {
     "cameraId": 13,
+    "cameraName": "Block A 17/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_108",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_408",
     "monitor": [
@@ -183,6 +196,7 @@
   },
   {
     "cameraId": 14,
+    "cameraName": "Block A 16/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_109",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_409",
     "monitor": [
@@ -197,6 +211,7 @@
   },
   {
     "cameraId": 15,
+    "cameraName": "Block A 15/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_110",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_410",
     "monitor": [
@@ -211,6 +226,7 @@
   },
   {
     "cameraId": 16,
+    "cameraName": "Block A 12/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_111",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_411",
     "monitor": [
@@ -225,6 +241,7 @@
   },
   {
     "cameraId": 17,
+    "cameraName": "Block A 11/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_112",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_412",
     "monitor": [
@@ -239,6 +256,7 @@
   },
   {
     "cameraId": 18,
+    "cameraName": "Block A 10/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_113",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_413",
     "monitor": [
@@ -253,6 +271,7 @@
   },
   {
     "cameraId": 19,
+    "cameraName": "Block A 9/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_114",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_414",
     "monitor": [
@@ -267,6 +286,7 @@
   },
   {
     "cameraId": 20,
+    "cameraName": "Block A 8/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_115",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_415",
     "monitor": [
@@ -281,6 +301,7 @@
   },
   {
     "cameraId": 21,
+    "cameraName": "Block A 7/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_116",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_416",
     "monitor": [
@@ -295,6 +316,7 @@
   },
   {
     "cameraId": 22,
+    "cameraName": "Block A 6/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_117",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_417",
     "monitor": [
@@ -309,6 +331,7 @@
   },
   {
     "cameraId": 23,
+    "cameraName": "Block A 5/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_118",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_418",
     "monitor": [
@@ -323,6 +346,7 @@
   },
   {
     "cameraId": 24,
+    "cameraName": "Block A 3/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_119",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_419",
     "monitor": [
@@ -337,6 +361,7 @@
   },
   {
     "cameraId": 25,
+    "cameraName": "Block A 2/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_120",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_420",
     "monitor": [
@@ -351,6 +376,7 @@
   },
   {
     "cameraId": 26,
+    "cameraName": "Block A 2/F Extension Area",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_104",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_404",
     "monitor": [
@@ -365,6 +391,7 @@
   },
   {
     "cameraId": 27,
+    "cameraName": "Block A 1/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_100",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_400",
     "monitor": [
@@ -379,6 +406,7 @@
   },
   {
     "cameraId": 28,
+    "cameraName": "Block A 1/F Function Room 1",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_101",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_401",
     "monitor": [
@@ -393,6 +421,7 @@
   },
   {
     "cameraId": 29,
+    "cameraName": "Block A 1/F Function Room 2",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_102",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_402",
     "monitor": [
@@ -407,6 +436,7 @@
   },
   {
     "cameraId": 30,
+    "cameraName": "Block A 1/F Function Room 3",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_103",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_403",
     "monitor": [
@@ -421,6 +451,7 @@
   },
   {
     "cameraId": 31,
+    "cameraName": "Block A 1/F Gymnasium 1",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_104",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_404",
     "monitor": [
@@ -435,6 +466,7 @@
   },
   {
     "cameraId": 32,
+    "cameraName": "Block A 1/F Gymnasium 2",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_105",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_405",
     "monitor": [
@@ -449,6 +481,7 @@
   },
   {
     "cameraId": 33,
+    "cameraName": "Block A 1/F Landscape 1",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_106",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_406",
     "monitor": [
@@ -463,6 +496,7 @@
   },
   {
     "cameraId": 34,
+    "cameraName": "Block A 1/F Landscape 2",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_107",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_407",
     "monitor": [
@@ -477,6 +511,7 @@
   },
   {
     "cameraId": 35,
+    "cameraName": "Block A 1/F Landscape 3",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_108",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_408",
     "monitor": [
@@ -491,6 +526,7 @@
   },
   {
     "cameraId": 36,
+    "cameraName": "Block A 1/F Landscape 4",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_109",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_409",
     "monitor": [
@@ -505,6 +541,7 @@
   },
   {
     "cameraId": 37,
+    "cameraName": "Block A 1/F Landscape 5",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_110",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_410",
     "monitor": [
@@ -519,6 +556,7 @@
   },
   {
     "cameraId": 38,
+    "cameraName": "Block A 1/F Landscape 6",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_111",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_411",
     "monitor": [
@@ -533,6 +571,7 @@
   },
   {
     "cameraId": 39,
+    "cameraName": "Block A G/F Lift Lobby",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_105",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_405",
     "monitor": [
@@ -547,6 +586,7 @@
   },
   {
     "cameraId": 40,
+    "cameraName": "Block A G/F Function Room 1",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_112",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_412",
     "monitor": [
@@ -561,6 +601,7 @@
   },
   {
     "cameraId": 41,
+    "cameraName": "Block A G/F Function Room 2",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_113",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_413",
     "monitor": [
@@ -575,6 +616,7 @@
   },
   {
     "cameraId": 42,
+    "cameraName": "Block A G/F External Area 1",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_106",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_406",
     "monitor": [
@@ -589,6 +631,7 @@
   },
   {
     "cameraId": 43,
+    "cameraName": "Block A G/F External Area 2",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_107",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_407",
     "monitor": [
@@ -603,6 +646,7 @@
   },
   {
     "cameraId": 44,
+    "cameraName": "Block A G/F External Area 3",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_108",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_408",
     "monitor": [
@@ -617,6 +661,7 @@
   },
   {
     "cameraId": 45,
+    "cameraName": "Block A G/F External Area 4",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_109",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_409",
     "monitor": [
@@ -631,6 +676,7 @@
   },
   {
     "cameraId": 46,
+    "cameraName": "Block B R/F ST-4",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_100",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_400",
     "monitor": [
@@ -645,6 +691,7 @@
   },
   {
     "cameraId": 47,
+    "cameraName": "Lift 3",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_101",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_401",
     "monitor": [
@@ -659,6 +706,7 @@
   },
   {
     "cameraId": 48,
+    "cameraName": "Lift 4",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_102",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_402",
     "monitor": [
@@ -673,6 +721,7 @@
   },
   {
     "cameraId": 49,
+    "cameraName": "Block B 25/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_100",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_400",
     "monitor": [
@@ -687,6 +736,7 @@
   },
   {
     "cameraId": 50,
+    "cameraName": "Block B 23/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_101",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_401",
     "monitor": [
@@ -701,6 +751,7 @@
   },
   {
     "cameraId": 51,
+    "cameraName": "Block B 22/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_102",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_402",
     "monitor": [
@@ -715,6 +766,7 @@
   },
   {
     "cameraId": 52,
+    "cameraName": "Block B 21/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_103",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_403",
     "monitor": [
@@ -729,6 +781,7 @@
   },
   {
     "cameraId": 53,
+    "cameraName": "Block B 20/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_104",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_404",
     "monitor": [
@@ -743,6 +796,7 @@
   },
   {
     "cameraId": 54,
+    "cameraName": "Block B 19/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_105",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_405",
     "monitor": [
@@ -757,6 +811,7 @@
   },
   {
     "cameraId": 55,
+    "cameraName": "Block B 18/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_106",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_406",
     "monitor": [
@@ -771,6 +826,7 @@
   },
   {
     "cameraId": 56,
+    "cameraName": "Block B 17/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_107",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_407",
     "monitor": [
@@ -785,6 +841,7 @@
   },
   {
     "cameraId": 57,
+    "cameraName": "Block B 16/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_108",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_408",
     "monitor": [
@@ -799,6 +856,7 @@
   },
   {
     "cameraId": 58,
+    "cameraName": "Block B 15/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_109",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_409",
     "monitor": [
@@ -813,6 +871,7 @@
   },
   {
     "cameraId": 59,
+    "cameraName": "Block B 12/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_110",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_410",
     "monitor": [
@@ -827,6 +886,7 @@
   },
   {
     "cameraId": 60,
+    "cameraName": "Block B 11/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_111",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_411",
     "monitor": [
@@ -841,6 +901,7 @@
   },
   {
     "cameraId": 61,
+    "cameraName": "Block B 10/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_112",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_412",
     "monitor": [
@@ -855,6 +916,7 @@
   },
   {
     "cameraId": 62,
+    "cameraName": "Block B 9/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_113",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_413",
     "monitor": [
@@ -869,6 +931,7 @@
   },
   {
     "cameraId": 63,
+    "cameraName": "Block B 8/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_114",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_414",
     "monitor": [
@@ -883,6 +946,7 @@
   },
   {
     "cameraId": 64,
+    "cameraName": "Block B 7/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_115",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_415",
     "monitor": [
@@ -897,6 +961,7 @@
   },
   {
     "cameraId": 65,
+    "cameraName": "Block B 6/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_116",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_416",
     "monitor": [
@@ -911,6 +976,7 @@
   },
   {
     "cameraId": 66,
+    "cameraName": "Block B 5/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_117",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_417",
     "monitor": [
@@ -925,6 +991,7 @@
   },
   {
     "cameraId": 67,
+    "cameraName": "Block B 3/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_118",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_418",
     "monitor": [
@@ -939,6 +1006,7 @@
   },
   {
     "cameraId": 68,
+    "cameraName": "Block B 2/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_119",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_419",
     "monitor": [
@@ -953,6 +1021,7 @@
   },
   {
     "cameraId": 69,
+    "cameraName": "Block B 2/F Extension Area",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_103",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_403",
     "monitor": [
@@ -967,6 +1036,7 @@
   },
   {
     "cameraId": 70,
+    "cameraName": "Block B 1/F TRS",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_100",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_400",
     "monitor": [
@@ -981,6 +1051,7 @@
   },
   {
     "cameraId": 71,
+    "cameraName": "Block B 1/F Lift Lobby",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_101",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_401",
     "monitor": [
@@ -995,6 +1066,7 @@
   },
   {
     "cameraId": 72,
+    "cameraName": "Block B 1/F Meeting Room",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_102",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_402",
     "monitor": [
@@ -1009,6 +1081,7 @@
   },
   {
     "cameraId": 73,
+    "cameraName": "Block B 1/F Game Room",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_103",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_403",
     "monitor": [
@@ -1023,6 +1096,7 @@
   },
   {
     "cameraId": 74,
+    "cameraName": "Block B 1/F Cooking Room",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_104",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_404",
     "monitor": [
@@ -1037,6 +1111,7 @@
   },
   {
     "cameraId": 75,
+    "cameraName": "Block B 1/F Landscape 1",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_105",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_405",
     "monitor": [
@@ -1051,6 +1126,7 @@
   },
   {
     "cameraId": 76,
+    "cameraName": "Block B 1/F Landscape 2",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_106",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_406",
     "monitor": [
@@ -1065,6 +1141,7 @@
   },
   {
     "cameraId": 77,
+    "cameraName": "Block B 1/F Landscape 3",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_107",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_407",
     "monitor": [
@@ -1079,6 +1156,7 @@
   },
   {
     "cameraId": 78,
+    "cameraName": "Block B G/F Lift Lobby",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_104",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_404",
     "monitor": [
@@ -1093,6 +1171,7 @@
   },
   {
     "cameraId": 79,
+    "cameraName": "Block B G/F Sitting Area 1",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_108",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_408",
     "monitor": [
@@ -1107,6 +1186,7 @@
   },
   {
     "cameraId": 80,
+    "cameraName": "Block B G/F Sitting Area 2",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_109",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_409",
     "monitor": [
@@ -1121,6 +1201,7 @@
   },
   {
     "cameraId": 81,
+    "cameraName": "Block B G/F Sitting Area 3",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_110",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_410",
     "monitor": [
@@ -1135,6 +1216,7 @@
   },
   {
     "cameraId": 82,
+    "cameraName": "Block B G/F External Area 1",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_105",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_405",
     "monitor": [
@@ -1149,6 +1231,7 @@
   },
   {
     "cameraId": 83,
+    "cameraName": "Block B G/F External Area 2",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_106",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_406",
     "monitor": [
@@ -1163,6 +1246,7 @@
   },
   {
     "cameraId": 84,
+    "cameraName": "Block B G/F External Area 3",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_107",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_407",
     "monitor": [
@@ -1177,6 +1261,7 @@
   },
   {
     "cameraId": 85,
+    "cameraName": "Block B G/F External Area 4",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_108",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_408",
     "monitor": [
@@ -1191,6 +1276,7 @@
   },
   {
     "cameraId": 86,
+    "cameraName": "Block B G/F External Area 5",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_109",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_409",
     "monitor": [
@@ -1205,6 +1291,7 @@
   },
   {
     "cameraId": 87,
+    "cameraName": "Block B G/F External Area 6",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_110",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_410",
     "monitor": [
@@ -1219,6 +1306,7 @@
   },
   {
     "cameraId": 88,
+    "cameraName": "Block B G/F External Area 7",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_111",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_411",
     "monitor": [
@@ -1233,6 +1321,7 @@
   },
   {
     "cameraId": 89,
+    "cameraName": "Block A 9/F Yoga Area",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_110",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_410",
     "monitor": [
@@ -1247,6 +1336,7 @@
   },
   {
     "cameraId": 90,
+    "cameraName": "Block A 8/F Yoga Area",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_111",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_411",
     "monitor": [
@@ -1261,6 +1351,7 @@
   },
   {
     "cameraId": 91,
+    "cameraName": "Block A 3/F Yoga Area",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_112",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_412",
     "monitor": [
@@ -1275,6 +1366,7 @@
   },
   {
     "cameraId": 92,
+    "cameraName": "Block A 2/F Yoga Area",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_113",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_413",
     "monitor": [
@@ -1289,6 +1381,7 @@
   },
   {
     "cameraId": 93,
+    "cameraName": "Block B 9/F Yoga Area",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_112",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_412",
     "monitor": [
@@ -1303,6 +1396,7 @@
   },
   {
     "cameraId": 94,
+    "cameraName": "Block B 8/F Yoga Area",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_113",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_413",
     "monitor": [
@@ -1317,6 +1411,7 @@
   },
   {
     "cameraId": 95,
+    "cameraName": "Block B 3/F Yoga Area",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_114",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_414",
     "monitor": [
@@ -1331,6 +1426,7 @@
   },
   {
     "cameraId": 96,
+    "cameraName": "Block B 2/F Yoga Area",
     "mainStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_115",
     "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_415",
     "monitor": [

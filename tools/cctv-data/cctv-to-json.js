@@ -74,7 +74,7 @@ const convert = async (filename) => {
           const cameraNumber = Number(cameraId.replace(/[^\d+]/g, ""));
           return {
             cameraId: cameraNumber,
-            // cameraName,
+            cameraName: location,
             mainStream,
             subStream,
             monitor,

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { StyleSheet, View, Image, TouchableOpacity } from 'react-native';
-import ImageZoom from 'react-native-image-pan-zoom-fix';
+// import ImageZoom from 'react-native-image-pan-zoom-fix';
 import cctvImage from '../resources/images/cctv.png';
 import cctvDisabledImage from '../resources/images/cctv_disabled.png';
 import CctvModal from '../components/CctvModal';
