@@ -1,22 +1,22 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import {configureStore} from '@reduxjs/toolkit';
-import {combineReducers} from 'redux';
-import {TypedUseSelectorHook, useDispatch, useSelector} from 'react-redux';
-// import logger from 'redux-logger';
+import { configureStore } from '@reduxjs/toolkit';
+import { TypedUseSelectorHook, useDispatch, useSelector } from 'react-redux';
+import { combineReducers } from 'redux';
+import logger from 'redux-logger';
 import {
   createTransform,
-  persistStore,
-  persistReducer,
   FLUSH,
-  REHYDRATE,
   PAUSE,
   PERSIST,
+  persistReducer,
+  persistStore,
   PURGE,
   REGISTER,
+  REHYDRATE,
 } from 'redux-persist';
-import userReducer from './features/user/userSlice';
 import doorAccessReducer from './features/doorAccess/doorAccessSlice';
 import eventReducer from './features/event/eventSlice';
+import userReducer from './features/user/userSlice';
 
 const doorAccessTransform = createTransform(
   inboundState => inboundState,
@@ -75,8 +75,8 @@ export const store = configureStore({
       serializableCheck: {
         ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
       },
-    }),
-  // .concat(logger),
+    })
+  .concat(logger),
 });
 
 export type RootState = ReturnType<typeof store.getState>;

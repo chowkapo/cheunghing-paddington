@@ -2,9 +2,15 @@ import * as React from 'react';
 import { StyleSheet, ScrollView, View, Text } from 'react-native';
 import { Button } from 'react-native-elements';
 import Icon from 'react-native-vector-icons/FontAwesome5';
-import { combinedSignalStatusList, signalStatusList } from '../resources/config';
+import { signalStatusList } from '../resources/config';
 
-const SignalStatusLegend = ({ combineSignalStatus = false }) => {
+type status = {
+  value: number;
+  text: string;
+  color: string;
+}
+
+const SignalStatusLegend = ({ statusList }: { statusList?: status[] }) => {
   return (
     <View style={styles.legendContainer}>
       <View style={styles.legendTitle}>
@@ -12,23 +18,13 @@ const SignalStatusLegend = ({ combineSignalStatus = false }) => {
         <Text style={styles.legendTitleText}>明</Text>
       </View>
       <View style={styles.legendContents}>
-        {signalStatusList.map((v: any) => (
+        {(statusList ?? signalStatusList).map((v: any) => (
           <StatusLegend
             key={v.text}
             signalName={v.text}
             signalStatusLegendColor={v.color}
           />
         ))}
-        {combineSignalStatus &&
-          combinedSignalStatusList
-            .filter((v) => !!v.new)
-            .map((v) => (
-              <StatusLegend
-                key={v.text}
-                signalName={v.text}
-                signalStatusLegendColor={v.color}
-              />
-            ))}
       </View>
     </View>
   );

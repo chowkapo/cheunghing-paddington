@@ -21,23 +21,23 @@ import {
   getTargetMap,
   maskToLocations,
 } from '../utils/helper';
+import { ReactNativeZoomableView, ZoomableViewEvent } from '@openspacelabs/react-native-zoomable-view';
 
 const cctvMultiLevelMenus: TCctvFloorGroup[] = cctvMenu;
-
-const defaultImageScale = 1;
 
 // import {IOnMove} from 'react-native-image-pan-zoom-fix';
 // The following interface definition is no longer exported. Previous version v2.1.12 did export it.
 // Hence it is added here.
 interface IOnMove {
-  type: string;
+  // type: string;
   positionX: number;
   positionY: number;
   scale: number;
-  zoomCurrentDistance: number;
+  // zoomCurrentDistance: number;
 }
 
 const CctvScreen = ({ navigation }: { navigation: TNavigationProp }) => {
+  const zoomableViewRef = React.createRef<ReactNativeZoomableView>();
   const [cctvCameraLocationList, setCctvCameraLocationList] = React.useState<
     TCctvCameraLocation[]
   >([]);
@@ -48,13 +48,15 @@ const CctvScreen = ({ navigation }: { navigation: TNavigationProp }) => {
   const [selectedChainLabels, setSelectedChainLabels] = React.useState<
     string[]
   >([]);
-  const [mapContainerWidth, setMapContainerWidth] = React.useState(800);
+  // const [mapWidth, setMapWidth] = React.useState(800);
+  // const [mapHeight, setMapHeight] = React.useState(600);
+    const [mapContainerWidth, setMapContainerWidth] = React.useState(800);
   const [mapContainerHeight, setMapContainerHeight] = React.useState(600);
   const [initialImageSize, setInitialImageSize] = React.useState<{
     width: number;
     height: number;
   }>({ width: 800, height: 600 });
-  const [initialImageScale, setInitialImageScale] = React.useState(defaultImageScale);
+  const [initialImageScale, setInitialImageScale] = React.useState(1);
   const [initialOrigin, setInitialOrigin] = React.useState<{
     x: number;
     y: number;
@@ -122,7 +124,7 @@ const CctvScreen = ({ navigation }: { navigation: TNavigationProp }) => {
   };
 
   const selectedMap = React.useMemo(() => {
-    setInitialImageScale(defaultImageScale);
+    setInitialImageScale(1);
     setInitialOrigin({ x: 0, y: 0 });
     setOnMoveResult(null);
     setMapDimensionsObtained(false);
@@ -135,7 +137,6 @@ const CctvScreen = ({ navigation }: { navigation: TNavigationProp }) => {
 
   const cctvMapImageData = React.useMemo(() => {
     const newCctvMapImageData = selectedMapId && cctvMapData[selectedMapId];
-    console.debug(`selectedMapId updated: ${selectedMapId}, new map image data: ${JSON.stringify(newCctvMapImageData)}`);
     return newCctvMapImageData;
   }, [selectedMapId]);
 
@@ -150,10 +151,6 @@ const CctvScreen = ({ navigation }: { navigation: TNavigationProp }) => {
       width: cctvMapImageData.width,
       height: cctvMapImageData.height,
     });
-    console.debug(`cctvMapImageData updated: imageSize=${JSON.stringify({
-      width: cctvMapImageData.width,
-      height: cctvMapImageData.height,
-    })}`);
   }, [cctvMapImageData]);
 
   const cameraUrl = React.useMemo(() => {
@@ -174,14 +171,14 @@ const CctvScreen = ({ navigation }: { navigation: TNavigationProp }) => {
   }, [selectedCctv, useMainStream]);
 
   const filteredList = React.useMemo(() => {
-    console.debug(`selectedChainLabels=${JSON.stringify(selectedChainLabels)}`);
+    const allowedLocations = maskToLocations(locationMask);
+    console.debug(`selectedChainLabels=${JSON.stringify(selectedChainLabels)}, allowedLocations=${JSON.stringify(allowedLocations)}`);
     const list = getCctvCameraList({
       cctvCameraLocationList,
       mapId: selectedMap?.mapid ?? '',
       chainLabels: selectedChainLabels,
-      // locations: maskToLocations(locationMask),
+      locations: maskToLocations(locationMask),
     });
-    console.debug(`filteredList: ${JSON.stringify(list)}`);
     return list;
   }, [cctvCameraLocationList, locationMask, selectedChainLabels, selectedMap]);
 
@@ -219,6 +216,40 @@ const CctvScreen = ({ navigation }: { navigation: TNavigationProp }) => {
     }
   }, [cctvMapImageData]);
 
+  const debounce = (func: (...args: any[]) => void, wait: number) => {
+    let timeout: NodeJS.Timeout;
+    return (...args: any[]) => {
+      clearTimeout(timeout);
+      timeout = setTimeout(() => func(...args), wait);
+    };
+  };
+
+  const handleTransform = React.useCallback((event: ZoomableViewEvent) => {
+    console.debug(`onTransform: ${JSON.stringify(event)}, initialOrigin: ${JSON.stringify(initialOrigin)}, initialImageScale: ${initialImageScale}, imageSize: ${JSON.stringify(imageSize)}`);
+    const { zoomLevel, offsetX, offsetY } = event;
+    setOnMoveResult({
+      scale: zoomLevel,
+      positionX: offsetX,
+      positionY: offsetY,
+    });
+    const newWidth = imageSize.width * initialImageScale * zoomLevel;
+    const newHeight = imageSize.height * initialImageScale * zoomLevel;
+    const x = (mapContainerWidth - newWidth) / 2 / zoomLevel;
+    const y = (mapContainerHeight - newHeight) / 2 / zoomLevel;
+    const newOrigin = {
+      x: x + offsetX,
+      y: y + offsetY,
+    };
+    console.debug(`onMove: newOrigin=${JSON.stringify(newOrigin)}`);
+    setInitialOrigin(newOrigin);
+  }, [initialOrigin, initialImageScale, imageSize, mapContainerWidth, mapContainerHeight]);
+
+  // Debounced version of handleTransform
+  const onTransform = React.useMemo(
+    () => debounce(handleTransform, 5),
+    [handleTransform]
+  );
+
   return (
     <View style={styles.sectionContainer}>
       <ScreenTitle title="閉路電視" />
@@ -236,7 +267,6 @@ const CctvScreen = ({ navigation }: { navigation: TNavigationProp }) => {
               style={styles.MapCCTVLocationContainer}
               onLayout={event => {
                 const { width, height } = event.nativeEvent.layout;
-                console.debug(`onLayout event: width=${width}, height=${height}`);
                 // const adjustedHeight = height > 30 ? height - 30 : height
                 // const adjustedHeight = height;
                 if (width && height && !mapDimensionsObtained) {
@@ -245,68 +275,43 @@ const CctvScreen = ({ navigation }: { navigation: TNavigationProp }) => {
                   setMapContainerHeight(height);
                   setMapDimensionsObtained(true);
                   setUpScale(width, height);
-                  // const hScale = width / imageSize.width;
-                  // const vScale = adjustedHeight / imageSize.height;
-                  // const scaleFactor = Math.min(hScale, vScale);
-                  // console.debug(`imageSize=${JSON.stringify(imageSize)}`);
-                  // console.debug(`hScale=${hScale}, vScale=${vScale}`);
-                  // console.debug(`scaleFactor=${scaleFactor}`);
-                  // setInitialImageScale(scaleFactor);
-                  // setInitialImageSize({
-                  //   width: imageSize.width * scaleFactor,
-                  //   height: imageSize.height * scaleFactor,
-                  // });
-                  // if (hScale > vScale) {
-                  //   // North and South touching boundary
-                  //   const origin = {
-                  //     x: (width - imageSize.width * scaleFactor) / 2,
-                  //     y: 0,
-                  //   };
-                  //   console.debug(`origin=${JSON.stringify(origin)}`);
-                  //   setInitialOrigin(origin);
-                  // } else {
-                  //   // West and East touching boundary
-                  //   const origin = {
-                  //     x: 0,
-                  //     y: (adjustedHeight - imageSize.height * scaleFactor) / 2,
-                  //   };
-                  //   console.debug(`origin=${JSON.stringify(origin)}`);
-                  //   setInitialOrigin(origin);
-                  // }
                 } else {
-                  setInitialImageScale(defaultImageScale);
+                  setInitialImageScale(1);
                   setInitialOrigin({ x: 0, y: 0 });
                   setOnMoveResult(null);
                 }
               }}>
               {imageUrl && (
-                <ImageZoom
-                  cropWidth={mapContainerWidth}
-                  cropHeight={mapContainerHeight}
-                  imageWidth={initialImageSize.width}
-                  imageHeight={initialImageSize.height}
-                  onMove={moveResult => {
-                    console.debug(`onMove: ${JSON.stringify(moveResult)}`);
-                    if (moveResult) {
-                      setOnMoveResult(moveResult);
-                      const newWidth =
-                        imageSize.width * initialImageScale * moveResult.scale;
-                      const newHeight =
-                        imageSize.height * initialImageScale * moveResult.scale;
-                      const x = (mapContainerWidth - newWidth) / 2 / moveResult.scale;
-                      const y = (mapContainerHeight - newHeight) / 2 / moveResult.scale;
-                      const newOrigin = {
-                        x: x + moveResult.positionX,
-                        y: y + moveResult.positionY,
-                      };
-                      console.debug(`onMove: newOrigin=${JSON.stringify(newOrigin)}`);
-                      setInitialOrigin(newOrigin);
-                    }
-                  }}
-                  maxOverflow={5}
-                  minScale={0.5}
-                  initialScale={initialImageScale}
-                  maxScale={5}>
+                <ReactNativeZoomableView
+                  ref={zoomableViewRef}
+                  contentWidth={mapContainerWidth}
+                  contentHeight={mapContainerHeight}
+                  onTransform={onTransform}
+                  // imageWidth={initialImageSize.width}
+                  // imageHeight={initialImageSize.height}
+                  // onMove={moveResult => {
+                  //   console.debug(`onMove: ${JSON.stringify(moveResult)}`);
+                  //   if (moveResult) {
+                  //     setOnMoveResult(moveResult);
+                  //     const newWidth =
+                  //       imageSize.width * initialImageScale * moveResult.scale;
+                  //     const newHeight =
+                  //       imageSize.height * initialImageScale * moveResult.scale;
+                  //     const x = (mapContainerWidth - newWidth) / 2 / moveResult.scale;
+                  //     const y = (mapContainerHeight - newHeight) / 2 / moveResult.scale;
+                  //     const newOrigin = {
+                  //       x: x + moveResult.positionX,
+                  //       y: y + moveResult.positionY,
+                  //     };
+                  //     console.debug(`onMove: newOrigin=${JSON.stringify(newOrigin)}`);
+                  //     setInitialOrigin(newOrigin);
+                  //   }
+                  // }}
+                  minZoom={0.5}
+                  initialZoom={initialImageScale}
+                  maxZoom={5}
+                  bindToBorders={true}
+                >
                   <Image
                     style={{
                       width: initialImageSize.width,
@@ -314,7 +319,7 @@ const CctvScreen = ({ navigation }: { navigation: TNavigationProp }) => {
                     }}
                     source={imageUrl}
                   />
-                </ImageZoom>
+                </ReactNativeZoomableView>
               )}
               {imageUrl &&
                 selectedMap &&
@@ -380,7 +385,7 @@ const CctvScreen = ({ navigation }: { navigation: TNavigationProp }) => {
           visible={!!selectedCctv}
           cctvUrl={cameraUrl ?? ''}
           cctvId={selectedCctv.cameraId}
-          title={`${selectedCctv.cameraName ?? selectedCctv.location ?? ''}`}
+          title={`${selectedCctv.cameraName}`}
           onClose={() => setSelectedCctv(null)}
         />
       )}

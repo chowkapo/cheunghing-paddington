@@ -1,15 +1,15 @@
 import * as React from 'react';
-import { StyleSheet, View, Text } from 'react-native';
-import { ButtonGroup } from 'react-native-elements';
-import { partialSort, orderTier1, orderTier2, orderTier3 } from '../utils/helper';
+import {StyleSheet, View, Text} from 'react-native';
+import {ButtonGroup} from 'react-native-elements';
+import {partialSort, orderTier1, orderTier2} from '../utils/helper';
 
-const TypeHierarchicalMenu = ({ hierarchy, onUpdate, selectedChain }: any) => {
+const TypeHierarchicalMenu = ({hierarchy, onUpdate, selectedChain}: any) => {
   const allowed = React.useMemo(
     () => Object.keys(hierarchy).length > 0,
     [hierarchy],
   );
 
-  const updateButtonGroupSelection = ({ tier, selectedIndex }: any) => {
+  const updateButtonGroupSelection = ({tier, selectedIndex}: any) => {
     let newSelectedChain = [...selectedChain];
     newSelectedChain[tier] = selectedIndex;
     newSelectedChain = newSelectedChain.slice(0, tier + 1);
@@ -37,21 +37,6 @@ const TypeHierarchicalMenu = ({ hierarchy, onUpdate, selectedChain }: any) => {
     // console.log(`tier2 raw menu = ${JSON.stringify(raw)}`);
     return partialSort(raw, orderTier2);
   }, [hierarchy, selectedChain, tier1]);
-
-  const tier3 = React.useMemo(() => {
-    const raw =
-      tier2 &&
-      typeof selectedChain[1] !== 'undefined' &&
-      typeof hierarchy[tier1[selectedChain[0]]][tier2[selectedChain[1]]] ===
-      'object' &&
-      !(
-        hierarchy[tier1[selectedChain[0]]][tier2[selectedChain[1]]] instanceof
-        Array
-      ) &&
-      Object.keys(hierarchy[tier1[selectedChain[0]]][tier2[selectedChain[1]]]);
-    return partialSort(raw, orderTier3);
-  }, [hierarchy, selectedChain, tier1, tier2]);
-
 
   if (!allowed) {
     return (
@@ -87,20 +72,6 @@ const TypeHierarchicalMenu = ({ hierarchy, onUpdate, selectedChain }: any) => {
           }}
           selectedIndex={selectedChain[1]}
           buttons={tier2}
-          containerStyle={styles.buttonGroup}
-          textStyle={styles.buttonGroupText}
-        />
-      )}
-      {!!tier3 && tier3.filter((v) => v).length > 0 && (
-        <ButtonGroup
-          onPress={(selectedIndex) => {
-            updateButtonGroupSelection({
-              tier: 2,
-              selectedIndex,
-            });
-          }}
-          selectedIndex={selectedChain[2]}
-          buttons={tier3}
           containerStyle={styles.buttonGroup}
           textStyle={styles.buttonGroupText}
         />

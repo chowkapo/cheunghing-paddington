@@ -5,34 +5,44 @@ import TypeHierarchicalMenu from '../components/TypeHierarchicalMenu';
 import SignalStatusLegend from '../components/SignalStatusLegend';
 import {useAppDispatch, useAppSelector} from '../store';
 import ScreenTitle from '../components/ScreenTitle';
-import {
+import type {
   TSignalTypeSuffix,
   TRootStackParamList,
   THierarchicalMenu,
-  TNavigationProp,
 } from '../resources/types';
 import {changeAlertMode} from '../features/user/userSlice';
 import type {NavigationProp} from '@react-navigation/native';
+import {makeHierarchicalMenu} from '../utils/helper';
 import InputPointInspectionWithMap from '../components/InputPointInspectionWithMap';
-import {makeHierarchicalMenu, maskToLocations} from '../utils/helper';
 
-const targetType = '冷氣及通風監察系統';
-const alertType = 'airflow';
-// type TNavigationProp = NavigationProp<TRootStackParamList, 'Leakage'>;
+const targetType = '通風監察系統';
+const alertType = 'aircon';
+type TNavigationProp = NavigationProp<TRootStackParamList, 'AirFlow'>;
 
 const signalTypes: TSignalTypeSuffix[] = [
-  { suffix: '自動/手動', signalType: 'autoOrManual' },
-  { suffix: '開啟/關閉', signalType: 'openOrClose' },
-  { suffix: '故障', signalType: 'malFunction' },
-  { suffix: '', signalType: 'default' },
+  {suffix: '自動/手動', signalType: 'autoOrManual'},
+  {
+    suffix: '開啟/關閉',
+    signalType: 'openOrClose',
+  },
+  {suffix: '故障', signalType: 'malFunction'},
+  {suffix: '電源故障', signalType: 'powerMalFunction'},
+  {suffix: '運行/停止', signalType: 'runOrStop'},
+  {suffix: '警報', signalType: 'alarm'},
+  {suffix: '切換', signalType: 'switchOver'},
+  {suffix: '低電壓警報', signalType: 'lowVoltageAlarm'},
+  {suffix: '低水位', signalType: 'lowWaterLevel'},
+  {suffix: '高水位', signalType: 'highWaterLevel'},
+  {suffix: '過壓', signalType: 'overPressure'},
+  {suffix: '', signalType: 'default'},
 ];
 
 const customSignalPresentation = {
-  '0': { autoOrManual: '自動', runOrStop: '停止', openOrClose: '關閉' },
-  '1': { autoOrManual: '手動', runOrStop: '運行', openOrClose: '開啟' },
-  '2': { autoOrManual: '手動', runOrStop: '運行', openOrClose: '開啟' },
-  '3': { autoOrManual: '自動', runOrStop: '停止', openOrClose: '關閉' },
-  '4': { autoOrManual: '自動', runOrStop: '停止', openOrClose: '關閉' },
+  '0': {autoOrManual: '自動', runOrStop: '停止', openOrClose: '關閉'},
+  '1': {autoOrManual: '手動', runOrStop: '運行', openOrClose: '開啟'},
+  '2': {autoOrManual: '手動', runOrStop: '運行', openOrClose: '開啟'},
+  '3': {autoOrManual: '自動', runOrStop: '停止', openOrClose: '關閉'},
+  '4': {autoOrManual: '自動', runOrStop: '停止', openOrClose: '關閉'},
   '5': {
     autoOrManual: '通訊中斷',
     runOrStop: '通訊中斷',
@@ -40,18 +50,17 @@ const customSignalPresentation = {
   },
 };
 
-const LeakageScreen = ({navigation}: {navigation: TNavigationProp}) => {
+const AirFlowScreen = ({navigation}: {navigation: TNavigationProp}) => {
   const [hierarchy, setHierarchy] = React.useState<THierarchicalMenu>({});
   const [selectedChain, setSelectedChain] = React.useState<number[]>([]);
   const [focused, setFocused] = React.useState(false);
   const demoMode = useAppSelector(state => state.user.demoMode);
   const dispatch = useAppDispatch();
   const alertEnabled = useAppSelector(state => state.user.alertEnabled);
-  const locationMask = useAppSelector(state => state.user.locationMask);
 
   React.useEffect(() => {
     const unsubscribe = navigation.addListener('focus', () => {
-      console.debug('Leakage screen back in focus');
+      console.debug('AirFlow screen back in focus');
       setFocused(true);
       setSelectedChain([]);
     });
@@ -60,22 +69,20 @@ const LeakageScreen = ({navigation}: {navigation: TNavigationProp}) => {
 
   React.useEffect(() => {
     const unsubscribe = navigation.addListener('blur', () => {
-      console.debug('Leakage screen blurred');
+      console.debug('AirFlow screen blurred');
       setFocused(false);
     });
     return unsubscribe;
   }, [navigation]);
 
   React.useEffect(() => {
-    // const locations = maskToLocations(locationMask);
     const menu = makeHierarchicalMenu({
       inputPointData: inputPoints,
       targetType,
       signalTypes,
-      // locations,
     });
     setHierarchy(menu);
-  }, [locationMask]);
+  }, []);
 
   const updateSelectedChain = (selected: number[]) => {
     console.debug(`selected = ${JSON.stringify(selected)}`);
@@ -94,7 +101,7 @@ const LeakageScreen = ({navigation}: {navigation: TNavigationProp}) => {
   return (
     <View style={styles.sectionContainer}>
       <ScreenTitle
-        title={"冷氣及通風監察系統"}
+        title={targetType}
         showAlertToggle={true}
         enabled={!!alertEnabled?.[alertType]}
         onValueChange={handleAlertToggle}
@@ -140,4 +147,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default LeakageScreen;
+export default AirFlowScreen;

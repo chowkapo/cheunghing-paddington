@@ -32,6 +32,8 @@ const LoginScreen = () => {
   const authenticating = useAppSelector(state => state.user.authenticating);
   const loginError = useAppSelector(state => state.user.error);
   const dispatch = useAppDispatch();
+  const [reloadKey, setReloadKey] = React.useState(0);
+
 
   const fadeAnim = React.useRef(new Animated.Value(0)).current;
   const animatedY = React.useRef(new Animated.Value(50)).current;
@@ -74,6 +76,14 @@ const LoginScreen = () => {
     return () => fadeOut();
   }, []);
 
+  const handleImageClick = () => {
+    setReloadKey(value => value + 1);
+    // Reset animation values and replay the fade-in animation
+    fadeAnim.setValue(0);
+    animatedY.setValue(50);
+    fadeIn();
+  };
+
   const handleUsernameChange = (value: string) => {
     setUsername(value);
     setErrorMessage('');
@@ -106,7 +116,7 @@ const LoginScreen = () => {
 
   return (
     <SafeAreaView style={styles.safeView}>
-      <ImageBackground source={bgImage} resizeMode="cover" imageStyle={{ opacity: 0.9 }}>
+      <ImageBackground source={bgImage} resizeMode="cover">
         <KeyboardAvoidingView behavior="padding">
           <View style={styles.sectionContainer}>
             <View style={styles.bannerContainer}>
@@ -122,7 +132,9 @@ const LoginScreen = () => {
                     ],
                   },
                 ]}>
-                <Image style={styles.headerImage} source={bannerImage} />
+                <TouchableOpacity onPress={handleImageClick}>
+                  <Image key={reloadKey} style={styles.headerImage} source={bannerImage} />
+                </TouchableOpacity>
               </Animated.View>
             </View>
             <Animated.View
@@ -145,7 +157,7 @@ const LoginScreen = () => {
                   borderWidth: 0,
                   borderBottomWidth: 0,
                   margin: 0,
-                  padding: 0
+                  padding: 0,
                 }}
                 inputStyle={styles.inputText}
                 errorStyle={{ height: 0, margin: 0, padding: 0 }}

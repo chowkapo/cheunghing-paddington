@@ -32,14 +32,14 @@
 		<true/>
 		<key>NSExceptionDomains</key>
 		<dict>
-			<key>113.212.236.185</key>
+			<key>192.168.0.178</key>
 			<dict>
 				<key>NSExceptionAllowsInsecureHTTPLoads</key>
 				<true/>
 				<key>NSIncludesSubdomains</key>
 				<true/>
 			</dict>
-			<key>localhost</key>
+			<key>42.200.192.196</key>
 			<dict>
 				<key>NSExceptionAllowsInsecureHTTPLoads</key>
 				<true/>

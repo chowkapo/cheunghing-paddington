@@ -1,10 +1,10 @@
-import type { PayloadAction } from '@reduxjs/toolkit';
-import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import base64 from 'base-64';
-import { TLoginApi, loginApi } from '../../api/loginApi';
-import { defaultRefreshFrequency } from '../../resources/config';
-import { TUserData, TUserLoginResponse, TUserState } from '../../resources/types';
+import {createSlice, createAsyncThunk} from '@reduxjs/toolkit';
+import type {PayloadAction} from '@reduxjs/toolkit';
 import getErrorMessage from '../../utils/getErrorMessage';
+import {TLoginApi, loginApi} from '../../api/loginApi';
+import {defaultRefreshFrequency} from '../../resources/config';
+import {TUserData, TUserState} from '../../resources/types';
 
 const initialState: TUserState = {
   username: null,
@@ -33,18 +33,10 @@ export const login = createAsyncThunk<TUserData, TLoginApi>(
   async ({username, password, signal}: TLoginApi, thunkApi) => {
     try {
       let actualUsername = username,
-        adminMode = true,
-        demoLogin = true,
-        // adminMode = false,
-        // demoLogin = false,
-        response: TUserLoginResponse | null = null;
-      if (username.startsWith('!') || username.startsWith('@')) {
+        adminMode = false;
+      if (username.startsWith('!')) {
         actualUsername = username.substring(1);
         adminMode = true;
-      }
-      if (username.startsWith('@')) {
-        actualUsername = username.substring(1);
-        demoLogin = true;
       }
       await new Promise<void>((resolve, reject) => {
         // add 2 seconds delay to show authentication in progress
@@ -54,19 +46,11 @@ export const login = createAsyncThunk<TUserData, TLoginApi>(
           reject(new Error('Aborted by user'));
         });
       });
-      if (demoLogin) {
-        response = {
-          success: true,
-          locationMask: 255,
-          remark: '',
-        };
-      } else {
-        response = await loginApi({
-          username: actualUsername,
-          password,
-          signal,
-        });
-      }
+      const response = await loginApi({
+        username: actualUsername,
+        password,
+        signal,
+      });
       if (!response.success) {
         throw new Error(response.remark || 'Login Failure');
       }
@@ -77,7 +61,7 @@ export const login = createAsyncThunk<TUserData, TLoginApi>(
         refreshFrequency: defaultRefreshFrequency,
         selectedCameras: initialState.selectedCameras,
         useMainStream: false,
-        demoMode: demoLogin,
+        demoMode: false,
         adminMode,
       } as TUserData;
     } catch (err) {

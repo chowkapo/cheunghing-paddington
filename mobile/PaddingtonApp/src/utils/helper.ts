@@ -20,14 +20,9 @@ import {
 */
 
 const locationMaskMapping = [
-  'Carpark', // 1
-  'Retail', // 2
-  'CH', // 4
-  'T8&TL', // 8
-  'T6&T7', // 16
-  'T3&T5', // 32
-  'T1&T2', // 64
-  'EMO', // 128
+  'EMO', // 1
+  'TA', // 2
+  'TB', // 4
 ];
 
 export const maskToLocations = (locationMask: number) => {
@@ -47,7 +42,6 @@ export const orderTier1 = [
   'G/F',
   '1/F',
   '2/F',
-  '3/F',
   'R/F',
   'UR1/F',
   'UR2/F',
@@ -95,32 +89,6 @@ export const partialSort = (arr: string[], orderingArray: string[]) => {
   return indexed.sort((a, b) => a.index - b.index).map(v => v.value);
 };
 
-export const customSort = (input: string[], subOrder: string[]) => {
-  const subOrderSet = new Set(subOrder);
-  const beforeSubOrder: string[] = [];
-  const inSubOrder: string[] = [];
-  const afterSubOrder: string[] = [];
-
-  let foundFirstSubOrder = false;
-
-  input.forEach(item => {
-    if (subOrderSet.has(item)) {
-      inSubOrder.push(item);
-      foundFirstSubOrder = true;
-    } else if (!foundFirstSubOrder) {
-      beforeSubOrder.push(item);
-    } else {
-      afterSubOrder.push(item);
-    }
-  });
-
-  const sortedInSubOrder = inSubOrder.sort(
-    (a, b) => subOrder.indexOf(a) - subOrder.indexOf(b)
-  );
-
-  return [...beforeSubOrder, ...sortedInSubOrder, ...afterSubOrder];
-};
-
 export const sortSignals = (a: string, b: string) => {
   const matchA = /^(\d*)(\D*)(\d*)$/.exec(a);
   const matchB = /^(\d*)(\D*)(\d*)$/.exec(b);
@@ -138,12 +106,23 @@ export const sortSignals = (a: string, b: string) => {
 export const alertTypeMap: {
   [system: string]: string;
 } = {
-  水缸監察系統: 'watertank',
-  水浸監察系統: 'leakage',
-  出路門監察系統: 'door',
+  人工水缸監察系統: 'watertank',
+  水浸警報: 'leakage',
+  冷氣及通風監察系統: 'aircon',
+  電氣監察系統: 'electric',
+  供水監察系統: 'water',
+  緊急監察系統: 'emergency',
   緊急召喚監察系統: 'emergency',
   升降機監察系統: 'lift',
-  減壓閥監察系統: 'valve',
+  水滲漏監察系統: 'leakage',
+  水浸監察系統: 'leakage',
+  通風監察系統: 'aircon',
+  門監察系統: 'door',
+  門磁感應監察系統: 'door',
+  泳池監察系統: 'valve',
+  出路門監察系統: 'door',
+  水缸監察系統: 'watertank',
+  減壓閥監察系統: 'valve'
 };
 
 export const classifyAlert = ({
@@ -156,10 +135,14 @@ export const classifyAlert = ({
     const inputPointRecord = inputPoints.find(v => v.id === pointID);
     alertType = alertTypeMap[inputPointRecord?.type ?? ''] ?? '';
   } else if (ioType === 6) {
-    if (controllerID >= 1 && controllerID <= 170) {
+    if (controllerID === 26) {
+      alertType = 'weather';
+    } else if (controllerID === 193) {
+      alertType = 'solar';
+    } else if (controllerID >= 27 && controllerID <= 192) {
+      alertType = 'power';
+    } else if (controllerID >= 1 && controllerID <= 25) {
       alertType = 'lift';
-    } else {
-      alertType = '';
     }
   }
   return alertType;
@@ -169,11 +152,17 @@ const alertSystemName: {
   [id: string]: string;
 } = {
   leakage: '水浸',
-  door: '出路門',
-  emergency: '緊急召喚',
-  watertank: '水缸',
+  aircon: '通風',
+  electric: '電氣',
+  water: '供水',
+  emergency: '緊急',
   valve: '減壓閥',
+  // weather: '天氣',
+  // solar: '太陽能',
+  // power: '電能',
   lift: '電梯',
+  watertank: '水缸',
+  door: '門磁感應',
 };
 
 export const getAlertSystemName = (alertCode: string) =>
@@ -183,7 +172,7 @@ export const makeHierarchicalMenu = ({
   targetType,
   inputPointData,
   signalTypes,
-  locations,
+  locations = [],
 }: {
   targetType: string;
   inputPointData: TInputPoint[];
@@ -195,9 +184,7 @@ export const makeHierarchicalMenu = ({
   inputPointData
     .filter(
       (v: TInputPoint) =>
-        v.type === targetType &&
-        (typeof locations === 'undefined' ||
-          haveCommonElements(v.allowedLocations, locations)),
+        v.type === targetType && haveCommonElements(v.allowedLocations, locations),
     )
     .forEach((v: TInputPoint) => {
       if (v.sub_type2) {
@@ -219,7 +206,6 @@ export const makeHierarchicalMenu = ({
         signalType: signalType?.replace
           ? signalType?.replace?.signalType
           : signalType?.signalType,
-        level: signalType?.level,
       };
       if (v.sub_type2) {
         hierarchicalMenu[v.sub_type][v.sub_type2 ?? ''].push(newInputPoint);
@@ -232,7 +218,7 @@ export const makeHierarchicalMenu = ({
   return hierarchicalMenu;
 };
 
-export const haveCommonElements = (array1: string[], array2: string[]) => {
+function haveCommonElements(array1: string[], array2: string[]) {
   // Create a set from the first array
   const set1 = new Set(array1);
 
@@ -245,7 +231,7 @@ export const haveCommonElements = (array1: string[], array2: string[]) => {
   }
 
   return false; // No common elements found
-};
+}
 
 const expandLocations = (locations: string[]) => {
   let expanded = [];
@@ -286,9 +272,24 @@ export const getCctvCameraList = ({
     .map(cctv => ({
       ...cctv,
       enabled:
-        !locations ||
-        haveCommonElements(cctv.monitor, expandLocations(locations)),
+        !locations || cctv.monitor.includes('ALL') ||
+        haveCommonElements(cctv.monitor, locations),
     }));
+  return list;
+};
+
+export const getAllAllowedCctvIds = ({
+  cctvCameraLocationList,
+  locationMask = 0,
+}: {
+  cctvCameraLocationList: TCctvCameraLocation[];
+  locationMask?: number;
+}) => {
+  const locations = maskToLocations(locationMask);
+  const list = cctvCameraLocationList
+    .filter(cctv => haveCommonElements(cctv.monitor, locations),
+    )
+    .map(cctv => cctv.cameraId);
   return list;
 };
 

@@ -1,9 +1,9 @@
 import * as React from 'react';
 import inputPoints from '../resources/data/input-point.json';
-import { StyleSheet, ScrollView, View } from 'react-native';
+import {StyleSheet, ScrollView, View} from 'react-native';
 import TypeHierarchicalMenu from '../components/TypeHierarchicalMenu';
 import SignalStatusLegend from '../components/SignalStatusLegend';
-import { useAppDispatch, useAppSelector } from '../store';
+import {useAppDispatch, useAppSelector} from '../store';
 import ScreenTitle from '../components/ScreenTitle';
 import type {
   TSignalTypeSuffix,
@@ -11,24 +11,30 @@ import type {
   THierarchicalMenu,
   TNavigationProp,
 } from '../resources/types';
-import type { NavigationProp } from '@react-navigation/native';
-import { changeAlertMode } from '../features/user/userSlice';
-import { makeHierarchicalMenu } from '../utils/helper';
+import {changeAlertMode} from '../features/user/userSlice';
+import type {NavigationProp} from '@react-navigation/native';
 import InputPointInspectionWithMap from '../components/InputPointInspectionWithMap';
+import {makeHierarchicalMenu, maskToLocations} from '../utils/helper';
 
-const targetType = '供水監察系統';
+const targetType = '水滲漏監察系統';
 const alertType = 'water';
-// type TNavigationProp = NavigationProp<TRootStackParamList, 'Water'>;
+// type TNavigationProp = NavigationProp<TRootStackParamList, 'WaterTank'>;
 
 const signalTypes: TSignalTypeSuffix[] = [
-  {suffix: '自動/手動', signalType: 'autoOrManual', level: 1},
-  {suffix: '開啟/關閉', signalType: 'openOrClose', level: 1},
-  {suffix: '運行/停止', signalType: 'runOrStop', level: 1},
-  {suffix: '故障', signalType: 'malFunction', level: 1},
-  {suffix: '電源故障', signalType: 'powerFailure', level: 1},
-  {suffix: '低水位', signalType: 'lowWaterLevel', level: 2},
-  {suffix: '高水位', signalType: 'highWaterLevel', level: 2},
-  {suffix: '過壓警報', signalType: 'overPressure', level: 1},
+  {suffix: '自動/手動', signalType: 'autoOrManual'},
+  {
+    suffix: '開啟/關閉',
+    signalType: 'openOrClose',
+  },
+  {suffix: '故障', signalType: 'malFunction'},
+  {suffix: '電源故障', signalType: 'powerMalFunction'},
+  {suffix: '運行/停止', signalType: 'runOrStop'},
+  {suffix: '警報', signalType: 'alarm'},
+  {suffix: '切換', signalType: 'switchOver'},
+  {suffix: '低電壓警報', signalType: 'lowVoltageAlarm'},
+  {suffix: '低水位', signalType: 'lowWaterLevel'},
+  {suffix: '高水位', signalType: 'highWaterLevel'},
+  {suffix: '過壓', signalType: 'overPressure'},
   {suffix: '', signalType: 'default'},
 ];
 
@@ -45,29 +51,18 @@ const customSignalPresentation = {
   },
 };
 
-const customOrdering = [
-  'B1/F 食水一號上水泵',
-  'B1/F 食水二號上水泵',
-  'B1/F 食水一號加壓水泵(平台)',
-  'B1/F 食水二號加壓水泵(平台)',
-  '一號咸水加壓泵',
-  '二號咸水加壓泵',
-  '一號食水加壓泵',
-  '二號食水加壓泵',
-  'R/F 一號天台食水水缸',
-  'R/F 二號天台食水水缸',
-];
-
-const WaterScreen = ({ navigation }: { navigation: TNavigationProp }) => {
+const WaterTankScreen = ({navigation}: {navigation: TNavigationProp}) => {
   const [hierarchy, setHierarchy] = React.useState<THierarchicalMenu>({});
   const [selectedChain, setSelectedChain] = React.useState<number[]>([]);
   const [focused, setFocused] = React.useState(false);
   const demoMode = useAppSelector(state => state.user.demoMode);
   const dispatch = useAppDispatch();
   const alertEnabled = useAppSelector(state => state.user.alertEnabled);
+  const locationMask = useAppSelector(state => state.user.locationMask);
 
   React.useEffect(() => {
     const unsubscribe = navigation.addListener('focus', () => {
+      console.debug('Water tank screen back in focus');
       setFocused(true);
       setSelectedChain([]);
     });
@@ -76,21 +71,25 @@ const WaterScreen = ({ navigation }: { navigation: TNavigationProp }) => {
 
   React.useEffect(() => {
     const unsubscribe = navigation.addListener('blur', () => {
+      console.debug('Water tank screen blurred');
       setFocused(false);
     });
     return unsubscribe;
   }, [navigation]);
 
   React.useEffect(() => {
+    const locations = maskToLocations(locationMask);
     const menu = makeHierarchicalMenu({
       inputPointData: inputPoints,
       targetType,
       signalTypes,
+      locations,
     });
     setHierarchy(menu);
-  }, []);
+  }, [locationMask]);
 
   const updateSelectedChain = (selected: number[]) => {
+    console.debug(`selected = ${JSON.stringify(selected)}`);
     setSelectedChain(selected);
   };
 
@@ -125,7 +124,6 @@ const WaterScreen = ({ navigation }: { navigation: TNavigationProp }) => {
             selectedChain={selectedChain}
             signalTypes={signalTypes}
             customSignalPresentation={customSignalPresentation}
-            customCanonicalNameSortOrder={customOrdering}
           />
         </ScrollView>
       </View>
@@ -153,4 +151,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default WaterScreen;
+export default WaterTankScreen;

@@ -12,7 +12,7 @@ import {
   Dimensions,
   Alert,
 } from 'react-native';
-import type {NavigationProp} from '@react-navigation/native';
+import type { NavigationProp } from '@react-navigation/native';
 import ScreenTitle from '../components/ScreenTitle';
 import SensorAlertList from '../components/SensorAlertList';
 import DashboardAccessRecord from '../components/DashboardAccessRecord';
@@ -26,14 +26,14 @@ import type {
   TNavigationProp,
 } from '../resources/types';
 import CctvGrid from '../components/CctvGrid';
-import {useAppSelector} from '../store';
+import { useAppSelector } from '../store';
 import cctvData from '../resources/data/cctv-data.json';
-import {screensPerRow} from '../resources/config';
+import { screensPerRow } from '../resources/config';
 import inputPoints from '../resources/data/input-point.json';
 import mapData from '../resources/data/map';
 import locator from '../resources/images/locator.png';
-import ImageMarker, {ImageFormat} from 'react-native-image-marker';
-import {locatorAdjustment} from '../resources/config';
+import ImageMarker, { ImageFormat } from 'react-native-image-marker';
+import { locatorAdjustment } from '../resources/config';
 import ImageModal from '../components/ImageModal';
 
 const windowHeight = Dimensions.get('window').height;
@@ -41,7 +41,7 @@ const reSuffix = new RegExp(/^\s*(.*?)\s*(\S+)\s*$/);
 
 // type TNavigationProp = NavigationProp<TRootStackParamList, 'Home'>;
 
-const HomeScreen = ({navigation}: {navigation: TNavigationProp}) => {
+const HomeScreen = ({ navigation }: { navigation: TNavigationProp }) => {
   const [loading, setLoading] = React.useState(false);
   const [imageUrl, setImageUrl] = React.useState<string | null>(null);
   const [map, setMap] = React.useState<{
@@ -62,9 +62,22 @@ const HomeScreen = ({navigation}: {navigation: TNavigationProp}) => {
   >([]);
   const useMainStream =
     useAppSelector(state => state.user?.useMainStream) ?? false;
-  const cctvSelectedList =
-    useAppSelector(state => state.user?.selectedCameras) ?? [];
   const [focused, setFocused] = React.useState(false);
+
+  const cctvSelectedListFromStore = useAppSelector(state => state.user?.selectedCameras);
+
+  const cctvSelectedList = React.useMemo(() => {
+    if (cctvSelectedListFromStore && cctvSelectedListFromStore.length > 0) {
+      return cctvSelectedListFromStore;
+    } else {
+      const allCameraIds = cctvCameraLocationList.map(cctv => cctv.cameraId);
+      if (allCameraIds.length <= 16) {
+        return allCameraIds;
+      }
+      const shuffled = [...allCameraIds].sort(() => Math.random() - 0.5);
+      return shuffled.slice(0, 16);
+    }
+  }, [cctvCameraLocationList, cctvSelectedListFromStore]);
 
   React.useEffect(() => {
     setCctvCameraLocationList(cctvData as TCctvCameraLocation[]);

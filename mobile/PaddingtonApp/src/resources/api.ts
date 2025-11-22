@@ -14,8 +14,18 @@ export const api = {
   inputPointStatusUrl: `${imsBaseUrl}InputPoint/Status`,
   // cardQueryUrl: () => `${acsBaseUrl}Card`,
   // cardImageUrl: ({ cardId }) => `${acsBaseUrl}Card/${cardId}/image`,
-  imsTransactUrl: (transId = 0, limit = sensorRecordQueryCount) =>
-    `${imsBaseUrl}Transact/?TransID=${transId}&Limit=${limit}`,
+  imsTransactUrl: ({ transId = 0, limit = sensorRecordQueryCount, locationMask = 0 }) => {
+    const params = {
+      TransID: String(transId),
+      Limit: String(limit),
+      LocationMask: String(locationMask),
+    }
+    // console.debug(`### imsTransactUrl params: ${JSON.stringify({ transId, limit, locationMask })}`);
+    // console.debug(`### imsTransactUrl params: ${JSON.stringify(params)}`);
+    const searchParams = new URLSearchParams(params).toString();
+    // console.debug(`### imsTransactUrl: ${searchParams}`);
+    return `${imsBaseUrl}Transact/?${searchParams}`;
+  },
   modbusChannelQueryUrl: (channelIds: number[]) => {
     const channelIdList = channelIds
       .map(id => `ModbusChannelID=${id}`)
@@ -28,17 +38,5 @@ export const api = {
       .join('&');
     return `${imsBaseUrl}ModbusChannel/Status?${channelIdList}`;
   },
-  channelQueryUrl: (channelIds: number[]) => {
-    const channelIdList = channelIds
-      .map(id => `ModbusChannelID=${id}`)
-      .join('&');
-    return `${imsBaseUrl}ModbusChannel?${channelIdList}`;
-  },
-  channelStatusUrl: (channelIds: number[]) => {
-    const channelIdList = channelIds
-      .map(id => `ModbusChannelID=${id}`)
-      .join('&');
-    return `${imsBaseUrl}ModbusChannel/Status?${channelIdList}`;
-  },
-  getCameraListUrl: `${imsBaseUrl}Camera`,
+  getCameraListUrl: () => `${imsBaseUrl}Camera`,
 };

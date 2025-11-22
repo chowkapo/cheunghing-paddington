@@ -1,5 +1,5 @@
 {
-  "name": "paddington-app",
+  "name": "PaddingtonApp",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,7 +10,9 @@
     "test": "jest"
   },
   "dependencies": {
+    "@openspacelabs/react-native-zoomable-view": "^2.4.2",
     "@react-native-async-storage/async-storage": "^2.2.0",
+    "@react-native/new-app-screen": "0.82.1",
     "@react-navigation/material-top-tabs": "^7.4.3",
     "@react-navigation/native": "^7.1.20",
     "@reduxjs/toolkit": "^2.10.1",
@@ -21,17 +23,15 @@
     "react-native-animatable": "^1.4.0",
     "react-native-dialog": "^9.3.0",
     "react-native-elements": "^3.4.3",
-    "react-native-image-marker": "^1.2.6",
-    "react-native-image-pan-zoom-fix": "^2.1.14",
+    "react-native-image-marker": "^1.2.9",
     "react-native-logs": "^5.5.0",
     "react-native-pager-view": "^6.9.1",
     "react-native-safe-area-context": "^5.5.2",
     "react-native-screens": "^4.18.0",
     "react-native-tab-view": "^4.2.0",
     "react-native-vector-icons": "^10.3.0",
-    "react-native-vlc-media-player": "1.0.96",
+    "react-native-vlc-media-player": "^1.0.96",
     "react-redux": "^9.2.0",
-    "redux": "^5.0.1",
     "redux-logger": "^3.0.6",
     "redux-persist": "^6.0.0"
   },
@@ -47,15 +47,14 @@
     "@react-native/metro-config": "0.82.1",
     "@react-native/typescript-config": "0.82.1",
     "@types/base-64": "^1.0.2",
-    "@types/jest": "^30.0.0",
+    "@types/jest": "^29.5.13",
     "@types/react": "^19.1.1",
-    "@types/react-native-vector-icons": "^6.4.18",
     "@types/react-test-renderer": "^19.1.0",
     "eslint": "^8.19.0",
-    "jest": "^30.2.0",
-    "prettier": "3.6.2",
+    "jest": "^29.6.3",
+    "prettier": "2.8.8",
     "react-test-renderer": "19.1.1",
-    "typescript": "5.9.3"
+    "typescript": "^5.8.3"
   },
   "engines": {
     "node": ">=20"

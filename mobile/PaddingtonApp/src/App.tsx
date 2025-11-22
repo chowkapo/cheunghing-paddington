@@ -1,11 +1,11 @@
 import * as React from 'react';
-import {createMaterialTopTabNavigator} from '@react-navigation/material-top-tabs';
-import {StatusBar, Animated, Dimensions} from 'react-native';
+import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
+import { StatusBar, Animated, Dimensions } from 'react-native';
 import screens from './screens';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
-import {SafeAreaProvider} from 'react-native-safe-area-context';
-import {NavigationContainer} from '@react-navigation/native';
-import {useAppSelector, useAppDispatch} from './store';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { NavigationContainer } from '@react-navigation/native';
+import { useAppSelector, useAppDispatch } from './store';
 import LoginScreen from './containers/LoginScreen';
 import useRecursiveTimeout from './utils/useRecursiveTimeout';
 import {
@@ -16,8 +16,8 @@ import {
   TUserData,
 } from './resources/types';
 import EventAlert from './components/EventAlert';
-import {getDoorAccessUpdates} from './features/doorAccess/doorAccessSlice';
-import {acknowledgeEvents, getNewEvents} from './features/event/eventSlice';
+import { getDoorAccessUpdates } from './features/doorAccess/doorAccessSlice';
+import { acknowledgeEvents, getNewEvents } from './features/event/eventSlice';
 
 const AnimatedIcon = Animated.createAnimatedComponent(Icon);
 
@@ -25,12 +25,12 @@ const Tab = createMaterialTopTabNavigator<TRootStackParamList>();
 const windowHeight = Dimensions.get('window').height;
 
 const App = () => {
-  const {username, refreshFrequency, authenticationToken, alertEnabled} =
+  const { username, refreshFrequency, authenticationToken, alertEnabled, locationMask } =
     useAppSelector(state => state.user) as TUserData;
-  const {lastTransactionId: lastDoorAccessTransId} = useAppSelector(
+  const { lastTransactionId: lastDoorAccessTransId } = useAppSelector(
     state => state.doorAccess,
   ) as TDoorAccessState;
-  const {lastTransactionId: lastEventTransId} = useAppSelector(
+  const { lastTransactionId: lastEventTransId } = useAppSelector(
     state => state.event,
   ) as TEventState;
   const events = useAppSelector(state => state.event.events) as TEvent[];
@@ -54,6 +54,7 @@ const App = () => {
         getNewEvents({
           transactionId: lastEventTransId ?? 0,
           authenticationToken: authenticationToken,
+          locationMask,
         }),
       );
   };
@@ -119,7 +120,7 @@ const App = () => {
                 options={{
                   title: screen.title,
                   // eslint-disable-next-line react/no-unstable-nested-components
-                  tabBarIcon: ({focused, color}) => (
+                  tabBarIcon: ({ focused, color }) => (
                     <TabBarIcon
                       focused={focused}
                       color={color}

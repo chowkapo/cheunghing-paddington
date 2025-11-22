@@ -106,8 +106,8 @@ const EventAlert = ({
 
   return (
     <Modal
-      animationType="none"
       supportedOrientations={['landscape', 'portrait']}
+      animationType="none"
       transparent={true}
       visible={true}
       presentationStyle="overFullScreen"
@@ -117,7 +117,7 @@ const EventAlert = ({
           <View style={styles.modalHeader}>
             <Text style={styles.modalHeading}>{title ?? ''}</Text>
             <Button
-              icon={<MaterialIcons name="cancel" size={25} color="blue" />}
+              icon={<MaterialIcons name="cancel" size={25} color="red" />}
               type="clear"
               onPress={onDismissAlerts}
               buttonStyle={styles.closeButton}

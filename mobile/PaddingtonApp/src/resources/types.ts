@@ -1,11 +1,10 @@
-import type { NavigationProp } from '@react-navigation/native';
+import type {NavigationProp} from '@react-navigation/native';
 // import type {MaterialTopTabNavigationProp} from '@react-navigation/material-top-tabs';
 
 export type TSignalTypeSuffix = {
   suffix: string;
   signalType: string;
   heading?: string;
-  level?: number;
 };
 
 export type TSignalTypeSuffixHandling = TSignalTypeSuffix & {
@@ -19,7 +18,6 @@ export type TInputPoint = {
   type: string;
   sub_type: string;
   sub_type2?: string;
-  sub_type3?: string;
   name: string;
   mapId: string;
   x: number;
@@ -28,8 +26,7 @@ export type TInputPoint = {
   canonicalName?: string;
   suffix?: string;
   signalType?: string;
-  location?: string;
-  level?: number;
+  location: string;
 };
 
 export type TUserLoginResponse = {
@@ -38,29 +35,17 @@ export type TUserLoginResponse = {
   remark: string;
 };
 
-export type TCctvCameraLocation = THenleyCameraLocation & {
-  // cameraId: number;
-  // cameraName?: string;
-  // location?: string;
+export type TCctvCameraLocation = {
+  cameraId: number;
+  cameraName: string;
   mainStream: string;
   subStream: string;
-  // floor: string;
-  // mapid: string;
-  // x: number;
-  // y: number;
-  // monitor: string[];
-};
-
-export type THenleyCameraLocation = {
-  cameraId: number;
-  location: string;
   floor: string;
-  cameraName?: string;
-  monitor?: string[];
   mapid: string;
   x: number;
   y: number;
-}
+  monitor: string[];
+};
 
 export type TModbusChannelQueryResponse = {
   modbusChannelID: number;
@@ -171,21 +156,6 @@ export type TAccessRecord = {
   status: string;
 };
 
-export type TRawCamera = {
-  cameraID: number;
-  cameraName: string;
-  channel: number;
-  locationMask: string;
-  password: string;
-  username: string;
-  tcpport: number;
-  ipaddress: string;
-};
-
-export type TCameraList = {
-  [cameraID: number]: TRawCamera;
-};
-
 export type TUserState = {
   username: string | null;
   locationMask: number;
@@ -197,7 +167,6 @@ export type TUserState = {
   useMainStream: boolean;
   demoMode: boolean;
   adminMode: boolean;
-  cameraList: TCameraList;
   alertEnabled: {
     [alertType: string]: boolean;
   };
@@ -211,7 +180,6 @@ export type TUserData = {
   useMainStream: boolean;
   demoMode: boolean;
   adminMode: boolean;
-  cameraList: TCameraList;
   alertEnabled: {
     [alertType: string]: boolean;
   };
@@ -243,17 +211,14 @@ export type TRootStackParamList = {
   CCTV: undefined;
   DoorAccess: undefined;
   Electricity: undefined;
-  // Power: undefined;
   Water: undefined;
   Leakage: undefined;
-  // AirFlow: undefined;
-  // WaterTank: undefined;
-  // Valve: undefined;
+  AirFlow: undefined;
+  WaterTank: undefined;
+  Valve: undefined;
   Door: undefined;
-  Emergency: undefined;
-  // Lift: undefined;
-  // Weather: undefined;
-  Fire: undefined;
+  EmergencyAlarm: undefined;
+  Lift: undefined;
   Settings: undefined;
 };
 
@@ -262,18 +227,12 @@ export type TNavigationProp = NavigationProp<
   keyof TRootStackParamList
 >;
 
-export type TMenuLevel2 = {
-  [type: string]: TInputPoint[];
-}
-
-export type TMenuLevel3 = {
-  [type: string]: {
-    [type: string]: TInputPoint[];
-  };
-}
-
 export type THierarchicalMenu = {
-  [type: string]: TInputPoint[] | TMenuLevel2 | TMenuLevel3
+  [type: string]:
+    | TInputPoint[]
+    | {
+        [type: string]: TInputPoint[];
+      };
 };
 
 export type TCustomSignalPresentation = {

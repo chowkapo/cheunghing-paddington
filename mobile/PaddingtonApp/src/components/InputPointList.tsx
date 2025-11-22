@@ -1,13 +1,13 @@
 import * as React from 'react';
-import { StyleSheet, View, Text } from 'react-native';
-import { Button } from 'react-native-elements';
+import {StyleSheet, View, Text} from 'react-native';
+import {Button} from 'react-native-elements';
 import Icon from 'react-native-vector-icons/MaterialIcons';
-import { customSort, sortSignals } from '../utils/helper';
-import { signalStatusList } from '../resources/config';
-import { useAppSelector } from '../store';
+import {sortSignals} from '../utils/helper';
+import {signalStatusList} from '../resources/config';
+import {useAppSelector} from '../store';
 import useRecursiveTimeout from '../utils/useRecursiveTimeout';
-import { getInputPointStatus } from '../api/inputPointStatusApi';
-import { TInputPoint, TSignalTypeSuffix } from '../resources/types';
+import {getInputPointStatus} from '../api/inputPointStatusApi';
+import {TInputPoint, TSignalTypeSuffix} from '../resources/types';
 
 const InputPointList = ({
   demoMode,
@@ -17,7 +17,6 @@ const InputPointList = ({
   focused,
   refreshFrequency,
   customSignalPresentation,
-  customCanonicalNameSortOrder = []
 }: {
   demoMode: boolean;
   inputPoints?: TInputPoint[];
@@ -30,7 +29,6 @@ const InputPointList = ({
       [id: string]: string;
     };
   };
-  customCanonicalNameSortOrder?: string[];
 }) => {
   // React.useEffect(
   //   () =>
@@ -127,8 +125,8 @@ const InputPointList = ({
         signalTypesLabels={filteredSignalTypesLabels}
       />
       {uniqueCanonicalNames &&
-        customSort(uniqueCanonicalNames
-          .sort(sortSignals), customCanonicalNameSortOrder)
+        uniqueCanonicalNames
+          .sort(sortSignals)
           .map((canonicalName: string, index: number) => (
             <PivotedInputPointRow
               demoMode={demoMode}
@@ -160,7 +158,7 @@ const PivotedInputPointHeader = ({
       <View style={signalTypes.length >= 3 ? styles.name : styles.name2} />
       {signalTypes.map((signalType: string) => {
         const thisLabel = signalTypesLabels.find(
-          (v: { suffix: string; signalType: string }) =>
+          (v: {suffix: string; signalType: string}) =>
             v.signalType === signalType,
         );
         return (
@@ -225,43 +223,43 @@ const PivotedInputPointRow = ({
     () =>
       demoMode
         ? new Promise<void>(async resolve => {
-          const mockStatus: any = {};
-          signalTypes.forEach(
-            signalType =>
-            (mockStatus[data?.[signalType]?.id ?? ''] = Math.floor(
-              Math.random() * 7,
-            )),
-          );
-          // console.debug(
-          //   `in PivotedInputPointRow(), mockStatus = ${JSON.stringify(
-          //     mockStatus,
-          //   )}`,
-          // );
-          setInputPointStatus(mockStatus);
-          resolve();
-        })
-        : new Promise<void>(async resolve => {
-          const inputPointIdList = signalTypes
-            .map(signalType => data?.[signalType]?.id)
-            .filter(v => !!v) as number[];
-          if (inputPointIdList.length === 0) {
-            return;
-          }
-          // console.debug(
-          //   `inputPointIdList = ${JSON.stringify(inputPointIdList)}`,
-          // );
-          try {
-            const newStatus = await getInputPointStatus(
-              inputPointIdList,
-              authenticationToken,
+            const mockStatus: any = {};
+            signalTypes.forEach(
+              signalType =>
+                (mockStatus[data?.[signalType]?.id ?? ''] = Math.floor(
+                  Math.random() * 7,
+                )),
             );
-            setInputPointStatus(newStatus);
-          } catch (error) {
-            console.error(error);
-          } finally {
+            // console.debug(
+            //   `in PivotedInputPointRow(), mockStatus = ${JSON.stringify(
+            //     mockStatus,
+            //   )}`,
+            // );
+            setInputPointStatus(mockStatus);
             resolve();
-          }
-        }),
+          })
+        : new Promise<void>(async resolve => {
+            const inputPointIdList = signalTypes
+              .map(signalType => data?.[signalType]?.id)
+              .filter(v => !!v) as number[];
+            if (inputPointIdList.length === 0) {
+              return;
+            }
+            // console.debug(
+            //   `inputPointIdList = ${JSON.stringify(inputPointIdList)}`,
+            // );
+            try {
+              const newStatus = await getInputPointStatus(
+                inputPointIdList,
+                authenticationToken,
+              );
+              setInputPointStatus(newStatus);
+            } catch (error) {
+              console.error(error);
+            } finally {
+              resolve();
+            }
+          }),
     [authenticationToken, data, demoMode, signalTypes],
   );
 
@@ -289,7 +287,7 @@ const PivotedInputPointRow = ({
       </View>
       {signalTypes.map((signalType: string) => {
         const currentStatus = signalStatusList.find(
-          (v: { value: number; text: string; color: string }) =>
+          (v: {value: number; text: string; color: string}) =>
             v.value === inputPointStatus[data?.[signalType]?.id + ''],
         );
         // console.debug(`signalType=${signalType}`);
@@ -308,9 +306,9 @@ const PivotedInputPointRow = ({
         return (
           <View key={signalType} style={styles.signalType}>
             {!!data?.[signalType]?.id &&
-              customSignalPresentation?.[currentStatus?.value ?? '']?.[
+            customSignalPresentation?.[currentStatus?.value ?? '']?.[
               signalType
-              ] ? (
+            ] ? (
               <Text style={styles.signalValueText}>
                 {customSignalPresentation?.[currentStatus?.value ?? '']?.[
                   signalType

@@ -14,66 +14,42 @@ export const signalStatusList: {
   text: string;
   color: string;
 }[] = [
-    {
-      value: 0,
-      text: '正常',
-      color: 'blue',
-    },
-    {
-      value: 1,
-      text: '警報',
-      color: 'red',
-    },
-    {
-      value: 2,
-      text: '已確認',
-      color: 'yellow',
-    },
-    {
-      value: 3,
-      text: '未確認',
-      color: 'green',
-    },
-    {
-      value: 4,
-      text: '未清除警報',
-      color: 'purple',
-    },
-    {
-      value: 5,
-      text: '通訊中斷',
-      color: 'gray',
-    },
-    {
-      value: 6,
-      text: '手動停止警報',
-      color: 'brown',
-    },
-  ];
-
-export const combinedSignalStatusList: {
-  values: number[];
-  text: string;
-  color: string;
-  new?: Boolean;
-}[] = [
-    {
-      values: [0, 3, 4],
-      text: '重置',
-      color: '#6b0000',
-      new: true,
-    },
-    {
-      values: [1, 2],
-      text: '警報',
-      color: 'red',
-    },
-    {
-      values: [5],
-      text: '通訊中斷',
-      color: 'gray',
-    },
-  ];
+  {
+    value: 0,
+    text: '正常',
+    color: 'blue',
+  },
+  {
+    value: 1,
+    text: '警報',
+    color: 'red',
+  },
+  {
+    value: 2,
+    text: '已確認',
+    color: 'yellow',
+  },
+  {
+    value: 3,
+    text: '未確認',
+    color: 'green',
+  },
+  {
+    value: 4,
+    text: '未清除警報',
+    color: 'purple',
+  },
+  {
+    value: 5,
+    text: '通訊中斷',
+    color: 'gray',
+  },
+  {
+    value: 6,
+    text: '手動停止警報',
+    color: 'brown',
+  },
+];
 
 export const locatorAdjustment = {
   x: 32,
@@ -82,5 +58,4 @@ export const locatorAdjustment = {
 
 export const defaultRefreshFrequency = 1000;
 
-export const vlcPlayerInitOptions = ['--rtsp-tcp=true'];
-// export const vlcPlayerInitOptions = [];
+export const vlcPlayerInitOptions = ['--rtsp-tcp'];
