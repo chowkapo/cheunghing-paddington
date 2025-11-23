@@ -13,7 +13,7 @@ import type {
 } from '../resources/types';
 import { changeAlertMode } from '../features/user/userSlice';
 import type { NavigationProp } from '@react-navigation/native';
-import { makeHierarchicalMenu, orderTier2, orderTier3, partialSort } from '../utils/helper';
+import { makeHierarchicalMenu, maskToLocations, orderTier2, orderTier3, partialSort } from '../utils/helper';
 import InputPointInspectionWithMap from '../components/InputPointInspectionWithMap';
 
 const targetType = '消防監察系統';
@@ -55,6 +55,7 @@ const FireScreen = ({ navigation }: { navigation: TNavigationProp }) => {
   const demoMode = useAppSelector(state => state.user.demoMode);
   const dispatch = useAppDispatch();
   const alertEnabled = useAppSelector(state => state.user.alertEnabled);
+  const locationMask = useAppSelector(state => state.user.locationMask);
 
   React.useEffect(() => {
     const unsubscribe = navigation.addListener('focus', () => {
@@ -74,10 +75,12 @@ const FireScreen = ({ navigation }: { navigation: TNavigationProp }) => {
   }, [navigation]);
 
   React.useEffect(() => {
+      const locations = maskToLocations(locationMask);
     const menu = makeHierarchicalMenu({
       inputPointData: inputPoints,
       targetType,
       signalTypes,
+      locations
     });
     setHierarchy(menu);
   }, []);

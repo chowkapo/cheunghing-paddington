@@ -13,7 +13,7 @@ import type {
 } from '../resources/types';
 import { changeAlertMode } from '../features/user/userSlice';
 import type { NavigationProp } from '@react-navigation/native';
-import { makeHierarchicalMenu, orderTier2, orderTier3, partialSort } from '../utils/helper';
+import { makeHierarchicalMenu, maskToLocations } from '../utils/helper';
 import InputPointInspectionWithMap from '../components/InputPointInspectionWithMap';
 
 const targetType = '電氣監察系統';
@@ -23,11 +23,11 @@ const alertType = 'electric';
 const signalTypes: TSignalTypeSuffix[] = [
   // { suffix: '自動/手動', signalType: 'autoOrManual' },
   // { suffix: '開啟/關閉', signalType: 'openOrClose' },
-  { suffix: '故障', signalType: 'malFunction', level: 1 },
+  { suffix: '故障', signalType: 'malFunction' },
   // { suffix: '', signalType: 'default' },
-  { suffix: '運行/停止', signalType: 'runOrStop', level: 1 },
-  { suffix: '正常', signalType: 'normal', level: 1 },
-  { suffix: '輸入電源供電故障', signalType: 'inputPowerMalfunction', level: 2 },
+  { suffix: '運行/停止', signalType: 'runOrStop' },
+  { suffix: '正常', signalType: 'normal' },
+  { suffix: '輸入電源供電故障', signalType: 'inputPowerMalfunction' },
 ];
 
 const customSignalPresentation = {
@@ -43,13 +43,6 @@ const customSignalPresentation = {
   },
 };
 
-const combinedSignalStatus = [
-  'T2-LVSB-G1',
-  'T2-LVSB-G2',
-  'T1-LVSB-G3',
-  'T3-LVSB-G4',
-];
-
 const ElectricityScreen = ({ navigation }: { navigation: TNavigationProp }) => {
   const [hierarchy, setHierarchy] = React.useState<THierarchicalMenu>({});
   const [selectedChain, setSelectedChain] = React.useState<number[]>([]);
@@ -57,6 +50,7 @@ const ElectricityScreen = ({ navigation }: { navigation: TNavigationProp }) => {
   const demoMode = useAppSelector(state => state.user.demoMode);
   const dispatch = useAppDispatch();
   const alertEnabled = useAppSelector(state => state.user.alertEnabled);
+  const locationMask = useAppSelector(state => state.user.locationMask);
 
   React.useEffect(() => {
     const unsubscribe = navigation.addListener('focus', () => {
@@ -76,10 +70,12 @@ const ElectricityScreen = ({ navigation }: { navigation: TNavigationProp }) => {
   }, [navigation]);
 
   React.useEffect(() => {
+    const locations = maskToLocations(locationMask);
     const menu = makeHierarchicalMenu({
       inputPointData: inputPoints,
       targetType,
       signalTypes,
+      locations
     });
     setHierarchy(menu);
   }, []);
@@ -103,31 +99,6 @@ const ElectricityScreen = ({ navigation }: { navigation: TNavigationProp }) => {
     console.debug(`selected = ${JSON.stringify(selected)}`);
     setSelectedChain(selected);
   };
-  const tier1 = React.useMemo(() => Object.keys(hierarchy), [hierarchy]);
-
-  const tier2 = React.useMemo(
-    () =>
-      partialSort(
-        tier1 && typeof selectedChain[0] !== 'undefined'
-          ? Object.keys(hierarchy[tier1[selectedChain[0]]]).filter((v) => v)
-          : [],
-        orderTier2,
-      ),
-    [hierarchy, selectedChain, tier1],
-  );
-
-  const tier3 = React.useMemo(
-    () =>
-      partialSort(
-        tier2 &&
-        typeof selectedChain[1] !== 'undefined' &&
-        Object.keys(
-          hierarchy[tier1[selectedChain[0]]][tier2[selectedChain[1]]],
-        ).filter((v) => v),
-        orderTier3,
-      ),
-    [tier1, tier2, selectedChain, hierarchy],
-  );
 
   const handleAlertToggle = () => {
     dispatch(
@@ -166,10 +137,7 @@ const ElectricityScreen = ({ navigation }: { navigation: TNavigationProp }) => {
         </ScrollView>
       </View>
       <View style={styles.legendContainer}>
-        <SignalStatusLegend combineSignalStatus={
-          tier3 &&
-          !!combinedSignalStatus.includes(tier3[selectedChain[2]])
-        } />
+        <SignalStatusLegend />
       </View>
     </View>
   );
