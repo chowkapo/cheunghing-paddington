@@ -1,10 +1,10 @@
+import type { PayloadAction } from '@reduxjs/toolkit';
+import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import base64 from 'base-64';
-import {createSlice, createAsyncThunk} from '@reduxjs/toolkit';
-import type {PayloadAction} from '@reduxjs/toolkit';
+import { TLoginApi, loginApi } from '../../api/loginApi';
+import { defaultRefreshFrequency } from '../../resources/config';
+import { TUserData, TUserState } from '../../resources/types';
 import getErrorMessage from '../../utils/getErrorMessage';
-import {TLoginApi, loginApi} from '../../api/loginApi';
-import {defaultRefreshFrequency} from '../../resources/config';
-import {TUserData, TUserState} from '../../resources/types';
 
 const initialState: TUserState = {
   username: null,
@@ -13,9 +13,7 @@ const initialState: TUserState = {
   authenticating: false,
   error: null,
   refreshFrequency: defaultRefreshFrequency,
-  selectedCameras: [
-    48, 49, 50, 51, 52, 53, 54, 55, 57, 58, 59, 61, 62, 63, 64, 65,
-  ],
+  selectedCameras: [],
   useMainStream: false,
   demoMode: false,
   adminMode: false,
