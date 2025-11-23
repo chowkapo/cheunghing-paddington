@@ -34,7 +34,7 @@ const convert = async (filename) => {
     checkType: true,
   }).fromFile(filename);
   data.forEach((v) => {
-    v.monitor = v.monitor.trim().split(/[ +&]+/);
+    v.monitor = v.monitor.trim().split(/[ +&]+/).map((m) => m.replace(/^(A|B)$/i, "T$1"));
     const matches = /(\b(\w+)\/F)/i.exec(v.location);
     const lift = /(Lift\s+\d+)/i.exec(v.location);
     if (matches?.[0]) {

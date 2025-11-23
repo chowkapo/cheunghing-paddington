@@ -6,7 +6,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_400",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "RF",
     "x": 770,
@@ -21,7 +21,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_401",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "RF",
     "x": 777,
@@ -36,7 +36,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_402",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "GF",
     "x": 751,
@@ -51,7 +51,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_403",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "GF",
     "x": 751,
@@ -66,7 +66,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_400",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "26F",
     "x": 449,
@@ -81,7 +81,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_401",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "25F",
     "x": 825,
@@ -96,7 +96,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_402",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "Typical",
     "x": 825,
@@ -111,7 +111,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_403",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "Typical",
     "x": 825,
@@ -126,7 +126,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_404",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "Typical",
     "x": 825,
@@ -141,7 +141,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_405",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "Typical",
     "x": 825,
@@ -156,7 +156,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_406",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "Typical",
     "x": 825,
@@ -171,7 +171,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_407",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "Typical",
     "x": 825,
@@ -186,7 +186,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_408",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "Typical",
     "x": 825,
@@ -201,7 +201,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_409",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "Typical",
     "x": 825,
@@ -216,7 +216,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_410",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "Typical",
     "x": 825,
@@ -231,7 +231,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_411",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "Typical",
     "x": 825,
@@ -246,7 +246,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_412",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "Typical",
     "x": 825,
@@ -261,7 +261,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_413",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "Typical",
     "x": 825,
@@ -276,7 +276,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_414",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "9F",
     "x": 826,
@@ -291,7 +291,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_415",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "8F",
     "x": 825,
@@ -306,7 +306,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_416",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "Typical",
     "x": 825,
@@ -321,7 +321,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_417",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "Typical",
     "x": 825,
@@ -336,7 +336,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_418",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "Typical",
     "x": 825,
@@ -351,7 +351,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_419",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "3F",
     "x": 825,
@@ -366,7 +366,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5543/ch_420",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "2F",
     "x": 814,
@@ -381,7 +381,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_404",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "2F",
     "x": 1174,
@@ -396,7 +396,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_400",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "1F",
     "x": 780,
@@ -411,7 +411,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_401",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "1F",
     "x": 643,
@@ -426,7 +426,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_402",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "1F",
     "x": 779,
@@ -441,7 +441,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_403",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "1F",
     "x": 833,
@@ -456,7 +456,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_404",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "1F",
     "x": 807,
@@ -471,7 +471,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_405",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "1F",
     "x": 596,
@@ -486,7 +486,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_406",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "1F",
     "x": 598,
@@ -501,7 +501,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_407",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "1F",
     "x": 1048,
@@ -516,7 +516,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_408",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "1F",
     "x": 998,
@@ -531,7 +531,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_409",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "1F",
     "x": 861,
@@ -546,7 +546,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_410",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "1F",
     "x": 842,
@@ -561,7 +561,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_411",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "1F",
     "x": 1034,
@@ -576,7 +576,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_405",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "GF",
     "x": 676,
@@ -591,7 +591,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_412",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "GF",
     "x": 646,
@@ -606,7 +606,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5542/ch_413",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "GF",
     "x": 789,
@@ -621,7 +621,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_406",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "GF",
     "x": 1110,
@@ -636,7 +636,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_407",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "GF",
     "x": 583,
@@ -651,7 +651,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_408",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "GF",
     "x": 874,
@@ -666,7 +666,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_409",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "GF",
     "x": 885,
@@ -681,7 +681,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_400",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "RF",
     "x": 312,
@@ -696,7 +696,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_401",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "GF",
     "x": 338,
@@ -711,7 +711,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_402",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "GF",
     "x": 338,
@@ -726,7 +726,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_400",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "25F",
     "x": 308,
@@ -741,7 +741,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_401",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "Typical",
     "x": 308,
@@ -756,7 +756,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_402",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "Typical",
     "x": 308,
@@ -771,7 +771,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_403",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "Typical",
     "x": 308,
@@ -786,7 +786,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_404",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "Typical",
     "x": 308,
@@ -801,7 +801,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_405",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "Typical",
     "x": 308,
@@ -816,7 +816,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_406",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "Typical",
     "x": 308,
@@ -831,7 +831,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_407",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "Typical",
     "x": 308,
@@ -846,7 +846,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_408",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "Typical",
     "x": 308,
@@ -861,7 +861,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_409",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "Typical",
     "x": 308,
@@ -876,7 +876,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_410",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "Typical",
     "x": 308,
@@ -891,7 +891,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_411",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "Typical",
     "x": 308,
@@ -906,7 +906,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_412",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "Typical",
     "x": 308,
@@ -921,7 +921,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_413",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "9F",
     "x": 312,
@@ -936,7 +936,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_414",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "8F",
     "x": 308,
@@ -951,7 +951,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_415",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "Typical",
     "x": 308,
@@ -966,7 +966,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_416",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "Typical",
     "x": 308,
@@ -981,7 +981,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_417",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "Typical",
     "x": 308,
@@ -996,7 +996,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_418",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "3F",
     "x": 308,
@@ -1011,7 +1011,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5546/ch_419",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "2F",
     "x": 307,
@@ -1026,7 +1026,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_403",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "2F",
     "x": 489,
@@ -1041,7 +1041,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_400",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "1F",
     "x": 435,
@@ -1056,7 +1056,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_401",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "1F",
     "x": 302,
@@ -1071,7 +1071,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_402",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "1F",
     "x": 403,
@@ -1086,7 +1086,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_403",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "1F",
     "x": 289,
@@ -1101,7 +1101,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_404",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "1F",
     "x": 261,
@@ -1116,7 +1116,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_405",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "1F",
     "x": 94,
@@ -1131,7 +1131,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_406",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "1F",
     "x": 457,
@@ -1146,7 +1146,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_407",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "1F",
     "x": 227,
@@ -1161,7 +1161,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_404",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "GF",
     "x": 408,
@@ -1176,7 +1176,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_408",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "GF",
     "x": 404,
@@ -1191,7 +1191,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_409",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "GF",
     "x": 274,
@@ -1206,7 +1206,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5545/ch_410",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "GF",
     "x": 128,
@@ -1221,7 +1221,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_405",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "GF",
     "x": 499,
@@ -1236,7 +1236,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_406",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "GF",
     "x": 499,
@@ -1251,7 +1251,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_407",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "GF",
     "x": 312,
@@ -1266,7 +1266,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_408",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "GF",
     "x": 301,
@@ -1281,7 +1281,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_409",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "GF",
     "x": 17,
@@ -1296,7 +1296,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_410",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "GF",
     "x": 48,
@@ -1311,7 +1311,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_411",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "GF",
     "x": 48,
@@ -1326,7 +1326,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_410",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "9F",
     "x": 822,
@@ -1341,7 +1341,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_411",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "8F",
     "x": 822,
@@ -1356,7 +1356,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_412",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "3F",
     "x": 822,
@@ -1371,7 +1371,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5541/ch_413",
     "monitor": [
       "EMO",
-      "A"
+      "TA"
     ],
     "mapid": "2F",
     "x": 825,
@@ -1386,7 +1386,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_412",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "9F",
     "x": 126,
@@ -1401,7 +1401,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_413",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "8F",
     "x": 126,
@@ -1416,7 +1416,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_414",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "3F",
     "x": 126,
@@ -1431,7 +1431,7 @@
     "subStream": "rtsp://app:a12345678@42.200.192.196:5544/ch_415",
     "monitor": [
       "EMO",
-      "B"
+      "TB"
     ],
     "mapid": "2F",
     "x": 124,
