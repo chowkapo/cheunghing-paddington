@@ -16,7 +16,7 @@ import type {NavigationProp} from '@react-navigation/native';
 import InputPointInspectionWithMap from '../components/InputPointInspectionWithMap';
 import {makeHierarchicalMenu, maskToLocations} from '../utils/helper';
 
-const targetType = '水滲漏監察系統';
+const targetType = '供水監察系統';
 const alertType = 'water';
 // type TNavigationProp = NavigationProp<TRootStackParamList, 'WaterTank'>;
 
@@ -34,7 +34,7 @@ const signalTypes: TSignalTypeSuffix[] = [
   {suffix: '低電壓警報', signalType: 'lowVoltageAlarm'},
   {suffix: '低水位', signalType: 'lowWaterLevel'},
   {suffix: '高水位', signalType: 'highWaterLevel'},
-  {suffix: '過壓', signalType: 'overPressure'},
+  {suffix: '過壓警報', signalType: 'overPressure'},
   {suffix: '', signalType: 'default'},
 ];
 
