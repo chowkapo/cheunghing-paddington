@@ -78,7 +78,7 @@ const ElectricityScreen = ({ navigation }: { navigation: TNavigationProp }) => {
       locations
     });
     setHierarchy(menu);
-  }, []);
+  }, [locationMask]);
 
   const singleDefaultItem = React.useMemo(() => {
     const tier1 = Object.keys(hierarchy);
