@@ -377,7 +377,7 @@
     "location": "A座 1/F 會所 暢通易達洗手間 緊急召喚 警報",
     "mapId": "1F",
     "x": 822,
-    "y": 746,
+    "y": 488,
     "allowedLocations": [
       "TA",
       "EMO"
@@ -1241,7 +1241,7 @@
     "location": "B座 消防及花灑泵房 水滲漏  警報",
     "mapId": "GF",
     "x": 426,
-    "y": 237,
+    "y": 265,
     "allowedLocations": [
       "TB",
       "EMO"
