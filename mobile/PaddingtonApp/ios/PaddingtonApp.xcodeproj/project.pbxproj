@@ -270,7 +270,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = PaddingtonApp/PaddingtonApp.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development: Ka Po Chow (8UB296WK24)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Cheung Hing Electronic & Electrical Engineering Company Limited (6GAM4N9LG4)";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6GAM4N9LG4;
@@ -291,7 +291,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.cheunghing.paddington;
 				PRODUCT_NAME = PaddingtonApp;
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Paddington Dev 2025";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Paddington 2025";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -309,7 +309,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = PaddingtonApp/PaddingtonApp.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Distribution: Cheung Hing Electronic & Electrical Engineering Company Limited (6GAM4N9LG4)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Cheung Hing Electronic & Electrical Engineering Company Limited (6GAM4N9LG4)";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6GAM4N9LG4;
